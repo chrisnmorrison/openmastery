@@ -1,0 +1,5 @@
+# [[redirects]]
+# from = "/blog"
+# to = "https://opened-blog.netlify.app"
+# status = 200
+# force = true

@@ -1,0 +1,55 @@
+# Our Authors
+
+We are more than happy to provide attribution to our contributors. This can mean linking to their website, Youtube channel, blog, or whatever they choose!
+
+#### Have You Contributed to Open Education?
+
+No matter how big or small your contribution, we want to find a way to recognize your work. Please follow these instructions to create and display your information in Open Education.
+
+## Attribution Instructions
+
+### 1) Navigate to the folder /src/pages/authors/
+
+This is where we store information for our authors.
+
+### 2) Create a file named after you, following naming conventions `_your-name.mdx`
+
+Help us stay organized and bug-free by following this convention! In case you missed it, the first character is `_`, an **underscore**.
+
+Look at other files in that directory, and copy what they're doing. For example, navigate to `/src/pages/authors` and you'll see a file named `_chris-morrison.mdx`. Create a file for yourself following that format, e.g. `_john-smith.mdx`.
+
+:::info
+The underscore signifies the file as a **partial**, so that you can export the contents into another file. If you contributed to 4 courses, and each course gives credit to you, you'll only have to change your information in your author file.
+:::
+
+### 3) Write your bio in Markdown
+
+Keeping everything consistent, Markdown is by far the easiest way to store a small amount of text. As mentioned in the info alert above, we're writing our bios in one single file, and we can import this information into other files. Namely, we are putting this information in our Credits section of our courses. Let's give credit where credit is due!
+
+Here's a sample Markdown bio for Chris, the founder of Open Education. Please ensure your submission follows the same format (or very similar). Feel free to copy and paste the Markdown code, and edit it to reflect your information. (FYI, you're allowed to add more than two links to your socials, website, portfolio, etc., but keep the general format the same as this example)
+
+```markdown
+### Chris Morrison
+
+Chris is the founder of Open Education. He previously worked as a behavioural counsellor, mental health crisis hotline specialist, and lumberjack before pursuing his passion for tech. Open Education is an important project to him, since it provides everyone with a platform to learn important skills, while raising money for charity!
+
+[Github](https://github.com/chrisnmorrison) | [LinkedIn](https://www.linkedin.com/in/chris-morrison-180072/)
+```
+
+### Chris Morrison
+
+Chris is the founder of Open Education. He previously worked as a behavioural counsellor, mental health crisis hotline specialist, and lumberjack before pursuing his passion for tech. Open Education is an important project to him, since it provides everyone with a platform to learn important skills while raising money for charity!
+
+[Github](https://github.com/chrisnmorrison) | [LinkedIn](https://www.linkedin.com/in/chris-morrison-180072/)
+
+### 4) Import your author file to a Credits pages
+
+Created your author file? Want to link it to a Credits page, so that the world knows you contributed to the course?
+
+This is a multistep process, so follow along closely.
+
+- Double check that your file is in _/src/pages/authors/_, and that it is named **just like this**: `_john-smith.mdx`. Don't forget the underscore.
+- Our site generator automatically flags these files as partials that we can export, but only if the underscore is the first character in the file name.
+- Import your file
+
+[Here is an example](https://github.com/chrisnmorrison/opened/blob/main/learn/java/credits.mdx?plain=1), and [here is how it looks on a live page](http://opened.one/learn/java/credits). By importing and calling the React component, this will paste your author info on a live page.

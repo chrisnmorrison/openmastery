@@ -1,0 +1,24 @@
+.red {
+  color: rgb(255, 120, 120);
+}
+.red[aria-selected="true"] {
+  border-bottom-color: rgb(255, 120, 120);
+}
+
+.orange {
+  color: rgb(255, 183, 120);
+}
+.orange[aria-selected="true"] {
+  border-bottom-color: rgb(255, 183, 120);
+}
+
+.blue {
+  color: rgb(120, 179, 255);
+}
+.blue[aria-selected="true"] {
+  border-bottom-color: rgb(120, 179, 255);
+}
+
+.tabs {
+  justify-content: center;
+}

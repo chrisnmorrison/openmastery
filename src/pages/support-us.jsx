@@ -1,0 +1,144 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import Bmc from "../../static/img/bmc-logo-no-background.png";
+import Github from "../../static/img/github.png";
+import SocialMedia from "../../static/img/social-media.png";
+
+const Support = () => {
+  return (
+    <Layout>
+      <div className="container support-container">
+        <div className="row">
+          <div className="col-md-12">
+            <h1 className="section-title categories-title">Support Us</h1>
+            <p>
+              Open Education and its contributors provide free text-based
+              courses in as growing number of areas. We will remain free
+              forever, which is only possible with the help of our supporters!
+            </p>
+            <p>There are a few ways you can support us:</p>
+
+            {/* Item */}
+            <div className="support-item">
+              <div>
+                <a
+                  className="support-link"
+                  href="https://www.buymeacoffee.com/chrismorrison"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Bmc}
+                    alt="buy me a coffee logo"
+                    className="support-img"
+                  />
+                </a>
+              </div>
+              <div>
+                <h2 class="support-title">Buy Me a Coffee</h2>
+                <p>
+                  Support Open Education's founder and primary maintainer. Part
+                  of your donations go to maintaining Open Education, as well as
+                  the other education promoting services that Chris created,
+                  like{" "}
+                  <a
+                    href="https://opened.one"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open Ed
+                  </a>
+                  .
+                </p>
+                <a
+                  className="support-link"
+                  href="https://www.buymeacoffee.com/chrismorrison"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Buy Me a Coffee
+                </a>
+              </div>
+            </div>
+            {/* Item */}
+            <div className="support-item">
+              <div>
+                <a
+                  className="support-link"
+                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Github} alt="github logo" className="support-img" />
+                </a>
+              </div>
+              <div>
+                <h2 class="support-title">Write for us</h2>
+                <p>
+                  Our mission is to create a huge catalog of free courses, and
+                  this is only possible with support from knowledgeable people!
+                  We're always looking for writers to create and edit courses.
+                </p>
+                <Link className="support-link" to="/contribute">
+                  Find out how to contribute
+                </Link>
+              </div>
+            </div>
+            {/* Item */}
+            <div className="support-item">
+              <div>
+                <img
+                  src={SocialMedia}
+                  alt="various social media icons"
+                  className="support-img"
+                />
+              </div>
+              <div>
+                <h2 class="support-title">Share us with the world</h2>
+                <p>
+                  Who doesn't like free learning? If you like our work, share
+                  our articles with your friends, family, on Reddit, or anywhere
+                  else. This is the easiest way to support us!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blockquote-wrapper">
+        <div class="blockquote">
+          <h3>
+            Open Education promotes free education, and therefore, Open
+            Education will remain free forever. Thank you to all of our
+            supporters and maintainers!
+            <br aria-hidden="true" />
+            <br aria-hidden="true" />
+            Best of all, Open Education is completely open source! Anyone can
+            contribute, or if you have grander ideas, clone our project and
+            create your own dream project. Let's build off of each other to
+            create amazing, meaningful online services.
+          </h3>
+          <h4>
+            &mdash; Chris Morrison
+            <br aria-hidden="true" />
+            <em>
+              Founder: Open Education &amp;{" "}
+              <a
+                href="https://mesmerdesign.ca"
+                className="support-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mesmer Design
+              </a>
+            </em>
+          </h4>
+        </div>
+      </div>
+    </Layout>
+  );
+};
+
+export default Support;

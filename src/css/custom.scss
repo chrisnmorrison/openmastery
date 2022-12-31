@@ -1,0 +1,704 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import "bootstrap-grid.scss";
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* You can override the default Infima variables here. */
+:root {
+  font-family: "Montserrat", "Heebo", sans-serif;
+  font-weight: 400;
+
+  /* Alternative global font.. can't decide which looks nicer :/  */
+  /* font-family: "Open Sans", sans-serif;
+  font-weight: 400; */
+
+  /* --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208); */
+  --ifm-color-primary: #3f92fc;
+  --ifm-color-primary-dark: #2080fc;
+  --ifm-color-primary-darker: #1078fb;
+  --ifm-color-primary-darkest: #0361d9;
+  --ifm-color-primary-light: #5ea4fc;
+  --ifm-color-primary-lighter: #6eacfd;
+  --ifm-color-primary-lightest: #9cc7fd;
+  --ifm-code-font-size: 95%;
+  --ifm-menu-color-background-active: #eef8ff;
+}
+
+html[data-theme="dark"] {
+  .about-bg-shape{
+  fill: #ffe8ca24;
+}
+
+.row-2-container {
+  background: rgba(137, 231, 157, 0.22);
+
+   a{
+    color: #86c0ff;
+   }
+}
+
+.current-cause img {
+  filter: brightness(0) invert(1);
+}
+}
+
+article p,article ul,article ol {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  // font-size: 1.05rem;
+  letter-spacing: 0.3px;
+}
+
+
+
+.markdown ul {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu {
+  font-weight: 300 !important;
+}
+
+.menu__link--sublist {
+  font-weight: 400 !important;
+}
+
+code {
+  background-color: rgba(206, 234, 255, 0.24);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: var(--ifm-code-font-size);
+  padding: 0.1rem 0.3rem;
+  font-family: "Consolas", monospace !important;
+  font-weight: 400;
+  color: #2a2a2a;
+  white-space: pre-wrap !important;
+}
+
+code .token {
+  font-family: "Inconsolata";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer__col {
+  text-align: center;
+}
+
+.footer__copyright {
+  margin-top: 2rem;
+}
+
+.markdown p img {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+
+.hero--primary {
+  background: rgb(63, 194, 252);
+  background: linear-gradient(
+    135deg,
+    rgba(63, 194, 252, 1) 3%,
+    rgba(63, 140, 252, 1) 100%
+  );
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  padding: 0 2.5rem;
+}
+
+.navbar__brand {
+  margin-right: 3rem;
+}
+
+.navbar__link {
+  font-weight: 400;
+}
+
+/* html[data-theme='dark'] .category-icon {
+  filter: invert(98%) sepia(94%) saturate(2%) hue-rotate(253deg) brightness(200%) contrast(100%) !important;
+}
+
+
+html[data-theme='dark'] .category-name {
+  filter: invert(98%) sepia(94%) saturate(2%) hue-rotate(253deg) brightness(109%) contrast(100%) !important;
+} */
+
+html[data-theme="dark"] .category-item {
+  box-shadow: 0 3px 35px rgba(255, 255, 255, 0.18);
+}
+
+.home-alpha-message{
+  background-color: rgb(23, 23, 23);
+  color: whitesmoke;
+  text-align: center;
+  padding: 2rem 1rem;
+
+  p{
+    margin: 0;
+    line-height: 1.8rem;
+  }
+}
+
+.menu-row {
+  margin: 0 100px;
+  display: block;
+}
+
+.category-page{
+  background: #f0f2f5;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem 7rem;
+  grid-auto-rows: 13rem;
+  margin: 2rem auto 0rem auto;
+  max-width: 80%;
+  padding: 1rem 1rem 6rem 1rem;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  opacity: 1;
+  border: 0px solid;
+  background-color: rgb(253, 253, 253);
+  border-radius: 4px;
+  border-top-width: 6px;
+  transition: 0.1s;
+  padding: 10px;
+  box-shadow: 0px 10px 37px rgba(24, 24, 24, 0.03);
+}
+
+.menu-item {
+  margin: 30px;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.category-heading {
+  font-size: 4rem;
+  padding: 4rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.category-description {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.category-item:hover {
+  transform: scale(1.02);
+}
+
+.category-item a:hover {
+  text-decoration: none;
+}
+
+.category-icon {
+  width: 3rem;
+  display: block;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+}
+
+.category-info {
+  padding: 2rem 2rem 2.2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.category-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
+}
+
+/***** ! Categories *****/
+
+.menu__list-item:first-of-type a {
+  font-weight: 600;
+  font-size: 130%;
+  justify-content: center;
+  /* color: rgb(71, 71, 71); */
+}
+
+/* .menu__link--sublist + ul li a {
+  font-weight: unset !important;
+  font-size: unset !important;
+  justify-content: unset !important;
+} */
+
+.theme-doc-sidebar-item-link-level-2.menu__list-item .menu__link {
+  font-weight: 300;
+  font-size: 100% !important;
+  justify-content: start;
+  /* color: rgb(71, 71, 71); */
+}
+
+ul {
+  list-style-type: "✅ ";
+}
+
+.markdown header h1 {
+  font-size: 2.7rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem;
+  font-family: "Open Sans", sans-serif !important;
+  /* filter: invert(.1); */
+}
+
+.markdown {
+  letter-spacing: 0.2px;
+  filter: invert(0.1);
+}
+
+.adsense-placeholder {
+  width: 728px;
+  height: 90px;
+  background-color: #196edd70;
+  margin: 3rem auto 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+img + em {
+  padding: 6px 16px;
+  text-align: center;
+  color: rgba(37, 38, 94, 0.7);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  font-style: normal;
+}
+
+/* ! Image Resizing */
+
+.img-75 {
+  max-width: 75%;
+  display: block;
+}
+
+.img-50 {
+  max-width: 50%;
+  display: block;
+}
+
+.img-25 {
+  max-width: 25%;
+  display: block;
+}
+
+@media only screen and (max-width: 1148px) {
+  .category-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 4rem;
+  }
+
+  .category-name {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 997px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar__toggle {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 628px) {
+  .category-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 2rem;
+  }
+
+  .footer__copyright {
+    margin-top: 0.5rem;
+  }
+
+  .category-description {
+    text-align: center;
+    margin: 0.5rem 2rem;
+  }
+  .category-heading {
+    font-size: 3rem;
+    margin: 4rem 1rem 2.5rem 1rem;
+    text-align: center;
+  }
+
+  .category-item {
+    margin: 0.3rem;
+    border-radius: 10px;
+  }
+}
+
+.home-button {
+  margin: 0 1rem !important;
+}
+
+.about-page{
+  margin: 4rem auto 2.5rem auto;
+  width: 100%;
+
+  h1{
+    font-size: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+
+    &::after{
+      content: "";
+      position: absolute;
+      bottom: 14px;
+      left:49%;
+      width: 350px;
+      height: 14px;
+      transform: skew(-12deg) translateX(-50%);
+      background: var(--ifm-color-primary-lighter);
+      z-index: -1;
+    }
+  }
+}
+
+.about-img-1 svg{
+  width: 100%;
+}
+
+.page-heading{
+  font-size: 4rem;
+margin: 4rem 0 2.5rem 0;
+text-align: center;
+}
+
+.about-row-1{
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-bg-shape{
+  position: absolute;
+  width: 17rem;
+  height: 17rem;
+  left:-25px;
+  top:-25px;
+  z-index: -999;
+  rotate: -15deg;
+  fill: #ffe8ca;
+}
+
+
+
+.about-section1__title{
+font-size: 40px;
+}
+
+.about-section1__meta{
+  color: var(--ifm-color-primary-dark);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 8px;
+  display: block;
+}
+
+.about-section1__desc{
+  line-height: 30px;
+  margin-top: 45px;
+}
+
+.about-section1-right{
+  margin-left: 2rem;
+}
+
+.row-2-container{
+  background: rgb(137, 231, 158);
+  min-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem 10rem;
+  text-align: center;
+
+  h2{
+    font-size: 200%;
+  }
+
+  .current-cause,.current-charity{
+    font-weight: 700;
+    font-size: 130%;
+    margin: 1rem 0;
+  }
+
+  .current-cause{
+
+  }
+
+  .current-charity{
+
+  }
+}
+
+.row-2-footnote{
+  font-size: 80%;
+}
+
+@media screen and (max-width:1239px){
+  .about-row-1{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+// Support Us
+
+.section-title {
+  font-size: 180%;
+}
+
+.support-container {
+  margin: 5rem auto;
+}
+
+.support-title {
+  font-size: 18px;
+}
+
+.support-item {
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.support-link {
+  font-size: 110%;
+  font-weight: 500;
+  transition: color 0.1s ease-in-out;
+  margin-right: 5rem;
+
+  &:hover {
+    color: var(--primary-8);
+  }
+}
+
+.support-img {
+  width: 3rem;
+  height: auto;
+  margin-right: 3rem;
+  display: block;
+}
+
+/* increase header size after 600px */
+@media all and (max-width: 600px) {
+  .blockquote-wrapper,
+  .section-title {
+    text-align: left;
+  }
+
+  .support-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .support-img {
+    margin: 0 0 0.8rem 0;
+  }
+}
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+  display: flex;
+  padding: 0 20px;
+  background-color: #292a2b;
+}
+
+/* Blockquote main style */
+.blockquote {
+  position: relative;
+  font-family: 'Barlow Condensed', sans-serif;
+  max-width: 620px;
+  margin: 80px auto;
+  align-self: center;
+  color: white;
+}
+
+.blockquote,
+h3,
+h4 {
+  text-transform: none !important;
+}
+
+/* Blockquote header */
+.blockquote h3 {
+  font-family: 'Montserrat', sans-serif;
+  position: relative; /* for pseudos */
+  color: var(--primary-6);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  border: 2px solid #fff;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h3:after {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--primary-6);
+  border-radius: 0 50px 0 0;
+  width: 60px;
+  height: 60px;
+  bottom: -60px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3;
+}
+
+.blockquote h3:before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  border: 6px solid #292a2b;
+  bottom: -3px;
+  left: 50px;
+  z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+  .blockquote h3 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 1;
+  margin-left: 150px;
+  padding-left: 12px;
+}
+
+.blockquote h4:first-letter {
+  margin-left: -12px;
+}
+
+
+
+
+
+
+
