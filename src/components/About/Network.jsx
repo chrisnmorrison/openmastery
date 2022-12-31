@@ -1,7 +1,7 @@
-import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from '@docusaurus/Link'
 import styled from 'styled-components'
+import OpenSourceIllustration from './undraw_open_source.svg'
 import { AiOutlineDeploymentUnit } from 'react-icons/ai'
 
 const Network = () => {
@@ -21,12 +21,7 @@ const Network = () => {
               <p>Adaptogen skateboard schlitz viral edison bulb knausgaard shabby chic drinking vinegar semiotics cred occupy. Fit roof party ugh fanny pack ascot.</p>
             </div>
             <div className="picture">
-              <StaticImage
-                src="../../assets/undraw_open_source.svg"
-                alt="Open Source Illustration"
-                layout="constrained"
-                placeholder="blurred"
-              />
+              <OpenSourceIllustration class='open-source-illustration'/>
             </div>
 
             <div className="openmastery">
@@ -79,6 +74,9 @@ const Wrapper = styled.section`
     margin-bottom: 5rem;
   }
 
+  .open-source-illustration{
+    width: 100%;
+  }
  
 
   .card-wrapper p{

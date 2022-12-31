@@ -10,16 +10,16 @@ const TimelineComponent = () => {
     {
       title: 'In progress',
       cardTitle: 'Initial Set-up',
-      url: 'https://github.com/opendotone/openeducation',
+      url: 'https://github.com/chrisnmorrison/openeducation',
       cardSubtitle: 'Free and open-source forever',
       cardDetailedText:
         "Our mission is to create a free, open repository of educational resources. We'd love for you to help us! Take a look at " +
         'our Github repository for more information on how you can help. We currently accept donations to help us remain ' +
-        " in operation (Buy Me a Coffee button on the Navbar), but you don't need to donate to help. Most importantly, your contributions help the world!",
+        " in operation (See our \"Support Us\" page on the Navbar), but you don't need to donate to help. Most importantly, your contributions help the world!",
       media: {
         type: 'IMAGE',
         source: {
-          url: '../../assets/timeline/plan.png',
+          url: './plan.png',
         },
       },
     },
@@ -28,12 +28,12 @@ const TimelineComponent = () => {
       cardTitle: 'Promote our Mission',
       cardSubtitle: 'So our story (officially) begins...',
       cardDetailedText:
-        'After planning and initial set-up, we will be ready to promote Revista to the world. We will always be looking ' +
+        'After planning and initial set-up, we will be ready to promote Open Ed to the world. We will always be looking ' +
         'for contributors!',
       media: {
         type: 'IMAGE',
         source: {
-          url: '../../assets/timeline/plan.png',
+          url: './plan.png',
         },
       },
     },
@@ -42,15 +42,15 @@ const TimelineComponent = () => {
       cardTitle: 'Roll out Fundraising Campaign',
       cardSubtitle:
         'We want to provide and promote education, while raising money for charity.',
-      url: 'https://github.com/opendotone/openeducation',
+      url: 'https://github.com/chrisnmorrison/openeducation',
       cardDetailedText:
         'We have an interesting plan. We will provide a free and open service forever, as our primary goal is helping others. ' +
-        'As we grow, we will explore ways to generate revenue for Revista, BUT much of this revenue will be donated ' +
-        "to charity! We are exploring the least intrusive way to implement this, as the last thing we want is to tarnish our service. This is a way for our users to 'give back', so to speak. More to come, and we highly encourage input on this.",
+        'As we grow, we will explore ways to generate revenue for Open Ed, BUT much of this revenue will be donated ' +
+        "to charity! We are exploring the least intrusive way to implement this, as the last thing we want is to tarnish our service. This is a way for our users to 'give back', so to speak, while they don't have to give any of their own money. Only their time. More to come, and we highly encourage input on this.",
       media: {
         type: 'IMAGE',
         source: {
-          url: '../../assets/timeline/plan.png',
+          url: './plan.png',
         },
       },
     },
