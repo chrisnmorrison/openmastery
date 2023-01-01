@@ -13,7 +13,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.ico",
   organizationName: "chrisnmorrison", // Usually your GitHub org/user name.
-  projectName: "open-mastery", // Usually your repo name.
+  projectName: "openeducation", // Usually your repo name.
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
@@ -38,7 +38,7 @@ module.exports = {
         { to: "/blog", label: "Blog", position: "right" },
 
         {
-          href: "https://github.com/chrisnmorrison/open-mastery",
+          href: "https://github.com/chrisnmorrison/openeducation",
           label: "GitHub",
           position: "right",
         },
@@ -61,7 +61,7 @@ module.exports = {
           items: [
             {
               label: "Facebook",
-              href: "https://www.facebook.com/openmasteryone/",
+              href: "https://www.facebook.com/openeducationone/",
             },
             {
               label: "Instagram",
@@ -82,7 +82,7 @@ module.exports = {
             },
             {
               label: "Github",
-              href: "https://github.com/chrisnmorrison/open-mastery",
+              href: "https://github.com/chrisnmorrison/openeducation",
             },
           ],
         },

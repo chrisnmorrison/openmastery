@@ -75,6 +75,36 @@
 }
 
 html[data-theme="dark"] {
+
+  .about-page h1::after{
+    background: var(--ifm-color-primary-darkest);
+  }
+
+  .rc-card-subtitle{
+    color: #464646;
+  }
+
+  code {
+    color: #e6e6e6;
+  }
+
+  .menu__link--active:not(.menu__link--sublist) {
+    background-color: #eef8ff29;
+  }
+
+  img + em {
+    color: rgb(230, 230, 230);
+  }
+
+  .using-icon{
+    background-color: #1B1B1D;
+  }
+
+.about-card{
+  background-color: rgba(137, 189, 231, 0.22);
+}
+
+
   .about-bg-shape{
   fill: #ffe8ca24;
 }
@@ -225,9 +255,13 @@ html[data-theme="dark"] .category-item {
   display: block;
 }
 
-.category-page{
-  background: #f0f2f5;
+.tabs li {
+  font-size: 1.1rem;
 }
+
+// .category-page{
+//   background: #f0f2f5;
+// }
 
 .category-list {
   display: grid;

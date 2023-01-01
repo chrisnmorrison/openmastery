@@ -18,11 +18,8 @@ const AboutUs = () => {
                   educational resources online are equally as valuable.
                 </p>
                 <p>
-                  Quite simply, Revista is our way of making free education easy
-                  to find. Our articles link to a ton of free resources on a
-                  growing number of topics. These are perfect for students
-                  looking for free supplemental material, or anyone with a
-                  lifelong passion for learning!
+                  Quite simply, Open Ed is our way of making free education easy
+                  to find and use. Our amazing contributors have 
                 </p>
             </div>
           </div>
