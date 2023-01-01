@@ -1,3 +1,8 @@
+.tabs {
+  justify-content: center !important;
+}
+
+
 .red {
   color: rgb(255, 120, 120);
 }
@@ -19,6 +24,3 @@
   border-bottom-color: rgb(120, 179, 255);
 }
 
-.tabs {
-  justify-content: center;
-}

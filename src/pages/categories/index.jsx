@@ -42,7 +42,7 @@ function Categories() {
     <Layout title="Categories">
       <div class="category-page">
         <h2 className="category-heading">Categories</h2>
-        <Tabs className="unique-tabs">
+        <Tabs className={styles.tabs}>
           <TabItem
             value="Computer Science"
             label="Computer Science"
