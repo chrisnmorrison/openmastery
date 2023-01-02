@@ -39,17 +39,7 @@ const Support = () => {
                 <h2 class="support-title">Buy Me a Coffee</h2>
                 <p>
                   Support Open Education's founder and primary maintainer. Part
-                  of your donations go to maintaining Open Education, as well as
-                  the other education promoting services that Chris created,
-                  like{" "}
-                  <a
-                    href="https://opened.one"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Open Ed
-                  </a>
-                  .
+                  of your donations go to maintaining Open Education, and part of your donations are donated to charity.
                 </p>
                 <a
                   className="support-link"
@@ -80,9 +70,13 @@ const Support = () => {
                   this is only possible with support from knowledgeable people!
                   We're always looking for writers to create and edit courses.
                 </p>
-                <Link className="support-link" to="/contribute">
-                  Find out how to contribute
-                </Link>
+                <a
+                  className="support-link"
+                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Find out how to contribute
+                </a>
               </div>
             </div>
             {/* Item */}

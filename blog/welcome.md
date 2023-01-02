@@ -7,6 +7,8 @@ authors:
     url: https://github.com/chrisnmorrison
     image_url: ./avataaar.png
 tags: [Open Education]
+date: 2022-11-30
+
 ---
 
 Thank you for joining us on a journey for free education. Open Education is:

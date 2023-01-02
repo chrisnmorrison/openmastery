@@ -55,7 +55,14 @@ function Row1() {
               <p>
                 Best of all, we're completely open source. Anyone can view our
                 code, and anyone can contribute. If you'd love to help us out,{" "}
-                <Link to="/contribute">find out how you can contribute</Link>.{" "}
+                <a
+                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  find out how you can contribute
+                </a>
+                .{" "}
               </p>
             </div>
           </div>

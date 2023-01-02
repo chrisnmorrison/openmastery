@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
- @import "bootstrap-grid.scss";
+@import "bootstrap-grid.scss";
 
 /* You can override the default Infima variables here. */
 :root {
@@ -75,12 +75,27 @@
 }
 
 html[data-theme="dark"] {
+  .not-blue {
+    color: rgb(30, 30, 30);
+  }
 
-  .about-page h1::after{
+  .about-page h1::after {
     background: var(--ifm-color-primary-darkest);
   }
 
-  .rc-card-subtitle{
+  .support-img {
+    filter: drop-shadow(0 0 30px rgba(245, 255, 109, 0.519)) invert(30%);
+  }
+
+  .home-alpha-message {
+    background-color: #f7f7f7;
+
+    p {
+      color: rgb(37, 37, 37);
+    }
+  }
+
+  .rc-card-subtitle {
     color: #464646;
   }
 
@@ -96,33 +111,34 @@ html[data-theme="dark"] {
     color: rgb(230, 230, 230);
   }
 
-  .using-icon{
-    background-color: #1B1B1D;
+  .using-icon {
+    background-color: #1b1b1d;
   }
 
-.about-card{
-  background-color: rgba(137, 189, 231, 0.22);
+  .about-card {
+    background-color: rgba(137, 189, 231, 0.22);
+  }
+
+  .about-bg-shape {
+    fill: #ffe8ca24;
+  }
+
+  .row-2-container {
+    background: rgba(137, 231, 157, 0.22);
+
+    a {
+      color: #86c0ff;
+    }
+  }
+
+  .current-cause img {
+    filter: brightness(0) invert(1);
+  }
 }
 
-
-  .about-bg-shape{
-  fill: #ffe8ca24;
-}
-
-.row-2-container {
-  background: rgba(137, 231, 157, 0.22);
-
-   a{
-    color: #86c0ff;
-   }
-}
-
-.current-cause img {
-  filter: brightness(0) invert(1);
-}
-}
-
-article p,article ul,article ol {
+article p,
+article ul,
+article ol {
   font-size: 1.1rem;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -133,8 +149,6 @@ ul {
   // font-size: 1.05rem;
   letter-spacing: 0.3px;
 }
-
-
 
 .markdown ul {
   font-size: 1.1rem;
@@ -192,7 +206,6 @@ a:hover {
   display: flex;
 }
 
-
 .hero--primary {
   background: rgb(63, 194, 252);
   background: linear-gradient(
@@ -238,13 +251,13 @@ html[data-theme="dark"] .category-item {
   box-shadow: 0 3px 35px rgba(255, 255, 255, 0.18);
 }
 
-.home-alpha-message{
-  background-color: rgb(23, 23, 23);
+.home-alpha-message {
+  background-color: #1b1b1d;
   color: whitesmoke;
   text-align: center;
   padding: 2rem 1rem;
 
-  p{
+  p {
     margin: 0;
     line-height: 1.8rem;
   }
@@ -285,7 +298,41 @@ html[data-theme="dark"] .category-item {
   border-top-width: 6px;
   transition: 0.1s;
   padding: 10px;
-  box-shadow: 0px 10px 37px rgba(24, 24, 24, 0.03);
+  box-shadow: 0px 10px 37px rgba(24, 24, 24, 0.05);
+}
+
+.support-us-link {
+  display: none;
+}
+
+@media screen and (min-width: 997px) {
+  a.support-us-link {
+    display: flex;
+    margin-right: .5rem;
+    align-items: center;
+    padding: 0.55rem 1rem;
+    background-image: linear-gradient(120deg, #a6e3fd 0%, #79c3ff 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 88%;
+    transition: all 0.1s linear;
+    border-radius: 5px;
+    box-shadow: 0 0 15px var(--primary-4);
+    .support-heart {
+      width: 1.2rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+a.not-blue {
+  text-decoration: none;
+  color: var(--grey-9);
+  transition: color 0.1s ease-in-out;
+}
+
+a.not-blue:hover {
+  opacity: 0.95;
 }
 
 .menu-item {
@@ -337,13 +384,13 @@ html[data-theme="dark"] .category-item {
 }
 
 /***** ! Categories *****/
-
-.menu__list-item:first-of-type a {
+li.theme-doc-sidebar-item-link:first-of-type a {
   font-weight: 600;
   font-size: 130%;
   justify-content: center;
   /* color: rgb(71, 71, 71); */
 }
+
 
 /* .menu__link--sublist + ul li a {
   font-weight: unset !important;
@@ -468,22 +515,22 @@ img + em {
   margin: 0 1rem !important;
 }
 
-.about-page{
+.about-page {
   margin: 4rem auto 2.5rem auto;
   width: 100%;
 
-  h1{
+  h1 {
     font-size: 5rem;
     margin: 0 auto;
     text-align: center;
     display: block;
     position: relative;
 
-    &::after{
+    &::after {
       content: "";
       position: absolute;
       bottom: 14px;
-      left:49%;
+      left: 49%;
       width: 350px;
       height: 14px;
       transform: skew(-12deg) translateX(-50%);
@@ -493,41 +540,39 @@ img + em {
   }
 }
 
-.about-img-1 svg{
+.about-img-1 svg {
   width: 100%;
 }
 
-.page-heading{
+.page-heading {
   font-size: 4rem;
-margin: 4rem 0 2.5rem 0;
-text-align: center;
+  margin: 4rem 0 2.5rem 0;
+  text-align: center;
 }
 
-.about-row-1{
+.about-row-1 {
   margin: 3rem auto;
   align-items: center;
   justify-content: center;
   position: relative;
 }
 
-.about-bg-shape{
+.about-bg-shape {
   position: absolute;
   width: 17rem;
   height: 17rem;
-  left:-25px;
-  top:-25px;
+  left: -25px;
+  top: -25px;
   z-index: -999;
   rotate: -15deg;
   fill: #ffe8ca;
 }
 
-
-
-.about-section1__title{
-font-size: 40px;
+.about-section1__title {
+  font-size: 40px;
 }
 
-.about-section1__meta{
+.about-section1__meta {
   color: var(--ifm-color-primary-dark);
   font-size: 14px;
   text-transform: uppercase;
@@ -536,47 +581,46 @@ font-size: 40px;
   display: block;
 }
 
-.about-section1__desc{
+.about-section1__desc {
   line-height: 30px;
   margin-top: 45px;
 }
 
-.about-section1-right{
+.about-section1-right {
   margin-left: 2rem;
 }
 
-.row-2-container{
+.row-2-container {
   background: rgb(137, 231, 158);
   min-width: 100vw;
   margin: 0 auto;
   padding: 2rem 10rem;
   text-align: center;
 
-  h2{
+  h2 {
     font-size: 200%;
   }
 
-  .current-cause,.current-charity{
+  .current-cause,
+  .current-charity {
     font-weight: 700;
     font-size: 130%;
     margin: 1rem 0;
   }
 
-  .current-cause{
-
+  .current-cause {
   }
 
-  .current-charity{
-
+  .current-charity {
   }
 }
 
-.row-2-footnote{
+.row-2-footnote {
   font-size: 80%;
 }
 
-@media screen and (max-width:1239px){
-  .about-row-1{
+@media screen and (max-width: 1239px) {
+  .about-row-1 {
     flex-direction: column;
     text-align: center;
   }
@@ -651,7 +695,7 @@ font-size: 40px;
 /* Blockquote main style */
 .blockquote {
   position: relative;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   max-width: 620px;
   margin: 80px auto;
   align-self: center;
@@ -666,7 +710,7 @@ h4 {
 
 /* Blockquote header */
 .blockquote h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative; /* for pseudos */
   color: var(--primary-6);
   font-size: 1rem;
@@ -681,7 +725,7 @@ h4 {
 
 /* Blockquote right double quotes */
 .blockquote h3:after {
-  content: '';
+  content: "";
   position: absolute;
   border: 2px solid var(--primary-6);
   border-radius: 0 50px 0 0;
@@ -695,7 +739,7 @@ h4 {
 }
 
 .blockquote h3:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 80px;
   border: 6px solid #292a2b;
@@ -729,10 +773,3 @@ h4 {
 .blockquote h4:first-letter {
   margin-left: -12px;
 }
-
-
-
-
-
-
-

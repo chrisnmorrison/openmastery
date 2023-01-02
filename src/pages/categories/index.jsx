@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import styles from "./styles.module.css";
-import pythonImg from "@site/static/img/python.jpg";
+import pythonImg from "@site/static/img/python.png";
 import javaImg from "@site/static/img/javalogo.png";
 import comingSoon from "@site/static/img/coming-soon.png";
 
@@ -44,8 +44,8 @@ function Categories() {
         <h2 className="category-heading">Categories</h2>
         <Tabs className={styles.tabs}>
           <TabItem
-            value="Computer Science"
-            label="Computer Science"
+            value="Programming"
+            label="Programming"
             attributes={{ className: styles.red }}
           >
             <div className="category-list">
@@ -56,7 +56,7 @@ function Categories() {
                     <div>
                       <a
                         className="category-item"
-                        style={{ borderColor: item.backgroundCol }}
+                        style={{ borderColor: item.backgroundCol}}
                         href={item.link}
                       >
                         <a>
@@ -138,8 +138,15 @@ function Categories() {
           </TabItem>
         </Tabs>
         <p className="category-description">
-          Are you interested in sharing your knowledge with the world? Learn
-          about <Link href="/contribute"> contributing</Link> to Open Education!
+          Are you interested in sharing your knowledge with the world?{" "}
+          <a
+            href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn about contributing
+          </a>{" "}
+          to Open Education!
         </p>
       </div>
     </Layout>

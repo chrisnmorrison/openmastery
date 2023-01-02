@@ -30,18 +30,34 @@ module.exports = {
           to: "/donations",
           position: "left",
         },
+        
         {
-          label: "Support Us",
-          to: "/support-us",
-          position: "left",
-        },
-        { to: "/blog", label: "Blog", position: "right" },
+          type: 'html',
+          position: 'right',
+          value: `
+          <a
+            class="support-us-link not-blue"
+            href="/support-us"
+          >
+            <img
+            class="support-heart"
+                src="/img/heart.png"
+                alt="Heart icon"
 
-        {
-          href: "https://github.com/chrisnmorrison/openeducation",
-          label: "GitHub",
-          position: "right",
+                width='19'
+                height='19'
+              />
+            Support Us
+          </a>
+          `,
         },
+        { to: "/blog", label: "Blog", position: "left" },
+
+        // {
+        //   href: "https://github.com/chrisnmorrison/openeducation",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -87,7 +103,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Open Education. Built with Docusaurus and React\n<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Open Education. Built with Docusaurus and React\n<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/juicy-fish" title="Freepik">juicy_fish</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`,
     },
     prism: {
       additionalLanguages: ["java", "python"],

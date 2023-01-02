@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Object Oriented Programming (commonly called OOP, which we'll often use) is a paradigm shift from other types of programming. It's more than just remembering code syntax. It's a way of thinking, and requires a complete change in how you write and structure code in order to fully grasp it.
 
-But, don't be overwhelmed. OOP isn't learned in a day. It can take years to master OOP, and there are 1000+ page textbooks just on OOP.
+But, don't be overwhelmed. OOP isn't learned in a day. It can take months, even years to master OOP, and there are 1000+ page textbooks just on OOP.
 
 Again, don't be overwhelmed! Take your time, and practice writing a lot of code. Once you understand it, you'll be happy that you do.
 
