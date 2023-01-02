@@ -39,9 +39,9 @@ function AlphaMessage() {
     <div className="home-alpha-message">
       <img src={BetaImg} width={100} />
       <p>
-        Open Education is currently in beta development, and until we are live,
-        we are currently not fundraising. Our efforts are focused on adding
-        content to Open Education.
+        Open Ed is currently in beta development, and until we are live, we are
+        currently not fundraising. Our efforts are focused on adding content to
+        Open Ed.
       </p>{" "}
       <p>
         <Link to="/support-us">Find out how you can support us</Link>
@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Welcome to Open Education. We offer free text-based courses, and just by using our website, you are raising money for charity!"
+      description="Welcome to Open Ed. We offer free text-based courses, and just by using our website, you are raising money for charity!"
     >
       {" "}
       <AlphaMessage />

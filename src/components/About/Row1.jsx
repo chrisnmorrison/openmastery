@@ -30,7 +30,7 @@ function Row1() {
                 Raise money for charity while learning awesome skills{" "}
               </h2>
               <p className="about-section1__meta">
-                Open Education is revolutionizing fundraising
+                Open Ed is revolutionizing fundraising
               </p>
               <p className="about-section1__desc">
                 Traditional fundraising happens when good people donate money to
@@ -38,17 +38,17 @@ function Row1() {
                 in any way - fundraising is a good thing.
               </p>
               <p>
-                We're simply trying something different. Open Education is a
-                learning platform focusing on text-based courses, and from
-                non-intrusive advertising,{" "}
+                We're simply trying something different. Open Ed is a learning
+                platform focusing on text-based courses, and from non-intrusive
+                advertising,{" "}
                 <strong>
                   we donate <u>90%</u> of our proceeds to charity!
                 </strong>{" "}
               </p>
               <p>
-                Using Open Education is completely free, and will remain free
-                forever. We will never push you to disable your adblocker (if
-                you have one), but if you'd like to support our cause, we highly
+                Using Open Ed is completely free, and will remain free forever.
+                We will never push you to disable your adblocker (if you have
+                one), but if you'd like to support our cause, we highly
                 encourage whitelisting our website. Our non-intrusive
                 advertising raise money for amazing causes!
               </p>

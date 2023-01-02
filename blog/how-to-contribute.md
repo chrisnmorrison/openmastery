@@ -5,10 +5,10 @@ image: https://i.imgur.com/mErPwqL.png
 slug: how-to-contribute
 authors:
   - name: Chris Morrison
-    title: Open Education Founder
+    title: Open Ed Founder
     url: https://github.com/chrisnmorrison
     image_url: ./avataaar.png
-tags: [Open Education, contribute, authors, volunteers]
+tags: [Open Ed, contribute, authors, volunteers]
 date: 2022-11-30
 ---
 

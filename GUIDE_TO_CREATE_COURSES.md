@@ -1,6 +1,6 @@
-# How do I create content for Open Education?
+# How do I create content for Open Ed?
 
-We're so happy that you want to contribute to Open Education. By contributing, you are:
+We're so happy that you want to contribute to Open Ed. By contributing, you are:
 
 - contributing to open source
 - generating content that you can put on your resume
@@ -10,7 +10,7 @@ We're so happy that you want to contribute to Open Education. By contributing, y
 
 ## Table of Contents
 
-- [How do I create content for Open Education?](#how-do-i-create-content-for-open-mastery)
+- [How do I create content for Open Ed?](#how-do-i-create-content-for-open-mastery)
   - [Table of Contents](#table-of-contents)
   - [Initial Setup](#initial-setup)
 

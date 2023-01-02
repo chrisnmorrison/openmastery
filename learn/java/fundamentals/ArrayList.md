@@ -88,6 +88,6 @@ public class Learn {
 
 ### ArrayList methods
 
-The methods of `ArrayList` (or any Java class, interface, etc.) can always be found at the Oracle Docs, and should be your go-to reference for Java code. As much as tutorial sites like Open Education can help you grasp the concepts, the actual Documentation of something is far more comprehensive. As a beginner, you might have trouble understanding some of the jargon in the documentation. Don't worry, that's normal! You should still expose yourself to it early on, and once you have a stronger grasp of Java, chances are you'll be browsing the Oracle Docs more often than you thought you would. [Here's a link to the docs for ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+The methods of `ArrayList` (or any Java class, interface, etc.) can always be found at the Oracle Docs, and should be your go-to reference for Java code. As much as tutorial sites like Open Ed can help you grasp the concepts, the actual Documentation of something is far more comprehensive. As a beginner, you might have trouble understanding some of the jargon in the documentation. Don't worry, that's normal! You should still expose yourself to it early on, and once you have a stronger grasp of Java, chances are you'll be browsing the Oracle Docs more often than you thought you would. [Here's a link to the docs for ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 
 ## What's next?

@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require("../../../static/img/undraw_book_reading.svg").default,
     description: (
       <>
-        Open Education is powered by individuals who value the importance of
-        free education
+        Open Ed is powered by individuals who value the importance of free
+        education
       </>
     ),
   },

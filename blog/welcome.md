@@ -1,17 +1,17 @@
 ---
 slug: welcome
-title: Welcome to Open Education!
+title: Welcome to Open Ed!
 authors:
   - name: Chris Morrison
-    title: Open Education Founder
+    title: Open Ed Founder
     url: https://github.com/chrisnmorrison
     image_url: ./avataaar.png
-tags: [Open Education]
+tags: [Open Ed]
 date: 2022-11-30
 
 ---
 
-Thank you for joining us on a journey for free education. Open Education is:
+Thank you for joining us on a journey for free education. Open Ed is:
 
 - A hub for knowledge. We are currently focused on tech, but we aim to expand into many more areas soon!
 - Free forever. You don't pay a cent.

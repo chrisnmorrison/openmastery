@@ -56,7 +56,7 @@ function Categories() {
                     <div>
                       <a
                         className="category-item"
-                        style={{ borderColor: item.backgroundCol}}
+                        style={{ borderColor: item.backgroundCol }}
                         href={item.link}
                       >
                         <a>
@@ -146,7 +146,7 @@ function Categories() {
           >
             Learn about contributing
           </a>{" "}
-          to Open Education!
+          to Open Ed!
         </p>
       </div>
     </Layout>

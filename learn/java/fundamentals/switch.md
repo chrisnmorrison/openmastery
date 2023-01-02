@@ -105,7 +105,7 @@ public class Learn {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("$$$ Welcome to the Open Education Bank $$$");
+        System.out.println("$$$ Welcome to the Open Ed Bank $$$");
         System.out.println("Please select your option: ");
         System.out.println("1: Deposit");
         System.out.println("2: Withdraw");

@@ -4,7 +4,7 @@ require("dotenv").config();
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Open Education",
+  title: "Open Ed",
   tagline: "Fundraise for charity, just by learning!",
   url: "https://opened.one",
   baseUrl: "/",
@@ -17,9 +17,9 @@ module.exports = {
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
-      title: "Open Education",
+      title: "Open Ed",
       logo: {
-        alt: "Open Education Logo",
+        alt: "Open Ed Logo",
         src: "img/logo.png",
       },
       items: [
@@ -30,10 +30,10 @@ module.exports = {
           to: "/donations",
           position: "left",
         },
-        
+
         {
-          type: 'html',
-          position: 'right',
+          type: "html",
+          position: "right",
           value: `
           <a
             class="support-us-link not-blue"
@@ -64,7 +64,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Open Education",
+          title: "Open Ed",
           items: [
             {
               label: "Markdown Guide",
@@ -103,7 +103,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Open Education. Built with Docusaurus and React\n<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/juicy-fish" title="Freepik">juicy_fish</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Open Ed. Built with Docusaurus and React\n<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/juicy-fish" title="Freepik">juicy_fish</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`,
     },
     prism: {
       additionalLanguages: ["java", "python"],
