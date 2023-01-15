@@ -13,9 +13,9 @@ const Support = () => {
           <div className="col-md-12">
             <h1 className="section-title categories-title">Support Us</h1>
             <p>
-              Open Ed and its contributors provide free text-based courses in as
-              growing number of areas. We will remain free forever, which is
-              only possible with the help of our supporters!
+              Open Mastery and its contributors provide free text-based courses
+              in as growing number of areas. We will remain free forever, which
+              is only possible with the help of our supporters!
             </p>
             <p>There are a few ways you can support us:</p>
 
@@ -38,9 +38,9 @@ const Support = () => {
               <div>
                 <h2 class="support-title">Buy Me a Coffee</h2>
                 <p>
-                  Support Open Ed's founder and primary maintainer. Part of your
-                  donations go to maintaining Open Ed, and part of your
-                  donations are donated to charity.
+                  Support Open Mastery's founder and primary maintainer. Part of
+                  your donations go to maintaining Open Mastery, and part of
+                  your donations are donated to charity.
                 </p>
                 <a
                   className="support-link"
@@ -106,12 +106,12 @@ const Support = () => {
       <div class="blockquote-wrapper">
         <div class="blockquote">
           <h3>
-            Open Ed promotes free education, and therefore, Open Education will
-            remain free forever. Thank you to all of our supporters and
+            Open Mastery promotes free education, and therefore, Open Mastery
+            will remain free forever. Thank you to all of our supporters and
             maintainers!
             <br aria-hidden="true" />
             <br aria-hidden="true" />
-            Best of all, Open Ed is completely open source! Anyone can
+            Best of all, Open Mastery is completely open source! Anyone can
             contribute, or if you have grander ideas, clone our project and
             create your own dream project. Let's build off of each other to
             create amazing, meaningful online services.
@@ -120,7 +120,7 @@ const Support = () => {
             &mdash; Chris Morrison
             <br aria-hidden="true" />
             <em>
-              Founder: Open Ed &amp;{" "}
+              Founder: Open Mastery &amp;{" "}
               <a
                 href="https://mesmerdesign.ca"
                 className="support-link"

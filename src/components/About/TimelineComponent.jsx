@@ -1,81 +1,81 @@
-import React from 'react'
-import { Chrono } from 'react-chrono'
-import styled from 'styled-components'
-import { FcCalendar, FcMindMap, FcLike } from 'react-icons/fc'
+import React from "react";
+import { Chrono } from "react-chrono";
+import styled from "styled-components";
+import { FcCalendar, FcMindMap, FcLike } from "react-icons/fc";
 
 // https://openbase.com/js/react-chrono
 
 const TimelineComponent = () => {
   const items = [
     {
-      title: 'In progress',
-      cardTitle: 'Initial Set-up',
-      url: 'https://github.com/chrisnmorrison/openeducation',
-      cardSubtitle: 'Free and open-source forever',
+      title: "In progress",
+      cardTitle: "Initial Set-up",
+      url: "https://github.com/chrisnmorrison/openeducation",
+      cardSubtitle: "Free and open-source forever",
       cardDetailedText:
         "Our mission is to create a free, open repository of educational resources. We'd love for you to help us! Take a look at " +
-        'our Github repository for more information on how you can help. We currently accept donations to help us remain ' +
-        " in operation (See our \"Support Us\" page on the Navbar), but you don't need to donate to help. Most importantly, your contributions help the world!",
+        "our Github repository for more information on how you can help. We currently accept donations to help us remain " +
+        ' in operation (See our "Support Us" page on the Navbar), but you don\'t need to donate to help. Most importantly, your contributions help the world!',
       media: {
-        type: 'IMAGE',
+        type: "IMAGE",
         source: {
-          url: './plan.png',
+          url: "./plan.png",
         },
       },
     },
     {
-      title: 'Up Next',
-      cardTitle: 'Promote our Mission',
-      cardSubtitle: 'So our story (officially) begins...',
+      title: "Up Next",
+      cardTitle: "Promote our Mission",
+      cardSubtitle: "So our story (officially) begins...",
       cardDetailedText:
-        'After planning and initial set-up, we will be ready to promote Open Ed to the world. We will always be looking ' +
-        'for contributors!',
+        "After planning and initial set-up, we will be ready to promote Open Mastery to the world. We will always be looking " +
+        "for contributors!",
       media: {
-        type: 'IMAGE',
+        type: "IMAGE",
         source: {
-          url: './plan.png',
+          url: "./plan.png",
         },
       },
     },
     {
-      title: 'Planned',
-      cardTitle: 'Roll out Fundraising Campaign',
+      title: "Planned",
+      cardTitle: "Roll out Fundraising Campaign",
       cardSubtitle:
-        'We want to provide and promote education, while raising money for charity.',
-      url: 'https://github.com/chrisnmorrison/openeducation',
+        "We want to provide and promote education, while raising money for charity.",
+      url: "https://github.com/chrisnmorrison/openeducation",
       cardDetailedText:
-        'We have an interesting plan. We will provide a free and open service forever, as our primary goal is helping others. ' +
-        'As we grow, we will explore ways to generate revenue for Open Ed, BUT much of this revenue will be donated ' +
+        "We have an interesting plan. We will provide a free and open service forever, as our primary goal is helping others. " +
+        "As we grow, we will explore ways to generate revenue for Open Mastery, BUT much of this revenue will be donated " +
         "to charity! We are exploring the least intrusive way to implement this, as the last thing we want is to tarnish our service. This is a way for our users to 'give back', so to speak, while they don't have to give any of their own money. Only their time. More to come, and we highly encourage input on this.",
       media: {
-        type: 'IMAGE',
+        type: "IMAGE",
         source: {
-          url: './plan.png',
+          url: "./plan.png",
         },
       },
     },
-  ]
+  ];
 
   return (
     <Wrapper>
-      {' '}
+      {" "}
       <div className="container timeline-component">
         <h2 className="text-center timeline-title">Our Plan</h2>
         <p className="text-center timeline-description">
           We have big plans, and we'd love for you to help us achieve our goals!
         </p>
 
-        <div style={{ height: 'auto' }}>
+        <div style={{ height: "auto" }}>
           <Chrono
             items={items}
             hideControls={true}
             useReadMore={false}
             mode="VERTICAL_ALTERNATING"
             theme={{
-              primary: '#5d5d5d',
-              secondary: 'transparent',
-              titleColor: '#838383',
-              titleColorActive: 'var(--primary-8)',
+              primary: "#5d5d5d",
+              secondary: "transparent",
+              titleColor: "#838383",
+              titleColorActive: "var(--primary-8)",
             }}
             scrollable={{ scrollbar: false }}
           >
@@ -86,10 +86,10 @@ const TimelineComponent = () => {
             </div>
           </Chrono>
         </div>
-      </div>{' '}
+      </div>{" "}
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   margin-bottom: 5rem;
@@ -119,6 +119,6 @@ const Wrapper = styled.section`
       display: none;
     }
   }
-`
+`;
 
-export default TimelineComponent
+export default TimelineComponent;

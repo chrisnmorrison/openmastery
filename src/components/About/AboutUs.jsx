@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import { AiOutlineDeploymentUnit, AiOutlineRead } from 'react-icons/ai'
+import React from "react";
+import styled from "styled-components";
+import { AiOutlineDeploymentUnit, AiOutlineRead } from "react-icons/ai";
 
 const AboutUs = () => {
   return (
@@ -13,14 +13,14 @@ const AboutUs = () => {
               <AiOutlineRead className="icon" />
               <h3>Vision</h3>
               <p>
-                  Sharing information has never been so easy and accessible. We
-                  envision a world where both paid education and free
-                  educational resources online are equally as valuable.
-                </p>
-                <p>
-                  Quite simply, Open Ed is our way of making free education easy
-                  to find and use. Our amazing contributors have 
-                </p>
+                Sharing information has never been so easy and accessible. We
+                envision a world where both paid education and free educational
+                resources online are equally as valuable.
+              </p>
+              <p>
+                Quite simply, Open Mastery is our way of making free education
+                easy to find and use. Our amazing contributors have
+              </p>
             </div>
           </div>
           <div className="col-lg-5">
@@ -28,24 +28,23 @@ const AboutUs = () => {
               <AiOutlineDeploymentUnit className="icon" />
               <h3>Mission</h3>
               <p>
-                  We value free online learning, and we want everyone to share
-                  our values. Free learning allows everyone to educate
-                  themselves, to improve their decision making ability, and
-                  empowers many to seek knowledge that may have been harder to
-                  access in the past.
-                </p>
-                <p>
-                  We're showing the world that free online learning is a good
-                  thing, and we're facilitating lifelong learners to empower
-                  themselves.
-                </p>
+                We value free online learning, and we want everyone to share our
+                values. Free learning allows everyone to educate themselves, to
+                improve their decision making ability, and empowers many to seek
+                knowledge that may have been harder to access in the past.
+              </p>
+              <p>
+                We're showing the world that free online learning is a good
+                thing, and we're facilitating lifelong learners to empower
+                themselves.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   margin: 5rem 0;
@@ -62,7 +61,7 @@ const Wrapper = styled.section`
     min-height: 464px;
   }
 
-  .our-story-title{
+  .our-story-title {
     margin-bottom: 3rem;
   }
 
@@ -80,6 +79,6 @@ const Wrapper = styled.section`
       margin-bottom: 1rem;
     }
   }
-`
+`;
 
-export default AboutUs
+export default AboutUs;

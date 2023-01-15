@@ -1,17 +1,17 @@
 ---
 slug: welcome
-title: Welcome to Open Ed!
+title: Welcome to Open Mastery!
 authors:
   - name: Chris Morrison
-    title: Open Ed Founder
+    title: Open Mastery Founder
     url: https://github.com/chrisnmorrison
     image_url: ./avataaar.png
-tags: [Open Ed]
+tags: [Open Mastery]
 date: 2022-11-30
 
 ---
 
-Thank you for joining us on a journey for free education. Open Ed is:
+Thank you for joining us on a journey for free education. Open Mastery is:
 
 - A hub for knowledge. We are currently focused on tech, but we aim to expand into many more areas soon!
 - Free forever. You don't pay a cent.

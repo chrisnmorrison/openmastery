@@ -146,7 +146,7 @@ function Categories() {
           >
             Learn about contributing
           </a>{" "}
-          to Open Ed!
+          to Open Mastery!
         </p>
       </div>
     </Layout>

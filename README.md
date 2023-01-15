@@ -1,12 +1,12 @@
-# Open Ed
+# Open Mastery
 
-We're Open Ed, a free online learning platform.
+We're Open Mastery, a free online learning platform.
 
 What makes us different? By using our site, you can learn new skills while raising money for charity!
 
 **As we are currently in beta development, we are currently not fundraising. We are primarily looking for contributors who share our vision: That learning should be free, and that **
 
-- [Open Ed](#open-education)
+- [Open Mastery](#open-education)
   - [Why should I contribute?](#why-should-i-contribute)
   - [General info](#general-info)
   - [Technologies](#technologies)
@@ -32,13 +32,13 @@ You can visit our live site here:
 
 ## Technologies
 
-Open Ed is powered by [Docusaurus](https://docusaurus.io/), a static site generator. Before learning how to nagivate our project, we highly recommend you read [Docusaurus' documentation](https://docusaurus.io/docs).
+Open Mastery is powered by [Docusaurus](https://docusaurus.io/), a static site generator. Before learning how to nagivate our project, we highly recommend you read [Docusaurus' documentation](https://docusaurus.io/docs).
 
 We write our pages using Markdown and React. It's not necessary that you know React to contribute, as the vast majority of our pages are Markdown only. But, our React pages are quite straightforward, so contributing to our React pages gives you a great opportunity to learn!
 
 ## How to contribute
 
-We want Open Ed to be one of the easiest, beginner-friendly open source contributions that you can make.
+We want Open Mastery to be one of the easiest, beginner-friendly open source contributions that you can make.
 
 Our beginner contributions:
 

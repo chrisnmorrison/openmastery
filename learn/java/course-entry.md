@@ -19,6 +19,6 @@ This course will cover:
 - General computing concepts, which will help you become a better developer. For example, memory management, code efficiency, etc.
 - and more! We aim to keep expanding this course in order to provide the best learning experience
 
-Like all of the courses at Open Ed, we will use plain, easy to understand english, and provide many examples to cement your learning.
+Like all of the courses at Open Mastery, we will use plain, easy to understand english, and provide many examples to cement your learning.
 
 When you're ready, go to the next page to get started!

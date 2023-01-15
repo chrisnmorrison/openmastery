@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Welcome to Open Ed. We offer free text-based courses, and just by using our website, you are raising money for charity!"
+      description="Welcome to Open Mastery. We offer free text-based courses, and just by using our website, you are raising money for charity!"
     >
       <h1 className="page-heading">Donations</h1>
       <div className="container">
         {" "}
         <p>
-          As we expand Open Ed, our primary goals are giving back, and
+          As we expand Open Mastery, our primary goals are giving back, and
           transparency. Advertising not only supports our growth and
           maintenance, but supports charity! We currently donate 90% of our
           proceeds to charity, and you can read about the charities we donate to

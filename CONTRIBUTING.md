@@ -1,12 +1,12 @@
-# Contributing to Open Ed
+# Contributing to Open Mastery
 
 :tada: Thank you so much for taking the time to contribute! :tada:
 
-The following is a set of guidelines for contributing to Open Ed(ucation). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in an issue and pull request.
+The following is a set of guidelines for contributing to Open Mastery. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in an issue and pull request.
 
-Open Ed is a very straightforward project, so we plan on keeping our contributing guidelines simple. There are two types of contributions: no-code submissions, and code submissions. Both are very important to us!
+Open Mastery is a very straightforward project, so we plan on keeping our contributing guidelines simple. There are two types of contributions: no-code submissions, and code submissions. Both are very important to us!
 
-- [Contributing to Open Ed](#contributing-to-open-ed)
+- [Contributing to Open Mastery](#contributing-to-open-mastery)
   - [Code of Conduct](#code-of-conduct)
   - [I Have a Quick Question / Concern](#i-have-a-quick-question--concern)
   - [Types of Contributions](#types-of-contributions)
@@ -49,7 +49,7 @@ If you are contributing a new article or if you would like to learn about our ar
 
 ### Code Contributions
 
-Open Ed's tech stack includes:
+Open Mastery's tech stack includes:
 
 - HTML, CSS, JS
 - React
