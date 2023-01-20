@@ -6,14 +6,14 @@ require("dotenv").config();
 module.exports = {
   title: "Open Mastery",
   tagline: "Fundraise for charity, just by learning!",
-  url: "https://opened.one",
+  url: "https://openmastery.one",
   baseUrl: "/",
   // onBrokenLinks: "throw",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.ico",
   organizationName: "chrisnmorrison", // Usually your GitHub org/user name.
-  projectName: "openeducation", // Usually your repo name.
+  projectName: "openmastery", // Usually your repo name.
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
@@ -54,7 +54,7 @@ module.exports = {
         { to: "/blog", label: "Blog", position: "left" },
 
         // {
-        //   href: "https://github.com/chrisnmorrison/openeducation",
+        //   href: "https://github.com/chrisnmorrison/openmastery",
         //   label: "GitHub",
         //   position: "right",
         // },
@@ -77,7 +77,7 @@ module.exports = {
           items: [
             {
               label: "Facebook",
-              href: "https://www.facebook.com/openeducationone/",
+              href: "https://www.facebook.com/openmasteryone/",
             },
             {
               label: "Instagram",
@@ -85,7 +85,7 @@ module.exports = {
             },
             {
               label: "Reddit",
-              href: "https://www.reddit.com/r/openeducation/",
+              href: "https://www.reddit.com/r/openmastery/",
             },
           ],
         },
@@ -98,7 +98,7 @@ module.exports = {
             },
             {
               label: "Github",
-              href: "https://github.com/chrisnmorrison/openeducation",
+              href: "https://github.com/chrisnmorrison/openmastery",
             },
           ],
         },
@@ -115,6 +115,9 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
+        blog: {
+          blogSidebarCount: 0,
+        },
         docs: {
           // id: 'product', // omitted => default instance
           path: "docs",

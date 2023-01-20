@@ -2,6 +2,14 @@
   justify-content: center !important;
 }
 
+.tabs__item--active{
+  background: currentColor !important;
+box-shadow: 0 55px 25px #ff7878 !important;
+z-index: 5 !important;
+color: white !important;
+margin: 0 1rem !important;
+}
+
 
 .red {
   color: rgb(255, 120, 120);

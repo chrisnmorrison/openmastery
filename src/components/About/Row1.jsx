@@ -56,7 +56,7 @@ function Row1() {
                 Best of all, we're completely open source. Anyone can view our
                 code, and anyone can contribute. If you'd love to help us out,{" "}
                 <a
-                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

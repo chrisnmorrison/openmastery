@@ -57,7 +57,7 @@ const Support = () => {
               <div>
                 <a
                   className="support-link"
-                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -73,7 +73,7 @@ const Support = () => {
                 </p>
                 <a
                   className="support-link"
-                  href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

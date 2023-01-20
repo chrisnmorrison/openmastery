@@ -15,9 +15,9 @@ What makes us different? By using our site, you can learn new skills while raisi
 
 ## Why should I contribute?
 
-Most websites are driven by profit, and even though our eventual goal is to generate revenue through advertising (and possibly, other non-intrusive means such as Buy me a Coffee or Ko-Fi), we are pledging to donate 90% of our proceeds to charity! [You can find out more on our website](https://opened.one/about). Rather than personal gain, we are driven by helping others. Users of our site will learn for free while generating money for charity. We've developed a new way of fundraising that doesn't require users to donate their own money.
+Most websites are driven by profit, and even though our eventual goal is to generate revenue through advertising (and possibly, other non-intrusive means such as Buy me a Coffee or Ko-Fi), we are pledging to donate 90% of our proceeds to charity! [You can find out more on our website](https://openmastery.one/about). Rather than personal gain, we are driven by helping others. Users of our site will learn for free while generating money for charity. We've developed a new way of fundraising that doesn't require users to donate their own money.
 
-Best of all, contributing is incredibly easy. The best way to contribute is to share knowledge, and most of our contributions don't require coding knowledge. Go ahead and add your contributions to your resume and portfolio, no matter how small. 
+Best of all, contributing is incredibly easy. The best way to contribute is to share knowledge, and most of our contributions don't require coding knowledge. Go ahead and add your contributions to your resume and portfolio, no matter how small.
 
 Let's work together to create something great.
 
@@ -27,8 +27,7 @@ We serve text-based courses for free, and we encourage our users to [contribute 
 
 You can visit our live site here:
 
-[opened.one](https://opened.one/)
-
+[openmastery.one](https://openmastery.one/)
 
 ## Technologies
 
@@ -65,7 +64,7 @@ $ npm i
 $ npm run start
 ```
 
-5. [Create an issue to discuss your proposed changes, or contribute to an existing issue](https://github.com/chrisnmorrison/openeducation/issues). This is crucial, so that we can all keep track of our proposed updates.
+5. [Create an issue to discuss your proposed changes, or contribute to an existing issue](https://github.com/chrisnmorrison/openmastery/issues). This is crucial, so that we can all keep track of our proposed updates.
 6. Edit away!
 7. Submit your merge, and we will review it.
-8. (Optional, but recommended): [Add your author info](https://opened.one/authors/), and follow the instructions on this page. We want to give credit where credit is due. If you have questions about this, [ask us](./SUPPORT.md)!
+8. (Optional, but recommended): [Add your author info](https://openmastery.one/authors/), and follow the instructions on this page. We want to give credit where credit is due. If you have questions about this, [ask us](./SUPPORT.md)!

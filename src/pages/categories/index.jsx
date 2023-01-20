@@ -13,7 +13,7 @@ function Categories() {
   const javaOrange = "rgb(255, 82, 82)";
   const purple = "#D19BFB";
   const green = "#C9E77A";
-  const openedBlue = "#3F92FC";
+  const openmasteryBlue = "#3F92FC";
 
   const allCourses = [
     {
@@ -33,10 +33,19 @@ function Categories() {
     {
       name: "More Coming Soon!",
       imgUrl: comingSoon,
-      link: "/learn/java/course-entry",
-      backgroundCol: openedBlue,
+      link: "#",
+      placeholder: true,
+      backgroundCol: openmasteryBlue,
     },
   ];
+
+  const moreComingSoon = {
+    name: "More Coming Soon!",
+    imgUrl: comingSoon,
+    link: "#",
+    placeholder: true,
+    backgroundCol: openmasteryBlue,
+  };
 
   return (
     <Layout title="Categories">
@@ -137,10 +146,11 @@ function Categories() {
             })}
           </TabItem>
         </Tabs>
+
         <p className="category-description">
           Are you interested in sharing your knowledge with the world?{" "}
           <a
-            href="https://github.com/chrisnmorrison/openeducation/blob/main/CONTRIBUTING.md"
+            href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
             target="_blank"
             rel="noopener noreferrer"
           >

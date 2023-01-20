@@ -10,7 +10,7 @@ const TimelineComponent = () => {
     {
       title: "In progress",
       cardTitle: "Initial Set-up",
-      url: "https://github.com/chrisnmorrison/openeducation",
+      url: "https://github.com/chrisnmorrison/openmastery",
       cardSubtitle: "Free and open-source forever",
       cardDetailedText:
         "Our mission is to create a free, open repository of educational resources. We'd love for you to help us! Take a look at " +
@@ -42,7 +42,7 @@ const TimelineComponent = () => {
       cardTitle: "Roll out Fundraising Campaign",
       cardSubtitle:
         "We want to provide and promote education, while raising money for charity.",
-      url: "https://github.com/chrisnmorrison/openeducation",
+      url: "https://github.com/chrisnmorrison/openmastery",
       cardDetailedText:
         "We have an interesting plan. We will provide a free and open service forever, as our primary goal is helping others. " +
         "As we grow, we will explore ways to generate revenue for Open Mastery, BUT much of this revenue will be donated " +
