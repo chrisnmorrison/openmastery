@@ -76,6 +76,10 @@
   --ifm-menu-color-background-active: #eef8ff;
 }
 
+html[data-theme="light"] {
+  background-color: #fffbf8;
+}
+
 html[data-theme="dark"] {
   .not-blue {
     color: rgb(30, 30, 30);
@@ -295,7 +299,7 @@ html[data-theme="dark"] .category-item {
   font-size: 3em;
   opacity: 1;
   border: 0px solid;
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(244, 244, 244);
   border-radius: 4px;
   border-top-width: 6px;
   transition: 0.1s;
