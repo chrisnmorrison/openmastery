@@ -27,12 +27,16 @@ The syntax can seem a bit weird at first, but let's break it down piece by piece
 
 `value` is a unique value for each `case`. It can be any data type, (e.g. `"Hello"` or `12` are both fine), but are usually the same data type in a given case block.
 
-`break` is optional. If `expression` matches a case, the code in the appropriate `case` will run. If `break` is present, it's on the last line before the next `case`. It will **break** out of the switch block. If `break` is not present, rather than breaking out of the block, the next `case` will run (until the end, or until a `break` is reached). Usually, you don't want any code to run except a single case, but there are exceptions.
+`break` is optional, but you should almost always include it. If `expression` matches a case, the code in the appropriate `case` will run. If `break` is present, it's on the last line before the next `case`. It will **break** out of the switch block. If `break` is not present, rather than breaking out of the block, the next `case` will run (until the end, or until a `break` is reached). Usually, you don't want any code to run except a single case, but there are exceptions.
 
 `default` runs if no cases are matched. Think of it as equivalent to `else`.
 
 :::tip
-A key difference between `if-else` and `switch` is that if-else can take more complex conditions, while `switch` can only take specific cases. For example, you can use `if (myVar >= 3 && myVar <= 100)`, but you **cannot** use `(myVar >= 3 && myVar <= 100)`
+A key difference between `if-else` and `switch` is that if-else can take more complex conditions, while `switch` can only take specific cases. 
+
+For example, you can use `if (myVar >= 3 && myVar <= 100)` in an `if`/`else` block.
+
+But, you **cannot** use `(myVar >= 3 && myVar <= 100)` in a `switch` block.
 :::
 
 To reiterate, a `case` label can be:

@@ -31,7 +31,7 @@ const Support = () => {
                   <img
                     src={Bmc}
                     alt="buy me a coffee logo"
-                    className="support-img"
+                    className="support-img support-img-bmc"
                   />
                 </a>
               </div>

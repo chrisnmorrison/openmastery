@@ -119,6 +119,10 @@ module.exports = {
           blogSidebarCount: 0,
         },
         docs: {
+          admonitions: {
+            tag: ':::',
+            keywords: ['note', 'tip', 'info', 'caution', 'danger', 'term'],
+          },
           // id: 'product', // omitted => default instance
           path: "docs",
           routeBasePath: "docs",
