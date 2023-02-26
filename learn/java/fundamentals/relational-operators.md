@@ -4,9 +4,9 @@ sidebar_position: 9
 
 # Relational & Boolean Operators
 
-An important aspect of development is determining if things are equal, or if/how they differ. Java is packed with all of the relational operators you will ever need!
+An important aspect of development is determining if things are equal, or if/how they differ. Java is packed with all the relational operators you will ever need!
 
-Relational operators test the equality or difference of values. Relation is incredibly important, and i'd argue that every single Java application contains huge amounts of relational operators.
+Relational operators test the equality or difference of values. Relation is incredibly important, and I'd argue that every single Java application contains huge amounts of relational operators.
 
 Here are a few situations where you would find relational operators:
 
@@ -14,12 +14,10 @@ Here are a few situations where you would find relational operators:
 - A program that validates your password before letting you into your account
 - A sensor that automatically turns on your Air Conditioning when it's above 23 Celsius
 
-And so much more. Give us the time, and we could come up with thousands of ideas! Let's look at each relational operator. Pay attention to how your write them!
+And so much more. Give us the time, and we could come up with thousands of ideas. Let's look at each relational operator. Pay attention to how your write them!
 
 :::tip
-
-While not necessary, you'll typically use all of these operators with if and if-else blocks, where you test the conditions of two or more operators to make a decision. Don't worry about this for now, we'll cover this soon!
-
+While not necessary, you'll typically use these operators with if and if-else blocks, where you test the conditions of two or more operators to make a decision. Don't worry about this for now, we'll cover this soon!
 :::
 
 ## == and !=
@@ -75,11 +73,11 @@ public class Learn {
 }
 ```
 
-Why does `5 < 5` output as `false`? This comparison asks `is 5 greater than 5`? Nope, it's the same! When two values are equal to each other, it'll only return true when there is an equals sign in the comparison. For example, `66 >= 66` asks `is 66 greater than or equal to 66`? Yes, it's greater than or equal, so it's`true`!
+Why does `5 < 5` output as `false`? This comparison asks `is 5 greater than 5`? Nope, it's the same! When two values are equal to each other, it'll only return true when there is an equals sign in the comparison. For example, `66 >= 66` asks `is 66 greater than or equal to 66`? Yes, it's greater than or equal, so it's `true`!
 
 ### !
 
-Very quick but important note. A single exclamation mark infront of a variable or an expression negates it. It turns false to true, or true to false.
+Quick but important note. A single exclamation mark in front of a variable or an expression negates it. It turns false to true, or true to false.
 
 ```java
 public class Learn {

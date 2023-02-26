@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Variables & Data Types
 
-Most programming languages allow you to temporarily store data of all different forms. Sentences, numbers, sentences, numbers, and whatever other value bundled together as seperate values (hint: one use of objects!) can all be stored in variables.
+All programming languages allow you to store data of all different forms. Sentences, numbers, sentences, numbers, and whatever else can be represented by 1’s and 0’s, bundled together as separate values (hint: one use of objects!) can all be stored in variables.
 
 Java has two categories of data types. Let's start with the simplest, which are **primitive variables**. Primitive variables cannot be broken down into smaller pieces. This will make more sense after you learn the second data type category. Examples of primitive data types:
 
@@ -20,7 +20,7 @@ double anotherDecimalNum = 55.173268762; //accurate to about 15 decimal digits
 
 ```
 
-Note that while `long`, `float`, and `double` will work like this, you generally want to prefix your number with a suffix. This helps the compiler understand the numbers you're working with, and may prevent errors.
+Note that while `long`, `float`, and `double` will work like this, good practice is to prefix your number with a suffix. This helps the compiler understand the numbers you're working with, and may prevent errors.
 
 ```java
 long myLong = 123l;
@@ -28,7 +28,7 @@ float myFloat = 3.333f;
 double myDouble = 234.22544444d;
 ```
 
-The above numbers use the standard, well-known base 10 decimal number system (i.e. the numbers we use everyday!). You can also represent numbers in hexadecimal, octal, and binary. As a beginner, don't worry about this. These are for special situations, e.g. you may prefer hexadecimal when doing embedded programming.
+The above numbers use the standard, well-known base 10 decimal number system (i.e. the numbers we use every day!). You can also represent numbers in hexadecimal, octal, and binary. As a beginner, don't worry about this. These are for special situations, e.g. you may prefer hexadecimal when doing embedded programming.
 
 ```java
 int binary = 0b01001; // base 2
@@ -44,9 +44,9 @@ What about non-numbers?
 char letter = 'c';
 ```
 
-The `char` datatype may look simple, but it's actually quite complicated. `char` is encoded using Unicode, which is an encoding scheme that translates codes (e.g. `\uo022`) into characters. Chars take up two bytes of memory, which allow up to 65,536 different unicodes. How are more complicated languages, all with thousands of different characters, represented in Unicode?
+The `char` data type may look simple, but it's actually quite complicated. `char` is encoded using Unicode, which is an encoding scheme that translates codes (e.g. `\uo022`) into characters. Chars take up two bytes of memory, which allow up to 65,536 different unicodes. How are more complicated languages, all with thousands of distinct characters, represented in Unicode?
 
-There's no short explanation, so you can read more about it [here](#). Typically, you **should not** use `char` to represent more complicated alphabets, and instead use `String`. For now, I wouldn't be too worried about this topic, but just be aware that it can be an issue.
+There's no short explanation, so you can read more about it [here](https://en.wikipedia.org/wiki/Japanese_language_and_computers). Typically, you **should not** use `char` to represent more complicated alphabets, and instead use `String`. For now, I wouldn't be too worried about this topic, but just be aware that it can be an issue when working with data in written/spoken languages with complex alphabets.
 
 Any other data types?
 
@@ -69,7 +69,7 @@ String number = "123"; // Is this an integer? (no, this is a string!)
 
 Arrays, in their simplest form, can be viewed as a group of items from a specific data type, grouped together. They are the simplest data structure.
 
-Note how they are declared, and that you need to write [] when declaring arrays. Additionally, there are two ways of creating arrays.
+Note how they are declared, and that you need to write [] when declaring arrays. There are two ways of creating arrays.
 
 First, by declaring (creating the variable) and initializing (setting values) all at the same time
 
@@ -87,7 +87,7 @@ String[] words = new String[3];
 
 This lesson will just cover arrays briefly, and we'll dive into it more thoroughly later.
 
-Lastly, let's introduce objects. Objects are an incredibly important part of Java, which is an object-oriented programming language. They deserve their own section, so let's keep it very brief for now.
+Last, let's introduce objects. Objects are an incredibly important part of Java, which is an object-oriented programming language. They deserve their own section (which the have, later on in the course), so let's keep it very brief for now.
 
 Objects are complex data types that represent a **thing**. By a thing, we literally mean anything that can be described by attributes or actions. This "thing" can be physical, virtual, or imaginary.
 
@@ -105,7 +105,7 @@ Now, what about actions?
 
 I'm sure we could come up with more, but let's keep it short.
 
-It's important to note that there are no set guidelines for defining attributes and actions. These are mainly guided by three considerations: **knowledge of the thing**, **common sense**, and **program requirements**.
+It's important to note that there are no set guidelines for defining attributes and actions. Three considerations mainly guided these: **knowledge of the thing**, **common sense**, and **program requirements**.
 
 We'll dive into many more examples later on in the course, so for now, let's look at what the code might look like for a very basic savings account.
 

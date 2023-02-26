@@ -19,13 +19,13 @@ switch(expression) {
 }
 ```
 
-The syntax can seem a bit weird at first, but let's break it down piece by piece.
+The syntax can seem weird at first, but let's break it down piece by piece.
 
-`switch` and `case` are reserved words, and are always there. You can have as many different cases as you want.
+`switch` and `case` are reserved words, and are always there. You can have as many cases as you want.
 
 `expression` is a variable or expression that will be checked by your cases.
 
-`value` is a unique value for each `case`. It can be any data type, (e.g. `"Hello"` or `12` are both fine), but are usually the same data type in a given case block.
+`value` is a unique value for each `case`. It can be any data type, (e.g. `"Hello"` or `12` are both fine), but are usually the same data type in a case block.
 
 `break` is optional, but you should almost always include it. If `expression` matches a case, the code in the appropriate `case` will run. If `break` is present, it's on the last line before the next `case`. It will **break** out of the switch block. If `break` is not present, rather than breaking out of the block, the next `case` will run (until the end, or until a `break` is reached). Usually, you don't want any code to run except a single case, but there are exceptions.
 
@@ -43,7 +43,7 @@ To reiterate, a `case` label can be:
 
 - a string literal (e.g. `"Hello"`)
 - a constant expression, such as a character (`'E'`), integer (`int`, `short`, etc.)
-  - additionally, these may either be typed directly as a case label, or they may be a variable
+- these may either be typed directly as a case label, or they may be a variable
 
 Let's compare an `if-else` block with an equivalent `switch` block. Both will do the exact same thing.
 

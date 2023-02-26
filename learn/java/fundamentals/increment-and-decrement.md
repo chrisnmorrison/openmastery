@@ -23,16 +23,16 @@ int b = 2;
 b--; // = 1
 ```
 
-`++` is the increment operator, and `--` is the decrement operator. They can be used to add or subtract 1 from a variable.
+`++` is the increment operator, and `--` is the decrement operator. They can add or subtract 1 from a variable.
 
 It's important to note that these operators **change the value** of a variable.
 
 ```java
 int i = 2;
-i++ // i now equals 3;
-i++ // i now equals 4;
-i-- // i now equals 3;
-i++ // i now equals 4;
+i++; // i now equals 3
+i++; // i now equals 4
+i--; // i now equals 3
+i++; // i now equals 4
 ```
 
 Now, let's make things a little more confusing. The above operator used the postfix form, but there's another form: prefix.
@@ -42,7 +42,7 @@ int myNum = 2;
 ++myNum; // = 3
 ```
 
-This does the same thing, right? In some cases, yes. In other cases, no. If you're just incrementing/decrementing a variable on one line, it does the same thing. 
+This does the same thing, right? Sometimes, yes. In other cases, no. If you're just incrementing/decrementing a variable on one line, it does the same thing. 
 
 But, things get tricky when you increment/decrement within expressions (i.e. more than one calculation). `++myNum` performs the addition **before** using the value in a calculation, and `--myNum` uses the **initial** value of `myNum` in the calculation, then adds 1.
 

@@ -86,7 +86,7 @@ double newBalance = balance + (balance * (2.2 / 100)); // equals 2044.00
 
 ```
 
-It's a bit cumbersome to write `Math.` before every use of the library. We can avoid this by using a static import of the `Math` class.
+It's cumbersome to write `Math.` before every use of the library. We can avoid this by using a static import of the `Math` class.
 
 ```java
 import static java.lang.Math.*;

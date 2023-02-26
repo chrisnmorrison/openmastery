@@ -35,7 +35,7 @@ public class Learn {
 
 We haven't covered arrays or exceptions yet, so don't worry if you don't understand the code. We used this example to illustrate something important: printing errors to the console! If your program has 1 million lines of code, tracking down every error is going to be hard. So instead, you can catch exceptions, log them to the console, and your program can keep running (if possible, depending on the error). Similarly, you can print your output to files, so that your error messages are stored somewhere.
 
-We'll go much more indepth into this, but for now, let's compare `return` to `print`
+We'll go much more in-depth into this, but for now, let's compare `return` to `print`
 
 ### Return
 
@@ -66,14 +66,14 @@ You may not fully understand what's happening here, especially since we haven't 
 
 Could you achieve the same thing with `System.out.println`? Not really, without completely changing the program. By returning a value, we can use it later on. Printing only prints something to the console.
 
-`return` can also be used to exit from functions without returning anything. Essentially, you're returning out of the function, back to your program execution.
+`return` can also exit from functions without returning anything. Essentially, you're returning out of the function, back to your program execution.
 
 ```java
 public class Learn {
     //defining a static method outside of main()
-    static int addNums(int x) {
+    static Integer addNums(int x) {
         if (x < 0){
-            // if x is less than zero, exit the method without returning anything!
+            // if x is less than zero, exit the method without returning anything
             return;
         } else {
            return 10 + x;
@@ -82,10 +82,6 @@ public class Learn {
     }
 
 ```
-
-<!-- If you're reading this.. hi! We are trying to integrate Live Code Editors into our guides, and at the moment, Docusaurus' live editor is a bit buggy. We hope that we can get it working, as it's an amazing feature -->
-
-<!--- In our courses, we often show code using a Live Code Editor. If you see a "Results" title under the code block, you're seeing the output of the code!
 
  ```java live
  String hello = "4";

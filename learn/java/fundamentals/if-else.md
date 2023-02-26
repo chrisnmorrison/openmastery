@@ -61,6 +61,10 @@ public class Learn {
 Take a few seconds to ask - Are one of the first two conditions true? If neither are true, will the `else` block run?
 
 In this example, `456` prints, because the `else if` condition is true.
+:::info
+In this example, the program will never reach the `else` condition. `isTrue` will always be true or false, so the program can reach only the `if` and `else if` block.
+As a challenge, try changing the above code (however you want) so that `else` is reachable.
+:::
 
 ### Else is optional
 
@@ -89,7 +93,7 @@ public class Learn {
 This section explains coding best practices. Don't skip it!
 :::
 
-In the above examples, we used a conditional in the form `value1 == value2`. There's nothing wrong with this, but there's a better way to write this!
+In the above examples, we use a conditional in the form `value1 == value2`. There's nothing wrong with this, but there's a better way to write this!
 
 ```java
 public class Learn {
@@ -132,7 +136,6 @@ public class Learn {
 
 A boolean can only be true or false, so we don't need to write the second condition. If the first condition fails, then the second condition is always going to pass.
 
-This lesson contained very basic examples to illustrate if-else conditionals. In the next lesson, we'll look at some more real-world type examples of conditionals!
 This lesson contained very basic examples to illustrate if-else conditionals. In the next lesson, we'll look at some more real-world type examples of conditionals!
 
 ## What's next?

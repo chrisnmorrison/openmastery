@@ -4,9 +4,9 @@ sidebar_position: 15
 
 # Looping
 
-Computers are great at performing repetitive tasks. In fact, that's one of the main reasons why they were invented!
+Computers are great at performing repetitive tasks. In fact, that's one of the main reasons they were invented!
 
-To our knowledge, every programming language contains looping. You define how you want to loop, when to end the loop, and what to perform with each iteration. Java has several types of loops, all of which are equally as important. We'll cover all of the loops, and in the next lesson, we'll give plenty of examples so that you can become more familiar with looping!
+To our knowledge, every programming language contains looping. You define how you want to loop, when to end the loop, and what to perform with each iteration. Java has several types of loops, all of which are equally important. We'll cover all the loops, and in the next lesson, we'll give plenty of examples so that you can become more familiar with looping!
 
 :::warning
 Loops are susceptible to infinite loops, where your program be stuck in a loop until you run out of memory. We'll give examples of this in the next lesson. To avoid this, always remember to verify that your program can reach your end condition.
@@ -14,7 +14,7 @@ Loops are susceptible to infinite loops, where your program be stuck in a loop u
 
 ## For Loop
 
-The `for` loop is used to iterate through a set amount of steps defined by a given condition, such as a predefined iteration count, or an array. It takes the following form, which we'll expand on after the codeblock:
+The `for` loop is used to iterate through a set amount of steps defined by a given condition, such as a predefined iteration count, or an array. It takes the following form, which we'll expand on after the code block:
 
 ```java
 public class Learn {
@@ -29,10 +29,10 @@ public class Learn {
 ```
 
 1. The initialization condition. Common practice is to use `int i` to store the value of the initial condition.
-2. End condition. You define when you want the loop to stop. This typically also uses `int i` set to the value that once reached, will end the loop.
+2. End condition. You define when you want the loop to stop. This typically also uses `int i` set to the value that, once reached, will end the loop.
 3. Increment/decrement: If using `int i`, you define how `i` will change on each iteration
 
-Let's look at a few different examples to demonstrate the flexibility uses of `for` loops:
+Let's look at a few different examples to show the flexibility uses of `for` loops:
 
 ```java
 public class Learn {
@@ -176,7 +176,7 @@ public class Learn {
 1. Represents each value of the array or collection, starting from the first value
 2. The name of your array or collections
 
-In the above example, the `for-each` loop iterates over the entire collection. It's a much simplier syntax compared to the `for` loop, and when you want to iterate over a whole collection, it's prefered to use the `for-each` loop. In fact, the `for-each` loop is essentially syntactic sugar (reworking code to make it easier to read) for the built-in `Iterator` interface.
+In the above example, the `for-each` loop iterates over the entire collection. It's a much simpler syntax compared to the `for` loop, and when you want to iterate over an entire collection, it's preferred to use the `for-each` loop. In fact, the `for-each` loop is essentially syntactic sugar (reworking code to make it easier to read) for the built-in `Iterator` interface.
 
 :::tip
 In both the `for` and `for-each` loops, you can use `break;` to **break out** of the loop. For example, if you're searching an array with 1000000 integers, and your number is the 5th element, why bother wasting resources searching the rest of the array? We'll look at an example of this in the next lesson.

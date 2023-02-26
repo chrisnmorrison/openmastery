@@ -12,7 +12,7 @@ We'll first write our use-case in plain English, and we encourage you to try wri
 
 ### Example 1 - Bank ATM
 
-Ask user how much money they would like to withdraw using `Scanner`. Check if bank account balance is above zero in order to withdraw. Print whether their withdrawal was successful or not.
+Ask user how much money they would like to withdraw using `Scanner`. Check if the bank account balance is above zero in order to withdraw. Print whether or not their withdrawal was successful.
 
 ```java
 import java.util.Scanner;

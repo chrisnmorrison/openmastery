@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # User Input
 
-What if we want to prompt the user to enter something? For example, you may want to prompt the user to enter their name, and print a welcome message.
+What if we want to prompt the user to enter something? For example, prompt the user to enter their name, and print a welcome message.
 
 To achieve this, we use a class called `Scanner`. First, you create an instance of `Scanner` using its constructor (we'll dive into constructors once we get to object-oriented programming) then pass an argument `System.in()`. Your beginner Java journey will involve a lot of this, so get used to it!
 
@@ -36,11 +36,11 @@ In this example, we entered the name 'John' into the console, saved it into a va
 `nextLine()` is used to take Strings as input. There are several other methods for other types, like `nextInt()`, `nextDouble()`, and so on. However, these differ from `nextLine()`, and we'll go over that soon.
 :::
 
-`Scanner(System.in)` is Java's one-size-fits-all solution for reading from `stdin`. Although there are better solutions for reading other streams, such as files, `Scanner` is still capable of reading files as well.
+`Scanner(System.in)` is Java's one-size-fits-all solution for reading from `stdin`. Although there are better solutions for reading other streams, such as files, `Scanner` can read files as well.
 
 ### nextLine() vs next()
 
-There's an important distinction to be made here. `nextLine()` reads an entire line that you entered in the console. For example, typing `Hello world` is one line. However, there is a method called `next()` that reads one item at a time, seperated by a delimiter. By default, the delimiter is a space. Using `next()` on `Hello world` will only read `Hello`, and you'll have to call `next()` again to read `world`.  
+There's an important distinction to be made here. `nextLine()` reads an entire line that you entered into the console. For example, typing `Hello world` is one line. However, there is a method called `next()` that reads one item at a time, seperated by a delimiter. By default, the delimiter is a space. Using `next()` on `Hello world` will only read `Hello`, and you'll have to call `next()` again to read `world`.  
 
 ```java
 import java.util.Scanner;
@@ -81,9 +81,9 @@ Scanner in = new Scanner(System.in);
 
 What if you want to read a first and last name at once, for example?
 
-By passing in multiple different tokens seperated by spaces, you can use the `next()` method to assign one token at a time. 
+By passing in multiple different tokens separated by spaces, you can use the `next()` method to assign one token at a time. 
 
-This has great use cases. Two of our favourite are: reading structured files, and reading command line arguments. These topics are a bit advanced, so for now, let's quickly go over a very simple example that represents reading a file.
+This has significant use cases. Two of our favourite are: reading structured files, and reading command line arguments. These topics are advanced, so for now, let's quickly go over a very simple example that represents reading a file.
 
 Let's say you have a file that stores customer info. Each line looks something like this: `John Smith 23 john@email.com`. Each line takes the form `firstName lastName age email`. You can read this information in the following way:
 

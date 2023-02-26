@@ -8,11 +8,11 @@ One of the most interesting things about Java is the jargony introduction to eve
 
 Java programs may be composed of one, or many different files. Some files may define `classes`, `interfaces`, `enums`, etc. (more on that later!). Some files may simply contain helper functions, placed there so that they do not cram other files.
 
-The common theme of any Java program is one, and only one `main` method. Why only one? Because the main method is the entry point to the program. If you defined two entry points and ran your program, how would it know what to run?
+The common theme of any Java program is one and only one `main` method. Why only one? Because the main method is the entry point to the program. If you defined two entry points and ran your program, how would it know what to run?
 
 So, let's define one, and only one main method.
 
-At the very least, you will need to write..
+At the very least, you will need to write:
 
 ```java
 public class Main {
@@ -22,7 +22,7 @@ public class Main {
 }
 ```
 
-This is probably one of the most confusing things for beginners. Why do you need to much code just to get started? And what does it mean?
+This is probably one of the most confusing things for beginners. Why do you need so much code just to get started? And what does it mean?
 
 Let's break down each part of the above code. As a beginner, **don't expect to understand what this means yet**. It's hard to understand, and you aren't alone. Let this serve as an introduction, and as you progress in your Java journey, this will make more sense.
 
@@ -34,9 +34,9 @@ Let's break down each part of the above code. As a beginner, **don't expect to u
 
 According to Java naming conventions, class names are CamelCase. [Learn about other naming conventions](#).
 
-`static` is a tricky concept for beginners to learn, and you won't understand it without understanding classes. Put as simply as possible, the `static` keyword means that you will only have one instance of the thing in question (in this case, the `main()` method). If you created a static method of a class, that static method is not attached to any given instance of the class, rather, it's attached to the class itself. If you don't understand `static` right now, don't worry. You can find an explanation of classes and static [here](#).
+`static` is a tricky concept for beginners to learn, and you won't understand it without understanding classes. Put as simply as possible, the `static` keyword means you will only have one instance of the thing in question (in this case, the `main()` method). If you created a static method of a class, that static method is not attached to any given instance of the class, rather, it's attached to the class itself. If you don't understand `static` right now, don't worry. You can find an explanation of classes and static [here](#).
 
-`void` means that the method doesn't return anything. What does `return` mean? Put simply, a function may 'return' data to the program after it runs. An addition method may return an `int`, and a division method may return a `double` or `float`, which are decimal point numbers.
+`void` means that the method returns nothing. What does `return` mean? Put simply, a function may 'return' data to the program after it runs. An addition method may return an `int`, and a division method may return a `double` or `float`, which are decimal point numbers.
 
 `main` is simply the name of the main method! Don't overthink it.
 

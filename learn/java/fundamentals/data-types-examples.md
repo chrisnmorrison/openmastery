@@ -15,7 +15,7 @@ int i,j,k;
 //Do these work?
 int i,j,k = 20;
 
-//No, this will not work, it will only initialize k to equal 20. You have to initialize them all seperately!
+//No, this will not work, it will only initialize k to equal 20. You have to initialize them all separately!
 int i = 10, k = 20;
 //this works
 ```
