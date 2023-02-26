@@ -16,7 +16,7 @@ There are two types of exceptions in Java: checked and unchecked exceptions.
 
 Checked exceptions are those that the Java compiler forces you to handle explicitly in your code. These exceptions are typically related to input/output operations or other external factors that can cause errors at runtime. Examples of checked exceptions in Java include IOException, SQLException, and ClassNotFoundException.
 
-Unchecked exceptions, on the other hand, are exceptions that the compiler does not force you to handle explicitly in your code. These exceptions are typically caused by programming errors, such as dividing by zero or trying to access an index that does not exist in an array. Examples of unchecked exceptions in Java include NullPointerException, ArrayIndexOutOfBoundsException, and ArithmeticException.
+Unchecked exceptions, on the other hand, are exceptions that the compiler does not force you to handle explicitly in your code. Programming errors typically cause these exceptions such as dividing by zero or trying to access an index that does not exist in an array. Examples of unchecked exceptions in Java include NullPointerException, ArrayIndexOutOfBoundsException, and ArithmeticException.
 
 ## How to Handle Exceptions in Java
 
@@ -36,7 +36,7 @@ try {
 
 In this code, you put the code that may throw an exception inside the try block. If an exception occurs, the JVM will jump to the appropriate catch block based on the type of exception that occurred. You can have multiple catch blocks for different types of exceptions.
 
-The `finally` block is optional and will always execute, regardless of whether an exception occurred or not. Finally block is commonly used to release any resources that were acquired in the try block.
+The `finally` block is optional and will always execute, regardless of whether an exception occurred. Finally block is commonly used to release any resources that were acquired in the try block.
 
 Here is an example of how to use a try-catch block in Java. We'll cover File I/O in the next lesson, so don't worry if you've never seen `FileInputStream` before. Focus on the try/catch flow for now.
 

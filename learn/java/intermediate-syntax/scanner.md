@@ -8,7 +8,7 @@ In previous lessons, we used `Scanner` to read user input in the console. This i
 
 ## Use Scanner to read a file
 
-The `Scanner` class provides an easy way to work with files. More advanced Java programmers will know that it isn't always the right option for working with files (e.g. it's not suitable for reading byte streams, like images), but it's great for learning purposes.
+The `Scanner` class provides an easy way to work with files. More advanced Java programmers will know that it isn't always the right option for working with files (e.g. it's not suitable for reading byte streams, like images), but it's great for learning.
 
 ```java
 // Java provides great libraries to help us with File I/O

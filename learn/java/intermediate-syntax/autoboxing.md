@@ -12,7 +12,7 @@ The opposite process, where an object is automatically converted back into its c
 
 ## Autoboxing
 
-Autoboxing is the process of converting a primitive data type into its corresponding wrapper class object automatically. For example:
+Autoboxing is the automatic process of converting a primitive data type into its corresponding wrapper class object automatically. For example:
 
 ```java
 int num = 10;
@@ -30,7 +30,7 @@ double d = 3.14;
 Double dObject = Double.valueOf(d); // boxing
 ```
 
-In this example, the value of the primitive double variable d is explicitly converted to a Double object through boxing.
+In this example, we explicitly converted the value of the primitive double variable d to a Double object through boxing.
 
 ## Unboxing
 
@@ -43,6 +43,8 @@ int num = numObject.intValue(); // unboxing
 
 In this example, the value of the Integer object numObject is extracted as a primitive int value through unboxing.
 
-Note that autoboxing and unboxing are performed automatically by the Java compiler, while boxing is done explicitly using a wrapper class constructor or factory method. Also, autoboxing and unboxing can lead to performance overhead and should be used with caution in performance-critical code.
+Note that Java compiler automatically performs autoboxing and unboxing, we explicitly perform boxing using a wrapper class constructor or factory method. Also, autoboxing and unboxing can lead to performance overhead and should be used with caution in performance-critical code. 
+
+You should use boxing and unboxing if there is a reason to convert a primitive to an Object, or vice versa. Otherwise, there is no need.
 
 ## What's next?

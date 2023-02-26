@@ -6,7 +6,7 @@ sidebar_position: 4
 
 File I/O is a tricky topic for beginners. There are several built-in classes for reading and writing to files, so which one is best?
 
-Well, it's not so easy. They all have their own purposes. Let's first learn some core File I/O knowledge, then we'll look at examples of File I/O in Java in the next lesson.
+Well, it's not so easy. They all have their own purposes. Let's first learn some fundamental File I/O knowledge, then we'll look at examples of File I/O in Java in the next lesson.
 
 ## Introduction
 
@@ -16,15 +16,15 @@ When working with File I/O, it is important to understand the different modes of
 
 ## File Formats
 
-There are many different file formats that are used for storing data. Some of the most common file formats include text files, binary files, XML files, and JSON files.
+There are many file formats that are used for storing data. Some of the most common file formats include text files, binary files, XML files, and JSON files.
 
 Text files are simple files that contain plain text. They can be opened and edited with any text editor, and are often used for storing data that is meant to be read by humans.
 
-Binary files are more complex than text files, and are used for storing data in a format that is optimized for processing by a computer. Binary files are typically used for storing data that is not meant to be read by humans, such as executable files or images.
+Binary files are more complex than text files, and are used for storing data in a format that is optimized for processing by a computer. Binary files are typically used for storing data that is not meant to be read by humans, such as executable files or images. For example, .jpg or .png files are binary files. You cannot open them in a text editor and make sense of their contents. Rather, they need to be opened by a program that understands how to decode the binary data.
 
-XML files are used for storing data in a structured format. They are often used for storing data that needs to be exchanged between different applications, and can be used to represent complex data structures.
+XML files are used for storing data in a structured format. They are often used for storing data that needs to be exchanged between different applications, and can represent complex data structures.
 
-JSON is the modern version of XML, and is much more popular today. Javascript Object Notation (JSON) files store data in key value pairs, similar to what object syntax looks like in Javascript. We won't be covering JSON syntax in this series. Just know that it's a common way to store and send data.
+JSON is the modern version of XML, and is much more popular today. JavaScript Object Notation (JSON) files store data in key-value pairs, similar to what object syntax looks like in Javascript. We won't be covering JSON syntax in this series. Just know that it's a common way to store and send data.
 
 ## Modes of Access
 
@@ -53,6 +53,6 @@ While databases are an excellent way to store and manage data, learning File I/O
 5. **Learning**: Learning File I/O can help you better understand how data is stored and managed, which can be helpful when working with databases and other data storage systems. It can also help you better understand the tradeoffs between different data storage solutions.
 6. **Interview Questions**: File I/O questions are very common in interviews, so you should safely prepare your knowledge on the topic. In an interview for a Java job, this might entail describing different built-in classes that are used in File I/O, and their intended uses. File I/O is considered core knowledge of any programming language, and it's very worthwhile to learn. 
 
-In summary, while databases are an excellent way to store and manage data, learning File I/O is still important for many reasons. It can provide flexibility, portability, and performance advantages, and can be helpful for maintaining and updating legacy systems. Additionally, understanding File I/O can help you better understand how data is stored and managed, which can be helpful in many different contexts. Lastly, File I/O is an important topic when learning any programming language, and you should at least understand how to work with basic files, like text files.
+In summary, while databases are an excellent way to store and manage data, learning File I/O is still important for many reasons. It can provide flexibility, portability, and performance advantages, and can be helpful for maintaining and updating legacy systems. Understanding File I/O can help you better understand how data is stored and managed, which can be helpful in many different contexts. Lastly, File I/O is an important topic when learning any programming language, and you should at least understand how to work with basic files, like text files.
 
 ## What's next?

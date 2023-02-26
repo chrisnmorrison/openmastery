@@ -4,12 +4,12 @@ sidebar_position: 8
 
 # BufferedReader and BufferedWriter
 
-The `BufferedReader` and `BufferedWriter` classes are part of the Java I/O (Input/Output) API, which provides a standard way to read and write data in Java. The Java I/O API consists of many classes that can be used to read and write data in different formats, including bytes, characters, and objects. The `BufferedReader` and `BufferedWriter` classes are specifically designed for reading and writing characters efficiently, by buffering the data in memory.
+The `BufferedReader` and `BufferedWriter` classes are part of the Java I/O (Input/Output) API, which provides a standard way to read and write data in Java. The Java I/O API comprises many classes that can read and write data in different formats, including bytes, characters, and objects. The `BufferedReader` and `BufferedWriter` classes are specifically designed for reading and writing characters efficiently, by buffering the data in memory.
 
 :::info Why another I/O class?
 The code for these classes are a bit more verbose, so why use them? These classes are suitable when reading large amounts of data, and will reduce the number of I/O operations performed. 
 
-For simplier file reads, such as reading small text files, the basic I/O classes discussed in previous tutorials are often more than suitable.
+For simpler file reads, such as reading small text files, the basic I/O classes discussed in previous tutorials are often more than suitable.
 :::
 
 ## BufferedReader
