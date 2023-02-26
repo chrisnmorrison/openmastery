@@ -35,7 +35,7 @@ Size of double: 8 bytes.
 
 A few things happened here. Let's break it down.
 
-Why did we use, for example, `Integer` instead of `int`? In Java, remember that `int` is a primitive type. `Integer` is what's called a wrapper class, and it allows us to treat an integer value as an `object`. If you don't understand objects yet, don't worry. In essence, this allows us to provide additional functionality to variables, by attaching `methods` and `attributes` to objects. In this case, `Integer.SIZE` looks for an attribute called SIZE, which is a pre-defined attribute in the JDK. `.SIZE` is the size of the object in RAM (random access memory) in **bits**.
+Why did we use, for example, `Integer` instead of `int`? In Java, remember that `int` is a primitive type. `Integer` is what's called a wrapper class, and it allows us to treat an integer value as an `object`. If you don't understand objects yet, don't worry. This allows us to provide additional functionality to variables by attaching `methods` and `attributes` to objects. Here, `Integer.SIZE` looks for an attribute called SIZE, which is a pre-defined attribute in the JDK. `.SIZE` is the size of the object in RAM (random access memory) in **bits**.
 
 Since the `.SIZE` is in bits, and there are 8 bits in a byte, we divide by 8 (e.g. `Long.SIZE/8`). RAM is not measured in bits. Rather, it is measured in bytes (e.g. kilobytes, gigabytes). 
 

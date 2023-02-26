@@ -119,10 +119,7 @@ module.exports = {
           blogSidebarCount: 0,
         },
         docs: {
-          admonitions: {
-            tag: ':::',
-            keywords: ['note', 'tip', 'info', 'caution', 'danger', 'term'],
-          },
+          
           // id: 'product', // omitted => default instance
           path: "docs",
           routeBasePath: "docs",
@@ -155,6 +152,18 @@ module.exports = {
         id: "java",
         path: "learn/java",
         routeBasePath: "learn/java",
+        sidebarPath: require.resolve("./sidebars.js"),
+        // sidebarCollapsible: true,
+        // sidebarCollapsed: true,
+        // ... other options
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "computer-science",
+        path: "learn/computer-science",
+        routeBasePath: "learn/computer-science",
         sidebarPath: require.resolve("./sidebars.js"),
         // sidebarCollapsible: true,
         // sidebarCollapsed: true,

@@ -41,7 +41,7 @@ As mentioned, these are only for special situations, and you likely won't use th
 What about non-numbers?
 
 ```java
-char letter = 'c'; 
+char letter = 'c';
 ```
 
 The `char` datatype may look simple, but it's actually quite complicated. `char` is encoded using Unicode, which is an encoding scheme that translates codes (e.g. `\uo022`) into characters. Chars take up two bytes of memory, which allow up to 65,536 different unicodes. How are more complicated languages, all with thousands of different characters, represented in Unicode?
@@ -67,7 +67,7 @@ String word = "Hello";
 String number = "123"; // Is this an integer? (no, this is a string!)
 ```
 
-Arrays, in their simpliest form, can be viewed as a group of items from a specific data type, grouped together. They are the simpliest data structure.
+Arrays, in their simplest form, can be viewed as a group of items from a specific data type, grouped together. They are the simplest data structure.
 
 Note how they are declared, and that you need to write [] when declaring arrays. Additionally, there are two ways of creating arrays.
 
@@ -89,25 +89,27 @@ This lesson will just cover arrays briefly, and we'll dive into it more thorough
 
 Lastly, let's introduce objects. Objects are an incredibly important part of Java, which is an object-oriented programming language. They deserve their own section, so let's keep it very brief for now.
 
-Objects are complex data types that represent a **thing**. By a thing, we literally mean anything that can be described by attributes or actions. This "thing" can be physical, virtual, or imaginary. 
+Objects are complex data types that represent a **thing**. By a thing, we literally mean anything that can be described by attributes or actions. This "thing" can be physical, virtual, or imaginary.
 
 For example, a savings account. What are the attributes of a savings account?
+
 - balance
 - interest rate
 - account holder's name
 
 Now, what about actions?
+
 - withdraw
 - deposit
 - transfer to a different account
 
-I'm sure we could come up with more, but let's keep it short. 
+I'm sure we could come up with more, but let's keep it short.
 
-It's important to note that there are no set guidelines for defining attributes and actions. These are mainly guided by three considerations: **knowledge of the thing**, **common sense**, and **program requirements**. 
+It's important to note that there are no set guidelines for defining attributes and actions. These are mainly guided by three considerations: **knowledge of the thing**, **common sense**, and **program requirements**.
 
 We'll dive into many more examples later on in the course, so for now, let's look at what the code might look like for a very basic savings account.
 
-Pay attention to the naming convention for classes. Class names should be nouns, should be in mixed case with each word capitalized, and no underscores or dashes. See below.  
+Pay attention to the naming convention for classes. Class names should be nouns, should be in mixed case with each word capitalized, and no underscores or dashes. See below.
 
 ```java
 public class SavingsAccount {
@@ -132,4 +134,3 @@ public class SavingsAccount {
 ```
 
 ## What's next?
-

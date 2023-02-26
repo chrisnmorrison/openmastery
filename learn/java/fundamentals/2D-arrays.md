@@ -25,7 +25,7 @@ In this example, we declared `[0][0]` to equal 5, and accessed it using the same
 
 ## Visualizing 2D arrays
 
-2D arrays can be confusing for beginners, and the simpliest way to visualize them is by imagining a 2D grid from elementary math class.
+2D arrays can be confusing for beginners, and the simplest way to visualize them is by imagining a 2D grid from elementary math class.
 
 ![5 by 5 grid](./../../../static/img/5x5grid.png "5x5 grid")
 _5x5 Grid_

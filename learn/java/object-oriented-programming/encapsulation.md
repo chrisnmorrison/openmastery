@@ -14,16 +14,16 @@ We introduced [access modifiers](./access-modifiers) in a previous lesson. Let's
 public class BankAccount {
     private String accountNumber;
     private double balance;
-    
+
     public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-    
+
     public void deposit(double amount) {
         balance += amount;
     }
-    
+
     public void withdraw(double amount) {
         if (amount <= balance) {
             balance -= amount;
@@ -31,7 +31,7 @@ public class BankAccount {
             System.out.println("Insufficient funds");
         }
     }
-    
+
     public double getBalance() {
         return balance;
     }
@@ -55,34 +55,34 @@ public class Employee {
     private String name;
     private int age;
     private double salary;
-    
+
     public String getName() {
         return name;
     }
-    
+
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public int getAge() {
         return age;
     }
-    
+
     public void setAge(int age) {
         this.age = age;
     }
-    
+
     public double getSalary() {
         return salary;
     }
-    
+
     public void setSalary(double salary) {
         this.salary = salary;
     }
 }
 ```
 
-In our `Employee` class, we set our fields as `private`. This means that they can only be accessed from **within the class**. 
+In our `Employee` class, we set our fields as `private`. This means that they can only be accessed from **within the class**.
 
 So, we write `public` methods to get and set these values! It's that simple.
 
@@ -96,6 +96,6 @@ The main purpose of making instance variables `private` is to encapsulate the da
 
 Getter and setter methods provide a **controlled** way for external code to access or modify the private instance variables. They allow you to define how the values of the instance variables are accessed and modified. For example, you can add validation logic to ensure that the value being set is within a certain range, or you can perform additional actions such as logging how your `private` field was accessed, or updating dependent variables.
 
-The most important takeaway is that getters and setters allow you read and write to `private` fields, without providing direct access. The code examples above show the simpliest implementation, but you, the programmer, **can implement this controlled access however you like**. 
+The most important takeaway is that getters and setters allow you read and write to `private` fields, without providing direct access. The code examples above show the simplest implementation, but you, the programmer, **can implement this controlled access however you like**.
 
 ## What's next?

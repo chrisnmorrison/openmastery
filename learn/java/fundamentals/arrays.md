@@ -31,15 +31,15 @@ public class Learn {
 }
 ```
 
-Arrays are quite simply a collection of data, and are the simpliest data structure. They have a few key characteristics that you must remember:
+Arrays are simply a collection of data, and are the simplest data structure. They have a few key characteristics that you must remember:
 
-- they have a fixed size, which you define. If you want to resize an array, you will have to create a new array and copy the previous data into it
+- they have a fixed size, which you define. If you want to resize an array, create a new array and copy the previous data into it
 - their indices start at zero. The first element is the 0th index, the second element is the 1st index, etc.
 - all elements must have the same data type (there are exceptions with OOP polymorphism, which we'll cover later)
 
 ## Default Values
 
-When you declare and initialize an array, let's say of size 5, each of the 5 values will have a default value that depends on the data type.
+When you declare and initialize an array, let's say, of size 5, each of the 5 values will have a default value that depends on the data type.
 
 ```java
     int [] intArr = new int[5]; // or short, long, etc.
@@ -96,7 +96,7 @@ int array last index is intArr[4]
 0
 ```
 
-We recommend copying this code into your IDE, and playing around with it; primarily the numbers in square brackets (e.g. `[5]`). What causes different output? What causes compilation errors?
+We recommend copying this code into your IDE, and experimenting with it; primarily the numbers in square brackets (e.g. `[5]`). What causes different output? What causes compilation errors?
 
 ## Populating arrays
 
@@ -121,7 +121,7 @@ For example, writing `arr[1]` means _i want the 1st index_, and `= 2` means _sto
 Easy enough, but there are a few things to consider
 
 - we've mentioned that indices are zero based, and we're going to mention it again. Never forget this. `[0]` is the first index, `[1]` is the second index, `[2]` is the third index, etc.
-- This method is useful for grasping beginner concepts, but doesn't really translate well to real-world code. It's also tedious to write. Imagine assigning 1000 array values using this method. Later on, we'll look at how you can use [for loops](./loops.md) to effectively populate an array.
+- This method is useful for grasping beginner concepts, but doesn't really translate well to real-world code. It's also tedious to write. Imagine assigning 1000 array values using this method. Later on, we'll look at how you can use [for loops](./loops.md) to populate an array.
 
 ```java
 public class Learn {
@@ -132,7 +132,7 @@ public class Learn {
             arr[i] = i;
         }
 
-        // prints the values of the array, seperated by spaces
+        // prints the values of the array, separated by spaces
         for (int i : arr){
             System.out.print(i + " ");
         }
@@ -140,7 +140,7 @@ public class Learn {
 }
 ```
 
-In addition to this method, Java has a handy shortcut to populate arrays if you know what values they're going to store from the beginning.
+Besides this method, Java has a handy shortcut to populate arrays if you know what values they're going to store from the beginning.
 
 ```java
 public class Learn {

@@ -4,7 +4,7 @@ sidebar_position: 4.5
 
 # String Examples
 
-We've seen some interesting numeric examples in Java, but we've only scratched the surface of the  `String` type. Let's dig a bit deeper
+We've seen some interesting numeric examples in Java, but we've only scratched the surface of the `String` type. Let's dig a bit deeper
 
 Strings are nothing more than a grouping of unicode characters. Each unique number,letter, symbol, and special characters (such as ©), can be represented as a unique unicode sequence.
 
@@ -18,7 +18,7 @@ public class Learn {
 }
 ```
 
-That's the simpliest way to work with Strings. Define a string, then (most likely) output it at some point.
+That's the simplest way to work with Strings. Define a string, then (most likely) output it at some point.
 
 But, there's so much more you can do with Strings! For example, you can combine them.
 
@@ -57,13 +57,11 @@ public class Learn {
 
 ```
 
-This looks confusing, so let's break it down. We used a different method called `printf()`, which meand **formatted print**. Many programming languages have some form of this. Examples: In Javascript, this is called template literals. In Python, this is called f-strings (but Python also has an older print formatting method as well). 
+This looks confusing, so let's break it down. We used a different method called `printf()`, which meand **formatted print**. Many programming languages have some form of this. Examples: In Javascript, this is called template literals. In Python, this is called f-strings (but Python also has an older print formatting method as well).
 
 `printf()` prints just like `println()`, but allows you to use placeholders called formatting rules that begin with `%`. Here are the different formatting options in Java:
 
-
 ![Java's printf](./../../../static/img/printf.png "Table of Java printf options")
-*Image obtained here: https://runs-on-coffee.blogspot.com/2013/03/14-formatting-output.html*
+_Image obtained here: https://runs-on-coffee.blogspot.com/2013/03/14-formatting-output.html_
 
 ## What's next?
-

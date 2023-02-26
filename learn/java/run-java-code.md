@@ -13,9 +13,17 @@ We'll show you the easy way first, and then we'll show you a trickier but more p
 
 Integrated development environments (IDEs) are what most people use to write code, especially newcomers. They provide you with 99-100% of what you need to write and run code. They also provide a built-in console so that you can view the output of your program.
 
-Here are some popular IDEs that many Java developers use. No matter the IDE, you will need to have Java Standard Edition Development Kit (may be referred to as Java SE or JDK). You can [download the latest JDK here](https://www.oracle.com/java/technologies/downloads/).
+Here are some popular IDEs that many Java developers use. No matter the IDE, you will need to have Java Standard Edition Development Kit (may be referred to as Java SE or JDK). You can [download the JDK here](https://www.oracle.com/java/technologies/downloads/).
 
-These are the most popular Java IDEs. All are free to use. We'll link some helpful "Getting Started" guides so that you can set up your Java development environment without any hassle. Remember, **install the JDK first**! :
+These are the most popular Java IDEs. All are free to use. We'll link some helpful "Getting Started" guides so that you can set up your Java development environment without any hassle. Remember, **install the JDK first**!
+
+:::danger Should I install the latest version?
+As a Java learner, we highly recommend installing Java 8 or Java 11. 
+
+Long story short, the latest versions are rare in industry. Java 8 and Java 11 are very popular in industry. Upgrading can be a hassle, and these versions provided a lot of awesome features that modern applications can still use.
+
+Again, we recommend installing Java 8 or Java 11, so you can focus on "core" Java first. Then, once you have a solid grasp of what these versions entail, you can optionally learn features of newer versions.
+:::
 
 [IntelliJ Idea](https://www.jetbrains.com/idea/) has been the top Java IDE for years, to nobody's surprise. It has extensive features, a friendly interface, and most importantly, it's easy to use. The only setup you will likely encounter is when your SDK path is incorrectly set. [This guide should help you overcome this](https://www.jetbrains.com/idea/). **We recommend this IDE as the best Java development tool**.
 
@@ -23,7 +31,7 @@ These are the most popular Java IDEs. All are free to use. We'll link some helpf
 
 [Visual Studio Code](https://code.visualstudio.com/download) (often called VS Code) is easily one of the biggest IDEs that's not specific to Java. You can code in just about any language, with the help of a huge library of Extensions. [Baeldung has a great beginner's guide on setting up Java in VS Code](https://www.baeldung.com/java-visual-studio-code).
 
-[Netbeans](https://netbeans.apache.org/download/index.html) used to be incredibly popular, but is now in the shadow of IntelliJ, Eclipse, and VS Code. Nevertheless, it's still a powerful IDE, and one that senior Java developers (10-15+ years) are very familiar with. 
+[Netbeans](https://netbeans.apache.org/download/index.html) used to be incredibly popular, but is now in the shadow of IntelliJ, Eclipse, and VS Code. Nevertheless, it's still a powerful IDE, and one that senior Java developers (10-15+ years) are very familiar with. It has great integration with Java Enterprise Edition (EE), so if you are building a Java EE app, Netbeans is often recommended.
 
 Which IDE do you choose? Which is best? Everyone will give you different opinions, so it's not something we like to bicker on. Just choose one, and start learning to code. That's the important part. These are the general views we've seen on these IDEs.
 - Use IntelliJ if you are **primarily learning Java, and want to fully explore Java**
@@ -31,7 +39,7 @@ Which IDE do you choose? Which is best? Everyone will give you different opinion
 
 ## Running Java on the Command Line
 
-
+Coming soon!
 
 ## What's next?
 

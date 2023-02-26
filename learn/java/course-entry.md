@@ -15,8 +15,8 @@ This course will cover:
 - What separates Java apart from other modern languages
 - Why you should learn Java
 - Object Oriented Programming (OOP)
-- Data Structures and Algorithms
-- General computing concepts, which will help you become a better developer. For example, memory management, code efficiency, etc.
+- Java Collections Framework
+- Best practices
 - and more! We aim to keep expanding this course in order to provide the best learning experience
 
 Like all of the courses at Open Mastery, we will use plain, easy to understand english, and provide many examples to cement your learning.

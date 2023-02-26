@@ -6,23 +6,23 @@ sidebar_position: 18
 
 ## What's ArrayList?
 
-Normally, we'd like to cover all of the fundamentals before anything else. While built-in classes are generally for more advanced purposes, `ArrayList` is one of the fundamental ones, like `Scanner`. It's also one of the easiest to understand and use. Let's cover it now, before diving into more complicated topics.
+Normally, we'd like to cover all the fundamentals before anything else. While built-in classes are generally for more advanced purposes, `ArrayList` is one of the fundamental ones, like `Scanner`. It's also one of the easiest to understand and use. Let's cover it now, before diving into more complicated topics.
 
-Like we discussed in the `array` lesson, `array` is a powerful data structure, with one limitation: fixed size. What happens if you create an array of length 10, and you want it to add more than 10 values to it? If you try to add anything to the 11th index or higher, simply, your program will crash from `ArrayIndexOutOfBoundsException`. Arrays cannot be resized; rather, you need to create a new array.
+As we discussed in the `array` lesson, `array` is a powerful data structure, with one limitation: fixed size. What happens if you create an array of length 10, and you want it to add over 10 values to it? If you try to add anything to the 11th index or higher, simply, your program will crash from `ArrayIndexOutOfBoundsException`. You cannot resize arrays; rather, you need to create a new array.
 
-Setting a fixed size array has its use-cases, and isn't always a bad thing. For example, if you're calculating top 10 high scores, there's no advantage to having a larger array. In fact, it's a disadvantage, since you're using more memory. When you define the length of your array, your program reserves enough memory to store the requested amount of elements.
+Setting a fixed-size array has its use-cases and isn't always a bad thing. For example, if you're calculating top 10 high scores, there's no advantage to having a larger array. In fact, it's a disadvantage, since you're using more memory. When you define the length of your array, your program reserves enough memory to store the requested amount of elements.
 
-But in many cases, it's easier and more intuitive to use an array that resizes automatically based on your program needs.
+But most times, it's easier and more intuitive to use an array that resizes automatically based on your program needs.
 
-Say hello to `ArrayList`, a built-in Java class that implements the `List` interface. In it's simpliest form, `ArrayList` can be treated as an array that resizes automatically based on 1) your code, and 2) what actually happens during runtime. If you think that there's even the slightest chance that your array will increase beyond it's size, then you should use `ArrayList` instead (or a different implementation of `List`. But for now, let's just cover the simplest one).
+Say hello to `ArrayList`, a built-in Java class that implements the `List` interface. In its simplest form, `ArrayList` can be treated as an array that resizes automatically based on 1) your code, and 2) what actually happens during runtime. If you think that there's even the slightest chance that your array will increase beyond its size, then you should use `ArrayList` instead (or a different implementation of `List`. But for now, let's just cover the simplest one).
 
 :::tip Important Note about Data Types!
-With `arrays`, we can use any data type: primitive or reference. With `ArrayList`, we **must use reference types**. So, how do we use `int` or `double`? We use `Wrapper` classes, which are classes made to use primitive data types as objects / reference types. To use them, simply capitalize the first letter, and write out entire word if it's shortened as a primitive. `int` becomes `Integer`, `char` becomes `Character`, `double` becomes `Double`, and so on. 
+With `arrays`, we can use any data type: primitive or reference. With `ArrayList`, we **must use reference types**. So, how do we use `int` or `double`? We use `Wrapper` classes, which are classes made to use primitive data types as objects / reference types. To use them, simply capitalize the first letter, and write out the entire word if it's shortened as a primitive. `int` becomes `Integer`, `char` becomes `Character`, `double` becomes `Double`, and so on. 
 
 This is related to Autoboxing, Boxing, and Unboxing. We'll cover that in a later lesson.
 :::
 
-Working with `ArrayList` and other types of list is different than `array`s. Here's the basic syntax.
+Working with `ArrayList` and other types of list is different from `array`s. Here's the basic syntax.
 
 ```java
 import java.util.ArrayList; //important! We have to import ArrayList. If you're using a modern IDE, it'll tell you this as well.
@@ -154,7 +154,7 @@ System.out.println(myArrayList);
 
 No, this does not work. ArrayLists are objects, and objects (aka refereence types) are stored differently than primitive types, which are easy to print. Primitives are stored on the stack, and reference types are stored on the heap. Reference type variables store a memory address to the object on the heap, rather than the actual object. So, calling `System.out.println()` on an object prints the memory address of the object.. not very helpful! 
 
-An extra step is necessary to print an ArrayList, or any object for that matter. But, keep in mind that the method may differ depending on the type of object. The following works for ArrayLists that contain boxed primitive data, or `Strings`.
+An extra step is necessary to print an ArrayList, or any object. But, keep in mind that the method may differ depending on the type of object. The following works for ArrayLists that contain boxed primitive data, or `Strings`.
 
 ```java
 ArrayList<String> myList = new ArrayList<String>();
@@ -181,9 +181,9 @@ System.out.println(myList.toString());
 
 ### Final Notes
 
-How do we know these methods exists? You might be asking - do I need to remember all of these methods?
+How do we know these methods exist? You might ask - do I need to remember all of these methods?
 
-The methods of `ArrayList` (or any Java class, interface, etc.) can always be found at the Oracle Docs, and should be your go-to reference for Java code. As much as tutorial sites like Open Mastery can help you grasp the concepts, the actual Documentation of something is far more comprehensive. As a beginner, you might have trouble understanding some of the jargon in the documentation. Don't worry, that's normal! You should still expose yourself to it early on, and once you have a stronger grasp of Java, chances are you'll be browsing the Oracle Docs more often than you thought you would. [Here's a link to the docs for ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
+The methods of `ArrayList` (or any Java class, interface, etc.) can always be found at the Oracle Docs, and should be your go-to reference for Java code. As much as tutorial sites like Open Mastery can help you grasp the concepts, the actual documentation of something is far more comprehensive. As a beginner, you might have trouble understanding some of the jargon in the documentation. Don't worry, that's normal! You should still expose yourself to it early on, and once you have a stronger grasp of Java, chances are you'll be browsing the Oracle Docs more often than you thought you would. [Here's a link to the docs for ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 
 :::info Important Tip
 One tip we repeat a lot here is: **Don't memorize code. Memorize what code can do**.

@@ -40,7 +40,7 @@ public class Learn {
 }
 ```
 
-We've highlighted the lines that you should pay attention to. Remember how we used `i` to iterate over an array? Since it's just a variable name, you can name it whatever you want. `i` is just convention. For **inner loops**, or loops inside loops, we need a different variable name, since they will be iterating differently.
+We've highlighted the lines that you should pay attention to. Remember how we used `i` to iterate over an array? Since it's just a variable name, you can name it whatever you want. `i` is just a convention. For **inner loops**, or loops inside loops, we need a different variable name, since they will iterate differently.
 
 Here's the output of the above code. See if you can understand what it.
 
@@ -73,7 +73,7 @@ The output tells us what the value of `i` and `j` are during each iteration. Ess
 
 ## For-each loop
 
-`for-each` syntax is a bit different when iterating over 2D arrays. Let's look at a very short example and break it down. Rather than declare then initialize an array, we'll do it on the same line, which makes our explanation easier to understand.
+`for-each` syntax is different when iterating over 2D arrays. Let's look at a quick example and break it down. Rather than declare then initialize an array, we'll do it on the same line, which makes our explanation easier to understand.
 
 ```java
 public class Learn {
