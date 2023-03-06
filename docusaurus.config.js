@@ -116,14 +116,13 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         gtag: {
-          trackingID: process.env.GTAG,
+          trackingID: "G-NQ15YL4Q9Z", // no point keeping this private, since it's always going to show in the html!
           anonymizeIP: true,
         },
         blog: {
           blogSidebarCount: 0,
         },
         docs: {
-          
           // id: 'product', // omitted => default instance
           path: "docs",
           routeBasePath: "docs",
