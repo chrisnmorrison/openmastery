@@ -18,7 +18,7 @@ export default function Home() {
         <p>
           As we expand Open Mastery, our primary goals are giving back, and
           transparency. Advertising not only supports our growth and
-          maintenance, but supports charity! We currently donate 90% of our
+          maintenance, but supports charity! We donate 90% of our
           proceeds to charity, and you can read about the charities we donate to
           on our <Link to="/about">About Us page</Link>.
         </p>

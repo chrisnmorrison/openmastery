@@ -6,7 +6,7 @@ function Row1() {
   return (
     <div className="container">
       <div className="row about-row-1">
-        <div className="col-9 col-xl-8">
+        <div className="col-12gog col-xl-8">
           <div className="about-bg-shape">
             {" "}
             <svg

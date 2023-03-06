@@ -98,6 +98,10 @@ const Wrapper = styled.section`
     margin: 1.2rem 0;
   }
 
+  .timeline-title, .timeline-description{
+    text-align: center;
+  }
+
   .card-media-wrapper {
     display: none;
   }

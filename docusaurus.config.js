@@ -115,6 +115,10 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
+        gtag: {
+          trackingID: process.env.GTAG,
+          anonymizeIP: true,
+        },
         blog: {
           blogSidebarCount: 0,
         },

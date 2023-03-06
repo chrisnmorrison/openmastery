@@ -55,7 +55,7 @@ const Wrapper = styled.section`
   }
 
   .about-card {
-    background-color: #f8fbff;
+    background-color: #ffefe353;
     padding: 40px;
     border-radius: 5px;
     min-height: 464px;
