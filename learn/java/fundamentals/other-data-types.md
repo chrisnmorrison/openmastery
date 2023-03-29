@@ -6,10 +6,6 @@ sidebar_position: 11
 
 ## Enumerated Types
 
-
-
 ## Bitwise Operators
 
 
-
-## What's next?

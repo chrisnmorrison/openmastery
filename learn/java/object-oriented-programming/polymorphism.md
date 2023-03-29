@@ -105,5 +105,3 @@ In this example, we have a superclass called `Animal`, which has a property `spe
 In the `Main` class, we create two `Animal` objects, one of type `Dog` and one of type `Cat`. When we call the `makeSound()` method on each object, Java uses polymorphism to call the appropriate version of the method for each object. So, even though the `animal1` object is of type `Dog`, when we call its `makeSound()` method, Java calls the `makeSound()` method defined in the `Dog` class, which prints out "The dog barks". Similarly, when we call the `makeSound()` method on the `animal2` object, Java calls the `makeSound()` method defined in the `Cat` class, which prints out "The cat meows".
 
 This is an example of class polymorphism because we're using the superclass `Animal` to define the `animal1` and `animal2` objects, but we're using subclasses `Dog` and `Cat` to provide the specific behavior for each object. By doing this, we can write code that is more flexible and reusable, and that can handle different types of animals without needing to know the exact type of each object at compile time.
-
-## What's next?

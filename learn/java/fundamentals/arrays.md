@@ -158,4 +158,3 @@ With this method, the program automatically calculates the size for you, given t
 
 This lesson covers the most basic array syntax, and in order to fully grasp the power of arrays, you'll need to know loops. Stick around, and we'll cover that soon.
 
-## What's next?

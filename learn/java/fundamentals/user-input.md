@@ -25,7 +25,7 @@ public class Learn {
 ```
 
 ```
-                            
+
 Please enter your name: John
 Hello John!              ^^ we typed in 'John' here
 ```
@@ -40,7 +40,7 @@ In this example, we entered the name 'John' into the console, saved it into a va
 
 ### nextLine() vs next()
 
-There's an important distinction to be made here. `nextLine()` reads an entire line that you entered into the console. For example, typing `Hello world` is one line. However, there is a method called `next()` that reads one item at a time, seperated by a delimiter. By default, the delimiter is a space. Using `next()` on `Hello world` will only read `Hello`, and you'll have to call `next()` again to read `world`.  
+There's an important distinction to be made here. `nextLine()` reads an entire line that you entered into the console. For example, typing `Hello world` is one line. However, there is a method called `next()` that reads one item at a time, seperated by a delimiter. By default, the delimiter is a space. Using `next()` on `Hello world` will only read `Hello`, and you'll have to call `next()` again to read `world`.
 
 ```java
 import java.util.Scanner;
@@ -81,7 +81,7 @@ Scanner in = new Scanner(System.in);
 
 What if you want to read a first and last name at once, for example?
 
-By passing in multiple different tokens separated by spaces, you can use the `next()` method to assign one token at a time. 
+By passing in multiple different tokens separated by spaces, you can use the `next()` method to assign one token at a time.
 
 This has significant use cases. Two of our favourite are: reading structured files, and reading command line arguments. These topics are advanced, so for now, let's quickly go over a very simple example that represents reading a file.
 
@@ -106,7 +106,7 @@ public class Learn {
 ```
 
 ```
-Enter your first name, last name, age, and email: 
+Enter your first name, last name, age, and email:
 John Smith 23 john@email.com
 Your line was: John Smith 23 john@email.com
 ```
@@ -114,5 +114,3 @@ Your line was: John Smith 23 john@email.com
 Note that we didn't actually read a file, we just entered the information seperated by spaces. File-reading is a bit more advanced, and there are other things that you should learn first.
 
 This example just illustrated how you can read multiple pieces of information at once.
-
-## What's next?

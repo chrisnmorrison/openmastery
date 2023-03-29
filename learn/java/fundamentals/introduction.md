@@ -57,5 +57,3 @@ Some of these concepts are hard to grasp (I'm looking at you, `public static voi
 I repeat - if you don't understand this now, **don't worry!** Continue learning, and you will gradually understand it. It's difficult to understand abstract concepts when you don't have the foundational knowledge to grasp it yet.
 
 Once you reach the beginner-intermediate stage, the above code will make sense.
-
-## What's next?

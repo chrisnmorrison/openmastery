@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Why do so many tutorials teach useless things instead of real world examples? 
+# Why do so many tutorials teach useless things instead of real world examples?
 
 Well, why would you ever need to write a `Dog` class with a `bark()` method?
 
@@ -10,7 +10,7 @@ Apart from dog-related applications where this might actually be useful, a lot o
 
 You're probably saying "But, I want to be job ready!" So, why learn these useless things instead of real, production applications?
 
-Production applications have many layers of complexity - testing, logging, very large classes, etc. And they aren't built this way because someone *just knew* how to write it.
+Production applications have many layers of complexity - testing, logging, very large classes, etc. And they aren't built this way because someone _just knew_ how to write it.
 
 Production applications are built based on years of experience, trial and error, domain knowledge, fixing strange bugs, customer needs, and so much more. You might be asking - "I want a real job, so how do i learn these things?"
 
@@ -28,8 +28,4 @@ As a beginner, it is 1000x more important to learn all of the foundational skill
 - if you're building a game, you're most likely going to be implementing OOP to it's fullest.
 - if you're using Java to build mobile apps, create chat or other networking programs, power Internet of Things devices, or anything of that sort, you'll get nowhere without knowing the core Java language, and basic programming concepts.
 
-Maybe you just want to jump into complicated stuff to create a nice programming portfolio, and show off your skills to employers. It's almost impossible to build anything *real* without first learning the building blocks. If you try to build a brick house without knowing how to lay bricks, you may end up building a house, but it won't be build properly. The fundamentals are always necessary, and by starting slow, you'll eventually have the core knowledge needed to build anything.
-
-
-## What's next?
-
+Maybe you just want to jump into complicated stuff to create a nice programming portfolio, and show off your skills to employers. It's almost impossible to build anything _real_ without first learning the building blocks. If you try to build a brick house without knowing how to lay bricks, you may end up building a house, but it won't be build properly. The fundamentals are always necessary, and by starting slow, you'll eventually have the core knowledge needed to build anything.

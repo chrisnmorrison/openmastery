@@ -7,7 +7,7 @@ sidebar_position: 8
 The `BufferedReader` and `BufferedWriter` classes are part of the Java I/O (Input/Output) API, which provides a standard way to read and write data in Java. The Java I/O API comprises many classes that can read and write data in different formats, including bytes, characters, and objects. The `BufferedReader` and `BufferedWriter` classes are specifically designed for reading and writing characters efficiently, by buffering the data in memory.
 
 :::info Why another I/O class?
-The code for these classes are a bit more verbose, so why use them? These classes are suitable when reading large amounts of data, and will reduce the number of I/O operations performed. 
+The code for these classes are a bit more verbose, so why use them? These classes are suitable when reading large amounts of data, and will reduce the number of I/O operations performed.
 
 For simpler file reads, such as reading small text files, the basic I/O classes discussed in previous tutorials are often more than suitable.
 :::
@@ -19,7 +19,6 @@ The `BufferedReader` class is used to read characters from a file efficiently, b
 ## Reading from a File
 
 To read from a file using `BufferedReader`, we first need to create an instance of the `BufferedReader` class, and pass an instance of a `Reader` class that is connected to the input source (e.g., a file) as an argument. We can use the FileReader class to create a Reader instance that is connected to a file, as shown in the example below:
-
 
 ```java
 import java.io.BufferedReader;
@@ -91,5 +90,3 @@ One important thing to note about `BufferedWriter` is that it needs to be closed
 `BufferedReader` is a character stream class that reads text from a character-input stream with buffering to provide efficient reading of characters, while `BufferedWriter` is a character stream class that writes text to a character-output stream with buffering to provide efficient writing of characters. Both classes can be used to improve the performance of reading and writing large amounts of data to and from files or streams, making them essential tools for Java developers.
 
 The use of `BufferedReader` and `BufferedWriter` can significantly improve the efficiency of handling input and output operations in Java. By reducing the number of reads and writes made to a file or stream, developers can achieve better performance and optimize their application's efficiency. Thus, these classes are essential for developers who need to handle large amounts of data efficiently.
-
-## What's next?

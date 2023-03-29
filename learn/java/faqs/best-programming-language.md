@@ -12,6 +12,3 @@ There is no one-size-fits-all answer to the question of which programming langua
 4. Community support: Some programming languages have larger and more active communities than others, which can be helpful when learning and troubleshooting. Languages like Python, JavaScript, and Java have large and active communities with lots of online resources and tutorials.
 
 Ultimately, the best programming language to learn is the one that aligns with your interests and goals. Don't be afraid to try out a few different languages to see what you enjoy and what works best for you.
-
-## What's next?
-

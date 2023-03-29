@@ -112,5 +112,3 @@ public class FileReader {
 In this example, we first create a `File` object that represents the file we want to read. Then, we create an ArrayList of Student objects to store the data from the file. We use a while loop to read each line from the file, checking that there is another line using the `hasNextLine()` method and then reading the line using the `nextLine()` method. We split the line using the `split()` method and assign the values to variables. Finally, we create a `Student` object using these variables and add it to the `ArrayList`.
 
 Note that we wrap the code that reads from the file in a try-catch block to catch the `FileNotFoundException` that might be thrown if the file is not found. We also close the scanner in a finally block to ensure that the resources are released even if an exception occurs. After reading the file and creating the objects, we simply loop through the ArrayList and print the values to the console.
-
-## What's next?

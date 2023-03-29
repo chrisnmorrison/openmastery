@@ -4,7 +4,7 @@ sidebar_position: 4.3
 
 # Are Tech interviews just coding questions?
 
-Coding is just one part of the job. Your potential employer wants to know that you can work well with others. Despite the stereotype that programmers lack people-skills, programming jobs involve a huge amount of teamwork and collaboration. Yes, your employer wants to know that you can work with others. Code can be learned much easier than social aptitude, so if you come across as someone who won't work well with others, your code aptitude won't matter. 
+Coding is just one part of the job. Your potential employer wants to know that you can work well with others. Despite the stereotype that programmers lack people-skills, programming jobs involve a huge amount of teamwork and collaboration. Yes, your employer wants to know that you can work with others. Code can be learned much easier than social aptitude, so if you come across as someone who won't work well with others, your code aptitude won't matter.
 
 Preparing for soft skill questions in interviews involves identifying the key qualities and behaviors that the company may be looking for in a candidate. Here are some tips to help you prepare for soft skill questions:
 
@@ -16,6 +16,3 @@ Preparing for soft skill questions in interviews involves identifying the key qu
 6. Ask questions: Ask thoughtful questions about the company culture and work environment. This can show that you are interested in the company and invested in finding the right fit.
 
 Remember that soft skills are just as important as technical skills in many positions. Preparing for soft skill questions can help you demonstrate that you have the qualities and behaviors that the company is looking for in a candidate.
-
-## What's next?
-

@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# If, Else, and Control Statements 
+# If, Else, and Control Statements
 
 Computers are just rocks that we made smart. They can't make decisions on their own; instead, we use code to instruct them to make decisions!
 
@@ -11,7 +11,7 @@ How computers make decisions is quite an advanced topic, and one that we won't c
 In Java, decisions are made using conditional statements. Conditional statements only run if the given condition is true, and take the following form:
 
 ```
-if (condition) { 
+if (condition) {
     perform one or more actions
     }
 ```
@@ -137,5 +137,3 @@ public class Learn {
 A boolean can only be true or false, so we don't need to write the second condition. If the first condition fails, then the second condition is always going to pass.
 
 This lesson contained very basic examples to illustrate if-else conditionals. In the next lesson, we'll look at some more real-world type examples of conditionals!
-
-## What's next?

@@ -101,5 +101,3 @@ In this example, we use the `Paths.get()` method to create `Path` objects for th
 Note that we catch the IOException that might be thrown if there is an error while reading or writing the file and print the stack trace to help us debug the problem.
 
 Using the Files class can simplify file I/O operations and reduce the amount of code you need to write. However, note that it requires a minimum version of Java 11. If you're working with an earlier version of Java, you'll need to use the traditional I/O classes we discussed earlier.
-
-## What's next?

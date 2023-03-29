@@ -31,7 +31,7 @@ public class Learn {
     public static void main(String[] args) {
         boolean hello = 3 == 7; // is 3 equal to 7?
                        // ^^ TWO equals signs are here! The font we use
-                       // combines them into a single, long symbol. 
+                       // combines them into a single, long symbol.
         boolean glorious = 6 != 6; // is 6 not equal to 6?
         boolean world = "hello" == "hello"; //do the two strings equal each other?
 
@@ -46,16 +46,15 @@ As you can see, we are comparing values. The program figures out the response to
 
 :::danger Don't use the equality operator (`==`) with Strings!
 
-You'll get false negatives on some occasions. Instead of `==`, use `StringOne.equals(StringTwo)`. 
+You'll get false negatives on some occasions. Instead of `==`, use `StringOne.equals(StringTwo)`.
 
 We'll elaborate in the next lesson.
 
 :::
 
-
 ## > , >= , < , <=
 
-These symbols likely look familiar from math class. In the order above, these perform the following comparisons: **greater than**, **greater than or equal**, **less than**, **less than or equal**. 
+These symbols likely look familiar from math class. In the order above, these perform the following comparisons: **greater than**, **greater than or equal**, **less than**, **less than or equal**.
 
 ```java
 public class Learn {
@@ -84,7 +83,7 @@ public class Learn {
     public static void main(String[] args) {
         boolean one = 6 < 5;
         boolean two = !(6 < 5);
-        
+
         boolean three = true;
         three = !three;
 
@@ -102,7 +101,7 @@ Keep in mind that these simple examples may not fully describe the true power of
 
 ## && and ||
 
-These operators are used to chain different comparisons. 
+These operators are used to chain different comparisons.
 
 `&&` means AND. All AND conditions must be true for the result to be true. Use AND if you need to check if every condition is true.
 
@@ -134,5 +133,3 @@ You may or may not have noticed, but there's an extra set of brackets around all
 Like we mentioned, brackets aren't necessary in operations like this, but the extra brackets are there to outline operator precedence in Java. Say you have an operation that has over 20 operators, like `++`, `||`, `!(false)`, and `<=` somehow mixed in together in a confusing jumble of code. How does Java decode the jumble and reach a solution?
 
 Here is [an excellent writeup of operator precedence in Java](https://introcs.cs.princeton.edu/java/11precedence/), that we highly suggest you read. No need to memorize the table, but be aware of how it works. If you write a jumble of operators and you aren't getting the desired outcome, operator precedence may explain it.
-
-## What's next?

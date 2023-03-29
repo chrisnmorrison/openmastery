@@ -58,7 +58,7 @@ Like we said, avoid `==` **with Strings** altogether. You can use it for other d
 
 We saw that `.equals()` is the go-to for String comparisons. Depending on your use-case of comparisons, you may want to just compare words, and not have to worry about case sensitivity. For example, using `.equals()` on `"Hello"` and `"hello"` returns false. This is because one is capitalized and one is not, therefore they aren't equal.
 
-If you need to compare Strings but want to ignore case sensitivity, you can use `.equalsIgnoreCase()`. For example, 
+If you need to compare Strings but want to ignore case sensitivity, you can use `.equalsIgnoreCase()`. For example,
 
 ```java
 public class Learn {
@@ -76,5 +76,3 @@ public class Learn {
 ```
 
 Since we are ignoring case, this prints `Equal!`.
-
-## What's next?

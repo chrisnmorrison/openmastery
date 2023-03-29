@@ -10,7 +10,7 @@ This question has an easy answer, and a slightly more intricate answer.
 
 Beginners should closely follow tutorials, and focus on understanding the concepts behind programming, and Computer Science in general. After learning the basics, you should stop following tutorials and start writing your own code. Literally, anything on your own. This helps cement your programming knowledge.
 
-Most ideal scenario - **learn a concept, then immediately create something with it**. For example, if you learn about the four pillars of object oriented programming, write some *original* code to cement the concepts. Don't just copy a tutorial, but if you get stuck, googling is allowed and encouraged.
+Most ideal scenario - **learn a concept, then immediately create something with it**. For example, if you learn about the four pillars of object oriented programming, write some _original_ code to cement the concepts. Don't just copy a tutorial, but if you get stuck, googling is allowed and encouraged.
 
 Remember - programming isn't about remembering code. It's about remembering concepts and understanding what code is capable of. Googling is 100% encouraged, as well as reading documentation when you are stuck. This is a great exercise in resourcefulness and research, and this is what everyone in industry does. A good programmer is **resourceful** more than anything.
 
@@ -50,5 +50,4 @@ The good programmers learned that there's always a solution, no matter how hopel
 99.9% of the time, someone else has had the same problem, and there is a solution online. Especially for common beginner problems.
 :::
 
-## What's next?
-
+##

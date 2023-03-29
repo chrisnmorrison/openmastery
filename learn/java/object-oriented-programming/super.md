@@ -49,5 +49,3 @@ The `Animal` class has a constructor that takes a `name` argument and a `speak()
 The `Dog` class also has a `printInfo()` method that prints the `name` and `breed` variables. In the `printInfo()` method, we use the `super` keyword to access the `name` variable of the `Animal` class.
 
 By using `super` appropriately, you can call constructors of the superclass, access methods and variables of the superclass, and customize the behavior of your subclass.
-
-## What's next?

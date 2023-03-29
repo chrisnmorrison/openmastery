@@ -19,6 +19,3 @@ Here's a simplified explanation of how code works within a computer:
 5. Input and output: Code often needs to interact with the outside world by receiving input and producing output. Input might come from a keyboard, mouse, or other input device, while output might be displayed on a screen, printed on paper, or sent over a network connection.
 6. Error handling: Code must be prepared to handle errors and exceptions that might occur during execution. These might include invalid inputs, network failures, or memory errors. Code can use techniques such as exception handling and error codes to detect and recover from these errors.
 7. Termination: Finally, the code will terminate once it has completed its task or encountered an error. At this point, any resources that were allocated during execution must be released, and any output must be finalized and saved.
-
-## What's next?
-

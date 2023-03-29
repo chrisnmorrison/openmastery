@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Creating Objects
 
-Let's look at the `Customer` class again. A class is like a blueprint, while an object is a "thing" of the class, created with code. 
+Let's look at the `Customer` class again. A class is like a blueprint, while an object is a "thing" of the class, created with code.
 
 ## How are classes and objects related?
 
@@ -16,7 +16,7 @@ If a class has a different name than the file that contains it, it can become co
 
 In general, it is recommended to have one class per file, and to name the file after the class it contains. This makes it easier to navigate and maintain the code.
 
-**An objects is something created from a class, and exists in memory. An object is like saying, "I want to create something out of the class blueprint, and give it properties and methods.** If you have an `Employee` class, you store the class in a single file, `Employee.java`. But, you can create as many object from this Employee class as you want. Say you are using a Java-based Employee Management Application. You have it connected to an SQL database, and there are 50 employees stored in the database. Your Java program can pull this data from the database and create objects from it. If you add, remove, or modify employees, you don't need to re-write your Java code. It uses the classes to create these objects in memory, and assign different state (data fields) and behaviour (methods)! 
+**An objects is something created from a class, and exists in memory. An object is like saying, "I want to create something out of the class blueprint, and give it properties and methods.** If you have an `Employee` class, you store the class in a single file, `Employee.java`. But, you can create as many object from this Employee class as you want. Say you are using a Java-based Employee Management Application. You have it connected to an SQL database, and there are 50 employees stored in the database. Your Java program can pull this data from the database and create objects from it. If you add, remove, or modify employees, you don't need to re-write your Java code. It uses the classes to create these objects in memory, and assign different state (data fields) and behaviour (methods)!
 
 So, a class is a reusable blueprint that defines state and behaviour, and an object is something created from this blueprint, that exists in program memory.
 
@@ -63,11 +63,13 @@ public class Customer {
     }
 }
 ```
+
 2. Create an instance of the customer class: To create an instance of the customer class, you need to use the new keyword followed by the class name and a set of parentheses. Here's an example:
 
 ```java
 Customer customer = new Customer("John Doe", "123 Main St", "555-555-1212");
 ```
+
 This creates a new customer object with the specified name, address, and phone number.
 
 3. Access the properties and methods of the customer object: Once you have created a customer object, you can access its properties and methods using the dot notation. Here are some examples:
@@ -77,6 +79,5 @@ String name = customer.getName(); // Gets the customer's name
 customer.setAddress("456 Oak St"); // Sets the customer's address
 System.out.println(customer.getPhone()); // Prints the customer's phone number
 ```
-These examples demonstrate how to get and set the customer's properties, as well as how to call a method on the customer object.
 
-## What's next?
+These examples demonstrate how to get and set the customer's properties, as well as how to call a method on the customer object.

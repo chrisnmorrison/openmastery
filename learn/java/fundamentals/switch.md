@@ -32,7 +32,7 @@ The syntax can seem weird at first, but let's break it down piece by piece.
 `default` runs if no cases are matched. Think of it as equivalent to `else`.
 
 :::tip
-A key difference between `if-else` and `switch` is that if-else can take more complex conditions, while `switch` can only take specific cases. 
+A key difference between `if-else` and `switch` is that if-else can take more complex conditions, while `switch` can only take specific cases.
 
 For example, you can use `if (myVar >= 3 && myVar <= 100)` in an `if`/`else` block.
 
@@ -138,5 +138,3 @@ public class Learn {
     }
 }
 ```
-
-## What's next?

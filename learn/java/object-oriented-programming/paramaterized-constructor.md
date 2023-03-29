@@ -22,6 +22,7 @@ public class Person {
     // Getter and setter methods omitted for brevity
 }
 ```
+
 In this example, the Person class has a parameterized constructor that takes a name and an age as arguments. When the constructor is called, it initializes the name and age instance variables with the values passed to the constructor.
 
 Here's an example of how to create a Person object using the parameterized constructor:
@@ -33,5 +34,3 @@ Person person = new Person("John", 30);
 In this example, a new Person object is created with the name "John" and the age 30, based on the arguments passed to the constructor.
 
 Parameterized constructors are useful when you need to create objects with specific values for their instance variables. They allow you to initialize instance variables with specific values based on the arguments passed to the constructor, making it easier to create and work with objects of a class.
-
-## What's next?

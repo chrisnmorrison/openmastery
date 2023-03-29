@@ -21,7 +21,7 @@ public class Dog extends Animal {
     public void makeSound() {
         System.out.println("The dog barks");
     }
-    
+
     public void fetch() {
         System.out.println("The dog fetches a ball");
     }
@@ -31,7 +31,7 @@ public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
         animal.makeSound(); // Output: "The animal makes a sound"
-        
+
         Dog dog = new Dog();
         dog.makeSound(); // Output: "The dog barks"
         dog.fetch(); // Output: "The dog fetches a ball"
@@ -48,5 +48,3 @@ Try to think of other possible Inheritance scenarios. What are some classes that
 - `Developer`, `TeamLeader`, and `Manager` could inherit from an `Employee` parent class
 - `HondaCivic` could extend from a `Car` parent class
 - `Poodle` could extend from `Dog`. Dog could also extend from `Animal`!
-
-## What's next?

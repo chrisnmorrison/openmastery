@@ -73,5 +73,3 @@ public class Learn {
     }
 }
 ```
-
-## What's next?

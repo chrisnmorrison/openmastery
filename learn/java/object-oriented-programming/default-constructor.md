@@ -27,5 +27,3 @@ In this example, the Person class has a default constructor that takes no argume
 If you do not need to initialize any instance variables or perform any other setup when creating an object of a class, you can rely on the default constructor provided by Java. However, if you need to initialize instance variables with specific values or perform any other setup when creating an object, you should define a parameterized constructor that takes the necessary arguments.
 
 Note that in Java, constructors cannot be overridden, only overloaded. This means that you can have multiple constructors with different parameters in a single class, but you cannot define a new constructor with the same signature as an existing constructor in a subclass.
-
-## What's next?

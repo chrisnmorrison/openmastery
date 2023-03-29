@@ -77,5 +77,3 @@ public double add(double num1, double num2) {
 In this example, there are two add methods with different parameter lists (one takes two ints, the other takes two doubles). This allows you to use the same method name for different types of data.
 
 Methods are an essential part of Java programming. They allow you to organize your code and make it easier to understand and reuse. When creating methods, be sure to follow Java naming conventions and use descriptive names. And don't be afraid to use method overloading to create more flexible and versatile code!
-
-## What's next?

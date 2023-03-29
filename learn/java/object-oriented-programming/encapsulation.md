@@ -97,5 +97,3 @@ The main purpose of making instance variables `private` is to encapsulate the da
 Getter and setter methods provide a **controlled** way for external code to access or modify the private instance variables. They allow you to define how the values of the instance variables are accessed and modified. For example, you can add validation logic to ensure that the value being set is within a certain range, or you can perform additional actions such as logging how your `private` field was accessed, or updating dependent variables.
 
 The most important takeaway is that getters and setters allow you read and write to `private` fields, without providing direct access. The code examples above show the simplest implementation, but you, the programmer, **can implement this controlled access however you like**.
-
-## What's next?

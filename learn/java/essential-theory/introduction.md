@@ -27,6 +27,3 @@ Over the years, Java has continued to evolve and improve. In 2004, Sun Microsyst
 Today, millions of developers around the world use Java, and it is a key technology behind many of the world's most popular software systems. Java is used to build everything from desktop applications to mobile apps, web services, and enterprise systems.
 
 Java has come a long way since its inception in the early 1990s. It has evolved into a powerful and versatile programming language that is used by developers around the world to build software that runs on a wide range of platforms. With its rich set of features and ongoing support from the developer community, Java is likely to remain a popular programming language for years to come.
-
-## What's next?
-

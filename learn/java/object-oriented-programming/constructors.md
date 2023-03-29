@@ -20,7 +20,7 @@ A default constructor is a constructor that takes no arguments. If you do not ex
 public class Person {
     private String name;
     private int age;
-    
+
     public Person() {
         // This is a default constructor
     }
@@ -36,7 +36,7 @@ public class Person {
     private String name;
     private int age;
     private boolean isHuman;
-    
+
     public Person() {
         this.isHuman = true;
     }
@@ -52,7 +52,7 @@ A parameterized constructor is a constructor that takes one or more arguments. I
 public class Person {
     private String name;
     private int age;
-    
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -69,7 +69,7 @@ A copy constructor is a constructor that takes an object of the same class and c
 public class Person {
     private String name;
     private int age;
-    
+
     public Person(Person person) {
         this.name = person.name;
         this.age = person.age;
@@ -79,5 +79,3 @@ public class Person {
 ```
 
 Note that in Java, constructors cannot be overridden, only overloaded. This means that you can have multiple constructors with different parameters in a single class, but you cannot define a new constructor with the same signature as an existing constructor in a subclass.
-
-## What's next?

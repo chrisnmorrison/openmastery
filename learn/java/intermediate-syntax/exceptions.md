@@ -54,7 +54,7 @@ public class Learn {
          } catch (Exception e) { // you can catch generic exceptions, and print the error to the console
             System.err.println(e);
          }
-        
+
          finally {
             // close the file resource
             file.close();
@@ -71,5 +71,3 @@ Here are some best practices to keep in mind when implementing exception handlin
 
 1. Always handle exceptions explicitly. Never ignore exceptions, as doing so can lead to unpredictable behavior and potential security issues.
 2. Catch only the exceptions that you know how to handle. Catching a generic exception type like `Exception` is not recommendeded, as it can make it difficult to pinpoint the problem. It's like saying "I think this will cause a problem, but I don't know why". That's why you test your application, see what exceptions it may cause, and plan accordingly!
-
-## What's next?

@@ -17,7 +17,7 @@ But most times, it's easier and more intuitive to use an array that resizes auto
 Say hello to `ArrayList`, a built-in Java class that implements the `List` interface. In its simplest form, `ArrayList` can be treated as an array that resizes automatically based on 1) your code, and 2) what actually happens during runtime. If you think that there's even the slightest chance that your array will increase beyond its size, then you should use `ArrayList` instead (or a different implementation of `List`. But for now, let's just cover the simplest one).
 
 :::tip Important Note about Data Types!
-With `arrays`, we can use any data type: primitive or reference. With `ArrayList`, we **must use reference types**. So, how do we use `int` or `double`? We use `Wrapper` classes, which are classes made to use primitive data types as objects / reference types. To use them, simply capitalize the first letter, and write out the entire word if it's shortened as a primitive. `int` becomes `Integer`, `char` becomes `Character`, `double` becomes `Double`, and so on. 
+With `arrays`, we can use any data type: primitive or reference. With `ArrayList`, we **must use reference types**. So, how do we use `int` or `double`? We use `Wrapper` classes, which are classes made to use primitive data types as objects / reference types. To use them, simply capitalize the first letter, and write out the entire word if it's shortened as a primitive. `int` becomes `Integer`, `char` becomes `Character`, `double` becomes `Double`, and so on.
 
 This is related to Autoboxing, Boxing, and Unboxing. We'll cover that in a later lesson.
 :::
@@ -100,6 +100,7 @@ myList.add("Apple");
 myList.add("Banana");
 myList.add("Cherry");
 ```
+
 `remove()`: Removes the specified element from the ArrayList.
 
 ```java
@@ -112,6 +113,7 @@ myList.remove("Banana");
 // get the element at index zero - aka the first element
 String fruit = myList.get(0);
 ```
+
 `size()`: Returns the number of elements in the ArrayList.
 
 ```java
@@ -152,7 +154,7 @@ So, you've created an ArrayList and added items to it. How do you print it?
 System.out.println(myArrayList);
 ```
 
-No, this does not work. ArrayLists are objects, and objects (aka refereence types) are stored differently than primitive types, which are easy to print. Primitives are stored on the stack, and reference types are stored on the heap. Reference type variables store a memory address to the object on the heap, rather than the actual object. So, calling `System.out.println()` on an object prints the memory address of the object.. not very helpful! 
+No, this does not work. ArrayLists are objects, and objects (aka refereence types) are stored differently than primitive types, which are easy to print. Primitives are stored on the stack, and reference types are stored on the heap. Reference type variables store a memory address to the object on the heap, rather than the actual object. So, calling `System.out.println()` on an object prints the memory address of the object.. not very helpful!
 
 An extra step is necessary to print an ArrayList, or any object. But, keep in mind that the method may differ depending on the type of object. The following works for ArrayLists that contain boxed primitive data, or `Strings`.
 
@@ -194,5 +196,3 @@ Instead, expose yourself to the concepts, and practice writing them. For example
 
 If you need to memorize code for a test, that's different. In industry, Googling is extremely common and encouraged.
 :::
-
-## What's next?

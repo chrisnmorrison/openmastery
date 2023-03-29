@@ -63,5 +63,3 @@ This looks confusing, so let's break it down. We used a different method called 
 
 ![Java's printf](./../../../static/img/printf.png "Table of Java printf options")
 _Image obtained here: https://runs-on-coffee.blogspot.com/2013/03/14-formatting-output.html_
-
-## What's next?

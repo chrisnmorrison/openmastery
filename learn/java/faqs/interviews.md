@@ -22,6 +22,3 @@ Here are some tips to help you prepare for coding interviews:
 - Be familiar with your preferred language and tools: Make sure you are familiar with your preferred programming language and the tools you may use in the interview, such as an IDE or text editor.
 
 Remember to take breaks and not to burn yourself out. It's important to have a good balance of practice and rest to maintain your focus and energy during the interview process.
-
-## What's next?
-

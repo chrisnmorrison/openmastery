@@ -30,9 +30,8 @@ Java has maintained backward compatibility since its inception, which means that
 
 Java's popularity in enterprise applications has played a significant role in its success. Many large corporations use Java for their mission-critical applications, including banks, insurance companies, and government agencies. Java's scalability, reliability, and security features make it an ideal choice for these applications.
 
-## Summary 
+## Summary
 
 These features make Java an ideal language for developing complex, cross-platform applications that can be maintained over many years. As the software industry continues to evolve, it's clear that Java will continue to play a critical role in powering the applications that drive our world.
 
-## What's next?
-
+##

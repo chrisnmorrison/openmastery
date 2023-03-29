@@ -57,12 +57,8 @@ arrayName[index] = value;
 Arrays in Java have a fixed size, which means that once you create an array, you cannot change its size. However, you can create a new array with a different size and copy the elements of the original array into the new array.
 
 Java also provides some useful methods for working with arrays, such as:
- 
+
 - `Arrays.toString(myArray)`, which returns a string representation of the array
 - `Arrays.sort(myArray)`, which sorts the elements of an array in ascending order.
 
 Arrays are a fundamental data structure in Java and are used extensively in Java programs. They are commonly used to store collections of data, such as lists of numbers or strings, and are also used in algorithms and data structures such as stacks, queues, and hash tables.
-
-
-
-## What's next?

@@ -35,5 +35,3 @@ Person person2 = new Person(person1); // Creates a new Person object with the sa
 In this example, a new Person object is created using the copy constructor and passed person1 object. This creates a new Person object with the same values for name and age as person1.
 
 Copy constructors are useful when you need to create a new object that is a copy of an existing object, while also allowing for any necessary modifications to be made to the copied object. They are especially useful when working with immutable objects or objects that are expensive to create.
-
-## What's next?

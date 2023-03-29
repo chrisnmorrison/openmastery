@@ -43,8 +43,6 @@ int num = numObject.intValue(); // unboxing
 
 In this example, the value of the Integer object numObject is extracted as a primitive int value through unboxing.
 
-Note that Java compiler automatically performs autoboxing and unboxing, we explicitly perform boxing using a wrapper class constructor or factory method. Also, autoboxing and unboxing can lead to performance overhead and should be used with caution in performance-critical code. 
+Note that Java compiler automatically performs autoboxing and unboxing, we explicitly perform boxing using a wrapper class constructor or factory method. Also, autoboxing and unboxing can lead to performance overhead and should be used with caution in performance-critical code.
 
 You should use boxing and unboxing if there is a reason to convert a primitive to an Object, or vice versa. Otherwise, there is no need.
-
-## What's next?

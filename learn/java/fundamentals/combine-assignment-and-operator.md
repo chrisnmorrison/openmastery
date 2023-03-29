@@ -33,7 +33,7 @@ i *= 4;
 i /= 3;
 ```
 
-For these examples, it may or may not matter what you write. Either option is easy to read. 
+For these examples, it may or may not matter what you write. Either option is easy to read.
 
 Just imagine you were scanning a method that had 1000 lines of code. Wouldn't it be much easier to read a line of code that contains half of the characters? That would certainly help you decipher the method faster.
 
@@ -47,6 +47,3 @@ i += 2 *= 4; // ERROR
 i += 2;
 i *= 4;
 ```
-
-## What's next?
-

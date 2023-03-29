@@ -42,7 +42,7 @@ int myNum = 2;
 ++myNum; // = 3
 ```
 
-This does the same thing, right? Sometimes, yes. In other cases, no. If you're just incrementing/decrementing a variable on one line, it does the same thing. 
+This does the same thing, right? Sometimes, yes. In other cases, no. If you're just incrementing/decrementing a variable on one line, it does the same thing.
 
 But, things get tricky when you increment/decrement within expressions (i.e. more than one calculation). `++myNum` performs the addition **before** using the value in a calculation, and `--myNum` uses the **initial** value of `myNum` in the calculation, then adds 1.
 
@@ -62,7 +62,7 @@ Different results! Why was `one` higher? Because the value of `x` was incremente
 
 If you're confused by this, don't worry too much about it. Good developers don't write confusing code like this. Good developers write code that can easily be deciphered.
 
-If you're in college/university, you may have to complete labs and assignments with confusing postfix/prefix problems. 
+If you're in college/university, you may have to complete labs and assignments with confusing postfix/prefix problems.
 
 For example, what does this print?
 
@@ -82,15 +82,12 @@ int y = 13;
 // int confusing = -4 + x++ - --y + --x;
 
 int z = -4;
-z += x++ 
+z += x++
 // add 61 to z, then increment x by 1 to equal 62 .. z = 57
-z -= --y 
+z -= --y
 // decrement y by 1 to equal 12, then subtract 12 from 57 .. z = 45
-z += --x 
+z += --x
 // decrement x by 1 to equal 61, then add 61 to 45 .. z = 106
 ```
 
 You will never (well, extremely rarely) see things like this in real world coding. Think of these types of expressions as a problem-solving test, rather than a real world solution. If your coworker has to read and/or edit your code, they should be able to figure out your code easily. Avoid cryptic code!
-
-## What's next?
-

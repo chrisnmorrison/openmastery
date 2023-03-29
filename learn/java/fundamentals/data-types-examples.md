@@ -8,7 +8,7 @@ We've looked at very basic examples of variables and datatypes, so let's look at
 
 ```java
 
-// I want to create a lot of variables at once! 
+// I want to create a lot of variables at once!
 int i,j,k;
 
 //I want to initialize them too!
@@ -27,6 +27,3 @@ final double interestRate = 2.1;
 //now, this does not work
 interestRate = 0.1;
 ```
-
-## What's next?
-

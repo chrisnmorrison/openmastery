@@ -39,5 +39,3 @@ Byte stream is faster than character stream because it does not perform any enco
 ## Summary
 
 Both byte stream and character stream have their own advantages and disadvantages. Byte stream is used for handling raw binary data, whereas character stream is used for handling text data. Byte stream is faster than character stream, but character stream can handle special characters and perform encoding and decoding of data. Choosing between byte stream and character stream depends on the type of data you are working with and the requirements of your application.
-
-## What's next?

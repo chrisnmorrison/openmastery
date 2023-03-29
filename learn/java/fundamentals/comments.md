@@ -11,7 +11,7 @@ int myNum = 5; //This is a comment, and this comment does nothing
 
 /*
 This is a multi-line comment.
-If you need to document something, or write a long description, 
+If you need to document something, or write a long description,
 you'll probably use a multi-line comment
 */
 public int complicatedFunction(){
@@ -19,7 +19,7 @@ public int complicatedFunction(){
 }
 
 // Alternatively, you can just write a
-// single line comment on 
+// single line comment on
 //each line
 
 /**
@@ -39,10 +39,10 @@ However, you should still comment your code as a beginner, no matter how simple 
 
 - You're writing down what your code does, and this helps cement your coding knowledge
 - If you come back to your code later, your comments will help remind you what your code does.
-- You'll get into the habit of documenting your code. In the real world, only bad programmers don't document their code. 
+- You'll get into the habit of documenting your code. In the real world, only bad programmers don't document their code.
 - Comments help other developers understand your code without having to use a great deal of brainpower reading it line by line
 
-Another cool use of comments (that's often under-used in the real world) is using code to drive and prioritize tasks. You can create your own system of comments that'll help you work through big projects. 
+Another cool use of comments (that's often under-used in the real world) is using code to drive and prioritize tasks. You can create your own system of comments that'll help you work through big projects.
 
 ```java
 //  TODO: Fix this error
@@ -63,6 +63,3 @@ public void buggyMethod(){
 ```
 
 We haven't covered methods yet, so if you don't understand them, just focus on the comments. If you're working on a project with 1 million lines of code, having comments like this can help speed up your workflow. For example, you could search for all `TODO` instances with `CTRL+F`.
-
-## What's next?
-

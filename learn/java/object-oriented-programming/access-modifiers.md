@@ -22,19 +22,19 @@ public class ExampleClass {
     private int privateVariable;
     protected int protectedVariable;
     int defaultVariable;
-    
+
     public void publicMethod() {
         // Code here
     }
-    
+
     private void privateMethod() {
         // Code here
     }
-    
+
     protected void protectedMethod() {
         // Code here
     }
-    
+
     void defaultMethod() {
         // Code here
     }
@@ -67,5 +67,3 @@ public class ExampleOtherClass {
 In this example, we define a class `ExampleClass` with four different types of member variables (public, private, protected, and default) and four different types of member methods (public, private, protected, and default). We then define a subclass of `ExampleClass` called `ExampleSubclass`, which can access the protected and default members of ExampleClass. Finally, we define another class `ExampleOtherClass`, which can only access the public and default members of ExampleClass because it is not a subclass of `ExampleClass`, but is in the same package.
 
 Access modifiers play a crucial role in encapsulation, which is the process of hiding the implementation details of a class from other classes. By controlling the access to methods and variables, developers can ensure that their code is used correctly and securely, and they can prevent unwanted changes to the implementation details of a class.
-
-## What's next?

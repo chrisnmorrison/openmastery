@@ -54,5 +54,3 @@ public class Learn {
 
 Accessing array elements this way is tedious. Luckily, there's a better way to do this with `for` loops. Once we reach that topic, we'll provide you with examples of how to access arrays without having to type `arr[x][y]` out for each element.
 
-
-## What's next?

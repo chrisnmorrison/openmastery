@@ -39,5 +39,3 @@ In this example, `INTEREST_RATE` will not be able to change during program execu
 - Improving code readability: When you use the final keyword in your code, you are explicitly indicating to other developers that a variable, method, or class should not be changed. This can make your code easier to understand and maintain, especially for large or complex projects.
 
 By using final appropriately, you can ensure that your variables, methods, and classes behave exactly as intended, and help prevent errors and bugs in your code.
-
-## What's next?

@@ -83,11 +83,9 @@ public class Learn {
 
 ```
 
- ```java live
- String hello = "4";
- System.out.println("Hello world");
- ```
+```java live
+String hello = "4";
+System.out.println("Hello world");
+```
 
- --->
-
-## What's next?
+--->

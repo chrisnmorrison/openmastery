@@ -64,7 +64,7 @@ Polymorphism is a powerful tool for code reuse and modularity, but it should be 
 
 In Java, a class is a **blueprint** for creating objects that has both state and behavior.
 
-An object is an **instance** of a class that has both state and behavior. 
+An object is an **instance** of a class that has both state and behavior.
 
 You use classes to define something that models a real-world thing - an animal, vehicle, anything. This allows you to define what state and behaviour your class has, and create objects that also have state and behaviour. For example, a `Vehicle` class may have a `make` and `model` state, or a `currentSpeed` among other things, such as an `accelerate` or `turnOn` behaviour. You use the class to create objects such as a `HondaCivic` object.
 
@@ -72,11 +72,9 @@ These states and behaviours can apply to more than a `HondaCivic` object. They c
 
 Another example: a customer may have the following characteristics:
 
- - States: name, address, phone number, Gold Member, etc.
- - Behaviour: set address, get address, display info, upgrade to Platinum Member, 
+- States: name, address, phone number, Gold Member, etc.
+- Behaviour: set address, get address, display info, upgrade to Platinum Member,
 
 A class defines the structure and behavior of an object by specifying its data fields (state) and methods (behavior). Before we can create objects in Java, we must first define a class that specifies the structure and behavior of those objects.
 
 Okay, enough repeating ourselves. OOP is an abstract concept, so let's look at a few examples to cement these ideas.
-
-## What's next?

@@ -132,5 +132,3 @@ public class SavingsAccount {
     // do something
   }
 ```
-
-## What's next?

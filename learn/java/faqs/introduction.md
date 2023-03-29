@@ -6,9 +6,9 @@ sidebar_position: 1
 
 Java is often a first-taught programming language in schools, so there are a lot of common questions.
 
-In the course directory (left menu), you'll see various question titles (e.g. *Why is Java so Popular?*). Simply navigate to that page for an article that answers the question! We've added very common beginner questions, and we plan to continue adding questions based on feedback.
+In the course directory (left menu), you'll see various question titles (e.g. _Why is Java so Popular?_). Simply navigate to that page for an article that answers the question! We've added very common beginner questions, and we plan to continue adding questions based on feedback.
 
-However, we strongly advise that you use the *Common Java FAQs* section solely as a reference, rather than attempting to learn and memorize all of the information presented.
+However, we strongly advise that you use the _Common Java FAQs_ section solely as a reference, rather than attempting to learn and memorize all of the information presented.
 
 Why?
 
@@ -17,6 +17,3 @@ There may be several topics that you are completely unfamiliar with, and studyin
 :::caution
 You're more than welcome to read through the upcoming FAQs, but don't beat yourself up if you don't understand some of the topics. We hope that as you progress through the course, you say "Hey, I remember an FAQ on this", and return to this section as a reference.
 :::
-
-## What's next?
-

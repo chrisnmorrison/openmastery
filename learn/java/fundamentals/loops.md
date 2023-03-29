@@ -248,5 +248,3 @@ Do-while loop - does this print?
 ```
 
 Even though our condition was not met, our do-while loop still prints once. In a `do-while` loop, your loop runs, **then** your program checks the condition.
-
-## What's next?

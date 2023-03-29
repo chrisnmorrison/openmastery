@@ -22,13 +22,12 @@ JRE includes several components that are used for running Java applications. Her
 
 ## How to download and install JRE?
 
-:::danger 
-Did you install JDK in the previous lesson? If so, there's no need to install JRE. 
+:::danger
+Did you install JDK in the previous lesson? If so, there's no need to install JRE.
 
 **The JDK installation includes JRE**.
 
-You should only install JRE without JDK if you want to run Java applications, but don't need the development kit. Since you're here to learn Java code, you need the JDK, so you only need to follow the JDK installation instructions on the previous page. 
+You should only install JRE without JDK if you want to run Java applications, but don't need the development kit. Since you're here to learn Java code, you need the JDK, so you only need to follow the JDK installation instructions on the previous page.
 :::
 
-## What's next?
-
+##

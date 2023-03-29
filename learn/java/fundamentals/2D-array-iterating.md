@@ -121,4 +121,3 @@ public class Learn {
 
 `.deepToString(arrName)` is a quick and easy way to print the values of your 2D array. However, it's much less flexible that looping, and is only useful if you want a preformatted list of your array values.
 
-## What's next?

@@ -81,5 +81,4 @@ Java is a robust language with many uses. Nowadays, it's primarily used for web 
 - chatbots
 - machine learning
 
-## What's next?
-
+##

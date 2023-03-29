@@ -94,9 +94,6 @@ import static java.lang.Math.*;
 double mySquare = sqrt(25);
 ```
 
-We will discuss imports later, so don't worry too much about it for now. Just be aware that you can use this to write less code and achieve the same result. 
+We will discuss imports later, so don't worry too much about it for now. Just be aware that you can use this to write less code and achieve the same result.
 
 The basics of math in Java are fairly straightforward and intuitive. We all know that math is a tough subject, but luckily, the syntax is fairly straightforward. **Remember**: even by practicing simple math problems, you're practicing Java syntax, and you are one step closer to mastery!
-
-## What's next?
-

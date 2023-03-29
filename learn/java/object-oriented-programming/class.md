@@ -62,7 +62,7 @@ public class Customer {
 
 ```
 
-This class defines a customer object with three data fields (name, address, and phoneNumber) and several methods for accessing and modifying those fields. 
+This class defines a customer object with three data fields (name, address, and phoneNumber) and several methods for accessing and modifying those fields.
 
 It also has a `constructor` that is used to create new customer objects with specific values for the name, address, and phoneNumber fields. We'll go over constructors in an upcoming lesson. In short, a constructor is used to create an object from a class, and you write a constructor to define how an object is created.
 
@@ -76,7 +76,7 @@ Think of a thing that you can create as a class - Animal, Car, Customer, Employe
 
 How can you describe this thing? Depending on what it is, a field may be: color, make, model, balance, salary, last name, phone number, etc.
 
-The fields you put will depend on how you can describe that thing, both in general, and specifically in your program. Additionally, your fields need to be relevant to your program. 
+The fields you put will depend on how you can describe that thing, both in general, and specifically in your program. Additionally, your fields need to be relevant to your program.
 
 In a Banking application, your `Customer` class definitely needs `firstName` and `lastName` fields, but do you need a `favouriteColor` field? Unless there's a specific reason for adding this field, you should only add fields relevant to your application.
 
@@ -84,6 +84,4 @@ In a Banking application, your `Customer` class definitely needs `firstName` and
 
 Without any additional knowledge, you don't. When using OOP in real-world projects, you must define and understand your business uses and program features before writing any code. For example, pretend you are writing a Banking app from scratch. What actions may a `Customer` class want to do? How would this be different than a `Customer` class at an auto body shop?
 
-Ultimately, both the state and behaviour of a class depends on each individual business use, and there is no right answer. Once a development team brainstorms the purpose of an app and class, then the state and behaviour is decided. 
-
-## What's next?
+Ultimately, both the state and behaviour of a class depends on each individual business use, and there is no right answer. Once a development team brainstorms the purpose of an app and class, then the state and behaviour is decided.

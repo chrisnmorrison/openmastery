@@ -75,5 +75,3 @@ It's important to note that there is some debate among Java developers about the
 The best practice is to obviously fix bugs and ensure exceptions don't occur. But, this isn't always possible due to the often monolithic size of an application. It's impossible to find all bugs.
 
 But, understanding exception
-
-## What's next?

@@ -7,7 +7,7 @@ sidebar_position: 2
 :::caution Too many terminologies!
 There are a lot of terminologies and abbreviations to learn when studying Java, and as a beginner, some of these things might not fully make sense.
 
-We highly recommend simply exposing yourself to these terms rather than memorizing, then move into the coding sections. Use this entire *Java Background* section as a reference as you learn!
+We highly recommend simply exposing yourself to these terms rather than memorizing, then move into the coding sections. Use this entire _Java Background_ section as a reference as you learn!
 :::
 
 Java Development Kit (JDK) is a software development kit used for developing Java applications. It is a collection of tools and resources that provide an environment for writing, compiling, and running Java programs. In this article, we'll take a closer look at what JDK is, what it includes, and how to download and install it.
@@ -38,5 +38,4 @@ To download and install JDK, follow these steps:
 5. Set the PATH environment variable to point to the JDK installation directory.
 6. Verify the installation by running the "java -version" command in a terminal window. If JDK is installed correctly, it will display the version number of JDK.
 
-## What's next?
-
+##
