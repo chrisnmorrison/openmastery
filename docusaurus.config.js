@@ -120,7 +120,7 @@ module.exports = {
           anonymizeIP: true,
         },
         blog: {
-          blogSidebarCount: 0,
+          blogSidebarCount: 5,
         },
         docs: {
           // id: 'product', // omitted => default instance
