@@ -24,7 +24,7 @@ module.exports = {
       },
       items: [
         { to: "/about", label: "About", position: "left" },
-        { to: "/categories", label: "Categories", position: "left" },
+        { to: "/courses", label: "Courses", position: "left" },
         {
           label: "Donations",
           to: "/donations",

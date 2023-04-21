@@ -48,9 +48,9 @@ function Categories() {
   };
 
   return (
-    <Layout title="Categories">
+    <Layout title="Courses">
       <div class="category-page">
-        <h2 className="category-heading">Categories</h2>
+        <h2 className="category-heading">Courses</h2>
         <Tabs className={styles.tabs}>
           <TabItem
             value="Programming"
