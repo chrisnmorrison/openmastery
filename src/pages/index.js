@@ -40,8 +40,7 @@ function AlphaMessage() {
       <img src={BetaImg} width={100} />
       <p>
         Open Mastery is currently in beta development, and until we are live, we
-        are currently not fundraising. Our efforts are focused on adding content
-        Open Mastery Ed.
+        are currently not fundraising. We're currently focused on adding content and getting ready to launch!
       </p>{" "}
       <p>
         <Link to="/support-us">Find out how you can support us</Link>
