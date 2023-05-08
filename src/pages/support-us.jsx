@@ -84,11 +84,17 @@ const Support = () => {
             {/* Item */}
             <div className="support-item">
               <div>
-                <img
+              <a
+                  className="support-link"
+                  href="https://www.buymeacoffee.com/chrismorrison"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><img
                   src={SocialMedia}
                   alt="various social media icons"
                   className="support-img"
-                />
+                /></a>
+                
               </div>
               <div>
                 <h2 class="support-title">Share us with the world</h2>
