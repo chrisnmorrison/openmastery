@@ -18,17 +18,21 @@ export default function Home() {
         <p>
           As we expand Open Mastery, our primary goals are giving back, and
           transparency. Advertising not only supports our growth and
-          maintenance, but supports charity! We donate 90% of our
-          proceeds to charity, and you can read about the charities we donate to
+          maintenance, but supports charity! <strong>We donate 100% of our net
+            proceeds to charity</strong>, and you can read about the charities we donate to
           on our <Link to="/about">About Us page</Link>.
         </p>
+        <p><strong>Why 100%?</strong> We are completely community run, so it
+         would be unfair for us to profit off of our contributors
+          who volunteer their time to help us promote free education.</p>
+          <p>Simply, we use our proceeds to keep us afloat (hosting, domain name, etc.), and the rest goes to charity.</p>
         <p>
-          We are currently in an beta stage of development, where we're focusing
+          We are currently in beta stage of development, where we're focusing
           on adding content, creating pages, adding background information, and
-          sorting out our finer details.
+          sorting out our plan for the future.
         </p>
         <p>
-          Therefore, <strong>we are currently not focused on financials</strong>
+          Therefore, <strong>we are currently not focused on fundraising</strong>
           . Once we are up-and-running and raising funds for charity, this page
           will contain our financial information, proof of donations, and
           everything related to our financial transparency.

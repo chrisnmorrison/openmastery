@@ -42,7 +42,7 @@ function Row1() {
                 learning platform focusing on text-based courses, and from
                 non-intrusive advertising,{" "}
                 <strong>
-                  we donate <u>90%</u> of our proceeds to charity!
+                  we donate <u>100%</u> of our net proceeds to charity!
                 </strong>{" "}
               </p>
               <p>

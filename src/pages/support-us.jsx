@@ -118,12 +118,12 @@ const Support = () => {
             <br aria-hidden="true" />
             <br aria-hidden="true" />
             Best of all, Open Mastery is completely open source! Anyone can
-            contribute, or if you have grander ideas, clone our project and
+            contribute and view our source code, or if you have grander ideas, clone our project and
             create your own dream project. Let's build off of each other to
             create amazing, meaningful online services.
           </h3>
           <h4>
-            &mdash; Chris Morrison
+            &mdash; Chris
             <br aria-hidden="true" />
             <em>
               Founder: Open Mastery &amp;{" "}
