@@ -1,0 +1,20 @@
+---
+sidebar_position: 1.1
+sidebar_label: "Terminology"
+---
+
+# Core Terminology
+
+As you embark on your journey to learn Python, it's essential to familiarize yourself with some core definitions that will lay the foundation for your understanding of this versatile programming language. In this article, we will explore key terms such as interpreted, high-level, and general-purpose, and their significance in the context of Python. By grasping these fundamental concepts, you'll gain a solid understanding of Python's characteristics and be better equipped to write effective code.
+
+**Interpreted Language**: Python is an interpreted language, which means that it is executed line by line, without the need for compilation into machine code. When you write Python code, an interpreter reads and executes it directly, translating each line into machine instructions on the fly. This characteristic makes Python highly interactive and allows for rapid development and testing. The interpreter also provides a built-in interactive shell, known as the Python REPL (Read-Eval-Print Loop), where you can experiment and execute Python code in real-time.
+
+**High-Level Language**: Python is categorized as a high-level programming language. Unlike low-level languages such as assembly or machine code, which are closely tied to the hardware and require intricate knowledge of the computer's architecture, Python provides abstractions that shield developers from low-level details. In Python, you can focus on expressing your ideas and solving problems rather than worrying about memory management or processor-specific instructions. The high-level nature of Python makes it accessible and user-friendly, even for beginners, allowing you to write code that is more concise and readable.
+
+**General-Purpose Language**: Python is a general-purpose programming language, which means it is designed to be flexible and applicable in various domains and contexts. Whether you're interested in web development, data analysis, scientific computing, automation, or even game development, Python provides a rich ecosystem of libraries and frameworks to support your needs. From Django for web development to NumPy and Pandas for data analysis, Python offers a wide range of tools and resources that empower developers to tackle diverse projects efficiently.
+
+**Python's Versatility**: One of the remarkable aspects of Python is its versatility. It serves as a bridge between different technologies, allowing you to integrate Python code with other languages seamlessly. For example, Python can be used to build web applications by combining it with HTML, CSS, and JavaScript through frameworks like Flask or Django. Python can also be embedded within other software written in languages such as C++ or Java, leveraging the strengths of each language. This versatility expands your possibilities as a developer and opens doors to endless opportunities.
+
+**Libraries and Frameworks**: Python is known for having a vast ecosystem of libraries and frameworks. A library in Python is a collection of pre-written code modules or functions that provide specific functionalities. A framework, on the other hand, is a more comprehensive software architecture that provides a foundation for developing applications. It defines a structure, along with a set of rules and guidelines, for creating specific types of software. 
+
+**Anything else?**: There is a lot of terminology in any programming language. As we move through the course, we'll discuss new terminology and show plenty of example. Some may find learning programming easy, but gaining a deep understanding of how code works and mastering a programming language takes months (if not years) of full-time dedication. Ensure that you understand the topic you've studied before moving onto the next, and you'll eventually see how everything works together like a well-oiled machine.
