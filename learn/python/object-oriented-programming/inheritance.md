@@ -5,74 +5,57 @@ sidebar_label: "Inheritance"
 
 # Inheritance
 
-Abstraction is the process of simplifying complex reality by modeling classes based on their essential characteristics and behaviors, while hiding irrelevant details. It enables you to focus on what an object does, rather than how it does it. Think of abstraction as creating a high-level overview that captures the fundamental aspects of an object without diving into every intricate detail.
+Inheritance is a mechanism by which a new class, known as a derived class or subclass, can inherit attributes and methods from an existing class, referred to as a base class or superclass. This promotes code reuse and allows you to model a hierarchy of classes that share common characteristics while also having unique features.
 
-## The Role of Abstraction in OOP
+## Benefits of Inheritance
 
-Abstraction plays a pivotal role in achieving modular design and code organization. By abstracting away the implementation details, you create a clear distinction between what an object can do and how it accomplishes it. This separation of concerns not only enhances code readability but also makes it easier to modify, maintain, and extend your programs.
+Inheritance offers several key benefits in object-oriented programming:
 
-## Applying Abstraction in Python
+- Code Reusability: Inheritance allows you to create new classes by reusing the attributes and behaviors of existing classes, reducing the need to rewrite similar code.
+- Hierarchy and Organization: Inheritance enables you to create a clear hierarchy of classes, reflecting real-world relationships and simplifying the understanding of your codebase.
+- Overriding and Polymorphism: Subclasses can override methods from the superclass to provide specialized implementations. This fosters polymorphism, where different classes can be used interchangeably based on their shared interface.
 
-Python's class and object-oriented capabilities make implementing abstraction straightforward. Here's how you can apply abstraction using Python:
+## Types of Inheritance
 
-## Abstract Base Classes (ABCs)
+Python supports different types of inheritance:
 
-Python provides the abc module to create abstract base classes. These classes can't be instantiated directly; instead, they serve as templates for concrete subclasses. Abstract methods within ABCs define required behaviors that subclasses must implement.
+- Single Inheritance: A subclass inherits from a single superclass.
+- Multiple Inheritance: A subclass inherits from multiple superclasses. This can lead to the "diamond problem," where ambiguity arises due to shared methods and attributes from multiple paths.
+- Multilevel Inheritance: A class derives from another class, which in turn inherits from another class. This creates a hierarchy of classes.
+- Hierarchical Inheritance: Multiple subclasses inherit from a single superclass.
+
+## Method Resolution Order (MRO)
+
+In Python, the Method Resolution Order (MRO) defines the sequence in which methods are searched for in a class hierarchy. It ensures that methods are inherited and overridden in a consistent and predictable manner. The C3 Linearization algorithm is used to determine the MRO, following the C3 superclass linearization rules.
+
+Don't worry too much about the inner workings, rather, focus on the practical implementation. If you have the same method in a parent class and child class, and you create an object of type child class and call the method, which method will be called? The answer is the method in the child class. This is because the child class overrides the method in the parent class.
+
+## Practical Implementation
+
+Let's illustrate inheritance with a practical example:
 
 ```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
 
-from abc import ABC, abstractmethod
-
-class Shape(ABC):
-    @abstractmethod
-    def calculate_area(self):
+    def speak(self):
         pass
 
-class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says Woof!"
 
-    def calculate_area(self):
-        return 3.14159 * self.radius ** 2
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"
 
-# Creating objects from concrete subclasses
-circle = Circle(5)
-area = circle.calculate_area()
-print(area)  # Output: 78.53975
+# Creating instances
+dog = Dog("Buddy")
+cat = Cat("Kitty")
+
+print(dog.speak())  # Output: Buddy says Woof!
+print(cat.speak())  # Output: Kitty says Meow!
 ```
 
-In this example, the Shape class is an abstract base class with an abstract method calculate_area(). The concrete subclass Circle inherits from Shape and implements the required method.
-
-## Using Properties to Abstract Attributes:
-
-Properties in Python allow you to abstract the access and modification of attributes, providing control over how they are accessed or set.
-
-```python
-class Temperature:
-    def __init__(self, celsius):
-        self._celsius = celsius
-
-    @property
-    def celsius(self):
-        return self._celsius
-
-    @celsius.setter
-    def celsius(self, value):
-        if value < -273.15:
-            raise ValueError("Temperature below absolute zero is not possible.")
-        self._celsius = value
-
-temp = Temperature(25)
-print(temp.celsius)  # Output: 25
-
-temp.celsius = 30
-print(temp.celsius)  # Output: 30
-```
-
-In this case, the celsius attribute is abstracted using the @property and @celsius.setter decorators, allowing controlled access and validation.
-
-## Benefits of Abstraction:
-
-- Code Modularity: Abstraction allows you to create modular and isolated components, making it easier to manage and modify code.
-- Reduced Complexity: By hiding implementation details, you simplify the understanding of how objects interact and behave.
-- Flexibility and Extensibility: Changes to the internal implementation of a class won't affect code that relies on its abstract interface, promoting extensibility without breaking existing code.
+In this example, the `Animal` class is the base class, and the `Dog` and `Cat` classes are subclasses that inherit from `Animal`. Each subclass overrides the speak method to provide its own implementation.

@@ -5,74 +5,64 @@ sidebar_label: "Encapsulation"
 
 # Encapsulation
 
-Abstraction is the process of simplifying complex reality by modeling classes based on their essential characteristics and behaviors, while hiding irrelevant details. It enables you to focus on what an object does, rather than how it does it. Think of abstraction as creating a high-level overview that captures the fundamental aspects of an object without diving into every intricate detail.
+Encapsulation refers to the practice of restricting direct access to an object's internal attributes and methods from outside the class. It promotes the concept of data hiding, allowing classes to control how their data is accessed and modified. By encapsulating data within a class, you ensure that changes to the implementation details do not affect the external code that uses the class.
 
-## The Role of Abstraction in OOP
+## Principles of Encapsulation
 
-Abstraction plays a pivotal role in achieving modular design and code organization. By abstracting away the implementation details, you create a clear distinction between what an object can do and how it accomplishes it. This separation of concerns not only enhances code readability but also makes it easier to modify, maintain, and extend your programs.
+There are several key principles that encapsulation enforces:
 
-## Applying Abstraction in Python
+- Data Hiding: Internal attributes are hidden from external access, preventing unauthorized modification.
+- Data Protection: Access to data is controlled through methods, allowing the class to validate and manipulate data before it's exposed.
+- Modularity: Encapsulation promotes modularity by isolating the implementation details within the class.
+- Flexibility: The internal implementation of a class can change without affecting the external code using the class.
 
-Python's class and object-oriented capabilities make implementing abstraction straightforward. Here's how you can apply abstraction using Python:
+## Benefits of Encapsulation
 
-## Abstract Base Classes (ABCs)
+Encapsulation offers numerous advantages in object-oriented programming:
 
-Python provides the abc module to create abstract base classes. These classes can't be instantiated directly; instead, they serve as templates for concrete subclasses. Abstract methods within ABCs define required behaviors that subclasses must implement.
+- Security: Prevents unauthorized access and manipulation of data, enhancing data integrity and security.
+- Maintenance: Changes to the internal implementation of a class do not affect external code, making maintenance and updates easier.
+- Abstraction: Encapsulation allows you to provide an abstract interface for using a class, hiding complex internal details.
+- Code Reusability: Encapsulated classes can be reused across different parts of the codebase without needing to understand their internal complexities.
 
-```python
+## Access Modifiers
 
-from abc import ABC, abstractmethod
+Python provides three access modifiers to control the visibility of attributes and methods within a class:
 
-class Shape(ABC):
-    @abstractmethod
-    def calculate_area(self):
-        pass
+- Public (public): No access restrictions. Attributes and methods are accessible from anywhere.
+- Protected (_protected): Conveys that the attribute or method is intended for internal use within the class and its subclasses.
+- Private (__private): Attributes and methods are strongly hidden, preventing direct access from outside the class. However, Python name mangling still allows access within the class.
 
-class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
+## Practical Implementation
 
-    def calculate_area(self):
-        return 3.14159 * self.radius ** 2
-
-# Creating objects from concrete subclasses
-circle = Circle(5)
-area = circle.calculate_area()
-print(area)  # Output: 78.53975
-```
-
-In this example, the Shape class is an abstract base class with an abstract method calculate_area(). The concrete subclass Circle inherits from Shape and implements the required method.
-
-## Using Properties to Abstract Attributes:
-
-Properties in Python allow you to abstract the access and modification of attributes, providing control over how they are accessed or set.
+Let's illustrate encapsulation with a practical example:
 
 ```python
-class Temperature:
-    def __init__(self, celsius):
-        self._celsius = celsius
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        self.__balance = balance
+    
+    def get_balance(self):
+        return self.__balance
+    
+    def deposit(self, amount):
+        self.__balance += amount
+    
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+        else:
+            print("Insufficient balance.")
 
-    @property
-    def celsius(self):
-        return self._celsius
+# Creating an instance
+account = BankAccount("123456", 1000)
 
-    @celsius.setter
-    def celsius(self, value):
-        if value < -273.15:
-            raise ValueError("Temperature below absolute zero is not possible.")
-        self._celsius = value
-
-temp = Temperature(25)
-print(temp.celsius)  # Output: 25
-
-temp.celsius = 30
-print(temp.celsius)  # Output: 30
+# Accessing methods with encapsulated data
+print("Initial balance:", account.get_balance())
+account.deposit(500)
+print("Balance after deposit:", account.get_balance())
+account.withdraw(300)
+print("Balance after withdrawal:", account.get_balance())
 ```
-
-In this case, the celsius attribute is abstracted using the @property and @celsius.setter decorators, allowing controlled access and validation.
-
-## Benefits of Abstraction:
-
-- Code Modularity: Abstraction allows you to create modular and isolated components, making it easier to manage and modify code.
-- Reduced Complexity: By hiding implementation details, you simplify the understanding of how objects interact and behave.
-- Flexibility and Extensibility: Changes to the internal implementation of a class won't affect code that relies on its abstract interface, promoting extensibility without breaking existing code.
+In this example, the `BankAccount` class encapsulates the `account_number` and `balance` attributes along with methods for deposit and withdrawal. The double underscores (`__`) before the attribute names indicate that they are private and encapsulated. External code can interact with the class only through the defined methods.

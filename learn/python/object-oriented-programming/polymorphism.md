@@ -5,74 +5,55 @@ sidebar_label: "Polymorphism"
 
 # Polymorphism
 
-Abstraction is the process of simplifying complex reality by modeling classes based on their essential characteristics and behaviors, while hiding irrelevant details. It enables you to focus on what an object does, rather than how it does it. Think of abstraction as creating a high-level overview that captures the fundamental aspects of an object without diving into every intricate detail.
+At its core, polymorphism allows different classes to be treated as instances of a shared base class. This means that objects belonging to various classes can respond to the same method calls in a way that's appropriate for their specific class. Polymorphism fosters code flexibility and extensibility, enabling developers to write more generic and reusable code.
 
-## The Role of Abstraction in OOP
+## Types of Polymorphism
 
-Abstraction plays a pivotal role in achieving modular design and code organization. By abstracting away the implementation details, you create a clear distinction between what an object can do and how it accomplishes it. This separation of concerns not only enhances code readability but also makes it easier to modify, maintain, and extend your programs.
+Python supports two main types of polymorphism:
 
-## Applying Abstraction in Python
+- Compile-Time (Static) Polymorphism: Also known as method overloading, this involves using the same method name but with different parameters in the same class. Python doesn't natively support method overloading, but you can achieve similar effects using default parameters.
+- Run-Time (Dynamic) Polymorphism: Also known as method overriding, this occurs when a subclass provides a specific implementation for a method defined in its superclass. This allows objects of different classes to respond to the same method call in a way that's relevant to their class.
 
-Python's class and object-oriented capabilities make implementing abstraction straightforward. Here's how you can apply abstraction using Python:
+## Benefits of Polymorphism
 
-## Abstract Base Classes (ABCs)
+Polymorphism provides several important benefits in OOP:
 
-Python provides the abc module to create abstract base classes. These classes can't be instantiated directly; instead, they serve as templates for concrete subclasses. Abstract methods within ABCs define required behaviors that subclasses must implement.
+- Code Reusability: Polymorphism promotes the reuse of code by allowing objects of different classes to share a common interface.
+- Simplicity: By treating different objects as instances of the same base class, you can write code that's more concise and easier to understand.
+- Extensibility: Polymorphism enables you to add new classes that conform to the same interface without affecting the existing codebase.
+- Reduced Coupling: Polymorphism reduces the dependency between classes, allowing for more modular and maintainable code.
+
+## Practical Application
+
+Let's demonstrate polymorphism through a practical example:
 
 ```python
-
-from abc import ABC, abstractmethod
-
-class Shape(ABC):
-    @abstractmethod
-    def calculate_area(self):
+class Shape:
+    def area(self):
         pass
 
 class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
+    
+    def area(self):
+        return 3.14 * self.radius ** 2
 
-    def calculate_area(self):
-        return 3.14159 * self.radius ** 2
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
 
-# Creating objects from concrete subclasses
+# Creating instances
 circle = Circle(5)
-area = circle.calculate_area()
-print(area)  # Output: 78.53975
+rectangle = Rectangle(4, 6)
+
+# Using polymorphism to calculate areas
+shapes = [circle, rectangle]
+for shape in shapes:
+    print("Area:", shape.area())
 ```
-
-In this example, the Shape class is an abstract base class with an abstract method calculate_area(). The concrete subclass Circle inherits from Shape and implements the required method.
-
-## Using Properties to Abstract Attributes:
-
-Properties in Python allow you to abstract the access and modification of attributes, providing control over how they are accessed or set.
-
-```python
-class Temperature:
-    def __init__(self, celsius):
-        self._celsius = celsius
-
-    @property
-    def celsius(self):
-        return self._celsius
-
-    @celsius.setter
-    def celsius(self, value):
-        if value < -273.15:
-            raise ValueError("Temperature below absolute zero is not possible.")
-        self._celsius = value
-
-temp = Temperature(25)
-print(temp.celsius)  # Output: 25
-
-temp.celsius = 30
-print(temp.celsius)  # Output: 30
-```
-
-In this case, the celsius attribute is abstracted using the @property and @celsius.setter decorators, allowing controlled access and validation.
-
-## Benefits of Abstraction:
-
-- Code Modularity: Abstraction allows you to create modular and isolated components, making it easier to manage and modify code.
-- Reduced Complexity: By hiding implementation details, you simplify the understanding of how objects interact and behave.
-- Flexibility and Extensibility: Changes to the internal implementation of a class won't affect code that relies on its abstract interface, promoting extensibility without breaking existing code.
+In this example, the `Shape` class serves as the base class, and both `Circle` and `Rectangle` inherit from it. Each subclass provides its own implementation of the area method. By treating both `Circle` and `Rectangle` objects as instances of the `Shape` class, we achieve polymorphism. The same method call `shape.area()` invokes different implementations based on the actual class of the object.

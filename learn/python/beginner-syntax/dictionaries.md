@@ -38,17 +38,17 @@ Python provides various methods to manipulate dictionaries.
 
 ### Adding and Updating Elements
 
-- dict[key] = value: Adds a new key-value pair or updates an existing one.
-- dict.update(another_dict): Updates the dictionary with elements from another dictionary.
+`dict[key] = value` : Adds a new key-value pair or updates an existing one.
+`dict.update(another_dict)` : Updates the dictionary with elements from another dictionary.
 
 ## Removing Elements
 
-- del dict[key]: Removes the specified key-value pair.
-- dict.pop(key): Removes and returns the value associated with the key.
+`del dict[key]` : Removes the specified key-value pair.
+`dict.pop(key)` : Removes and returns the value associated with the key.
 
 ## Retrieving Values Safely
 
-- dict.get(key): Retrieves the value for the specified key. Returns None if the key doesn't exist.
+`dict.get(key)` : Retrieves the value for the specified key. Returns None if the key doesn't exist.
 
 ## Iterating Through Keys and Values
 
@@ -60,9 +60,9 @@ for key in person:
 
 ### Other Useful Methods
 
-- dict.keys(): Returns a list of keys.
-- dict.values(): Returns a list of values.
-- dict.items(): Returns a list of key-value pairs.
+`dict.keys()` : Returns a list of keys.
+`dict.values()` : Returns a list of values.
+`dict.items()` : Returns a list of key-value pairs.
 
 ## Use Cases of Dictionaries
 
