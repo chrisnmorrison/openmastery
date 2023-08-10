@@ -109,36 +109,7 @@ const Support = () => {
         </div>
       </div>
 
-      <div class="blockquote-wrapper">
-        <div class="blockquote">
-          <h3>
-            Open Mastery promotes free education, and therefore, Open Mastery
-            will remain free forever. Thank you to all of our supporters and
-            maintainers!
-            <br aria-hidden="true" />
-            <br aria-hidden="true" />
-            Best of all, Open Mastery is completely open source! Anyone can
-            contribute and view our source code, or if you have grander ideas, clone our project and
-            create your own dream project. Let's build off of each other to
-            create amazing, meaningful online services.
-          </h3>
-          <h4>
-            &mdash; Chris
-            <br aria-hidden="true" />
-            <em>
-              Founder: Open Mastery &amp;{" "}
-              <a
-                href="https://mesmerdesign.ca"
-                className="support-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Mesmer Design
-              </a>
-            </em>
-          </h4>
-        </div>
-      </div>
+   
     </Layout>
   );
 };

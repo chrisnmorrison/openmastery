@@ -53,20 +53,20 @@ Python provides a plethora of built-in methods for manipulating lists.
 
 ### Adding Elements
 
-- append(): Adds an element to the end of the list.
-- insert(): Inserts an element at a specific index.
-- extend(): Appends elements from another iterable.
+`append()`: Adds an element to the end of the list.
+`insert()`: Inserts an element at a specific index.
+`extend()`: Appends elements from another iterable.
 
-Removing Elements
+### Removing Elements
 
-- remove(): Removes the first occurrence of a specific value.
-- pop(): Removes an element at a specific index and returns its value.
-- clear(): Removes all elements from the list.
+`remove()`: Removes the first occurrence of a specific value.
+`pop()`: Removes an element at a specific index and returns its value.
+`clear()`: Removes all elements from the list.
 
-Searching and Counting
+### Searching and Counting
 
-- index(): Returns the index of the first occurrence of a value.
-- count(): Returns the number of occurrences of a value.
+`index()`: Returns the index of the first occurrence of a value.
+`count()`: Returns the number of occurrences of a value.
 
 ## List Comprehensions
 

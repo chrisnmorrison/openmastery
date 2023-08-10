@@ -56,6 +56,8 @@ print("Floor Quotient:", floor_quotient)
 
 ## Modulus (Remainder)
 
+The modulus operator often confuses new developers. It simply returns the remainder of a division operation. For example, 23 divided by 6 is 3 with a remainder of 5. The modulus operator returns the remainder, which is 5.
+
 ```python
 numerator = 23
 denominator = 6
