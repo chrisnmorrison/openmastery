@@ -1,70 +1,59 @@
 # Open Mastery
 
-We're Open Mastery, a free online learning platform.
+Welcome to Open Mastery, a free online learning platform.
 
-What makes us different? By using our site, you can learn new skills while raising money for charity!
-
-**As we are currently in beta development, we are currently not fundraising. We are primarily looking for contributors who share our vision: That learning should be free, and that **
+At Open Mastery, we're not just about learning. We're about making a positive impact. With every new skill you acquire, you're contributing to a better world. How? We're donating 100% of our proceeds for charity!
 
 - [Open Mastery](#open-education)
-  - [Why should I contribute?](#why-should-i-contribute)
-  - [General info](#general-info)
+  - [Why Contribute?](#why-contribute)
+  - [General Info](#general-info)
   - [Technologies](#technologies)
-  - [How to contribute](#how-to-contribute)
-  - [Get started](#get-started)
+  - [How to Contribute](#how-to-contribute)
+  - [Getting Started](#getting-started)
 
-## Why should I contribute?
+## Why Contribute?
 
-Most websites are driven by profit, and even though our eventual goal is to generate revenue through advertising (and possibly, other non-intrusive means such as Buy me a Coffee or Ko-Fi), we are pledging to donate 90% of our proceeds to charity! [You can find out more on our website](https://openmastery.one/about). Rather than personal gain, we are driven by helping others. Users of our site will learn for free while generating money for charity. We've developed a new way of fundraising that doesn't require users to donate their own money.
+Unlike most platforms, our driving force isn't profit. We're committed to donating 1o0% of our proceeds to charity! [Learn more about our mission](https://openmastery.one/about). By learning on our platform, you're not only enhancing your skills but also helping those in need. Our innovative fundraising approach doesn't require you to donate your own money.
 
-Best of all, contributing is incredibly easy. The best way to contribute is to share knowledge, and most of our contributions don't require coding knowledge. Go ahead and add your contributions to your resume and portfolio, no matter how small.
+Contributing is straightforward and impactful. Even if you're not a coder, you can contribute by sharing knowledge. Your contributions, no matter the size, can be added to your resume and portfolio.
 
-Let's work together to create something great.
+Let's collaborate to create something remarkable.
 
-## General info
+## General Info
 
-We serve text-based courses for free, and we encourage our users to [contribute their own courses](./GUIDE_TO_CREATE_COURSES.md), or [add to our existing courses](./GUIDE_TO_UPDATE_COURSES.md). By contributing, you're contributing to an open-source project, and generating content that you may add to your resume.
+We offer a collection of text-based courses for free. We encourage users to [contribute their own courses](./GUIDE_TO_CREATE_COURSES.md) or [add to our existing ones](./GUIDE_TO_UPDATE_COURSES.md). By contributing, you're part of an open-source project and creating content you can showcase on your resume.
 
-You can visit our live site here:
+Explore our live site:
 
 [openmastery.one](https://openmastery.one/)
 
 ## Technologies
 
-Open Mastery is powered by [Docusaurus](https://docusaurus.io/), a static site generator. Before learning how to nagivate our project, we highly recommend you read [Docusaurus' documentation](https://docusaurus.io/docs).
+Open Mastery is powered by [Docusaurus](https://docusaurus.io/), a static site generator. Before diving into our project, we recommend you review [Docusaurus' documentation](https://docusaurus.io/docs).
 
-We write our pages using Markdown and React. It's not necessary that you know React to contribute, as the vast majority of our pages are Markdown only. But, our React pages are quite straightforward, so contributing to our React pages gives you a great opportunity to learn!
+We craft our pages using Markdown and React. You don't need to know React to contribute—most of our pages are Markdown-based. However, if you're interested, contributing to React pages offers a valuable learning opportunity.
 
-## How to contribute
+## How to Contribute
 
-We want Open Mastery to be one of the easiest, beginner-friendly open source contributions that you can make.
+We aim to make Open Mastery one of the most beginner-friendly open-source projects to contribute to.
 
 Our beginner contributions:
 
-- maintaining our documentation and guidelines
-- creating and/or updating our courses
+- Maintaining documentation and guidelines
+- Creating and updating courses
 
 Our intermediate contributions:
 
-- editing site layout
-- improving SEO
-- creating React components, and creating pages using React.
+- Improving site layout
+- Enhancing SEO
+- Developing React components and pages
 
-## Get started
+## Getting Started
 
-Here is a quick guide to contributing.
+Here's a quick guide to contributing:
 
-1. If you haven't, [install the latest version Node.js®](https://nodejs.org/en/download/)
-2. Fork this repo.
-3. Clone the repo to your local machine. If you aren't really familiar with Git or Github, we highly recommend you follow a beginner tutorial. There are a ton, and [here is one we recommend](https://www.freecodecamp.org/news/git-and-github-for-beginners/), and there are many great guides on Youtube as well.
-4. In your favourite code editor (we recommend Visual Studio Code), open the terminal in the main folder of the project
+1. If you haven't already, [install the latest version of Node.js®](https://nodejs.org/en/download/)
+2. Fork this repository.
+3. Clone the repository to your local machine. If you're new to Git and Github, consider following a beginner tutorial. There are many resources available, including [this recommended guide](https://www.freecodecamp.org/news/git-and-github-for-beginners/) and tutorials on Youtube.
+4. In your preferred code editor (we suggest Visual Studio Code), open the terminal in the main project folder:
 
-```
-$ npm i
-$ npm run start
-```
-
-5. [Create an issue to discuss your proposed changes, or contribute to an existing issue](https://github.com/chrisnmorrison/openmastery/issues). This is crucial, so that we can all keep track of our proposed updates.
-6. Edit away!
-7. Submit your merge, and we will review it.
-8. (Optional, but recommended): [Add your author info](https://openmastery.one/authors/), and follow the instructions on this page. We want to give credit where credit is due. If you have questions about this, [ask us](./SUPPORT.md)!

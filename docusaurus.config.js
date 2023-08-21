@@ -14,8 +14,12 @@ module.exports = {
   favicon: "img/logo.ico",
   organizationName: "chrisnmorrison", // Usually your GitHub org/user name.
   projectName: "openmastery", // Usually your repo name.
+  
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
+    googleAdsense: {
+      dataAdClient: process.env.ADSENSE_PUB_ID,
+    },
     navbar: {
       title: "Open Mastery",
       logo: {
@@ -136,6 +140,8 @@ module.exports = {
     ],
   ],
   plugins: [
+    'docusaurus-plugin-dotenv',
+    "docusaurus-plugin-google-adsense",
     "docusaurus-plugin-sass",
     [
       "@docusaurus/plugin-content-docs",

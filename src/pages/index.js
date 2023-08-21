@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import BetaImg from "../../static/img/testing.png";
+import supportImg from "../../static/img/save-the-world.png";
 
 import styles from "./index.module.css";
 
@@ -36,12 +36,12 @@ function HomepageHeader() {
 
 function AlphaMessage() {
   return (
-    <div className="home-alpha-message">
-      <img src={BetaImg} width={100} />
+    <div className="home-top-banner">
+      <img src={supportImg} width={60} />
       <p>
-        Open Mastery is currently in beta development, and until we are live, we
-        are currently not fundraising. We're currently focused on adding content and getting ready to launch!
-      </p>{" "}
+        Open Mastery is raising money for environmental causes. We are looking for amazing people to help us build our platform.
+      </p>
+      <p>You can help us raise money for important causes without making direct donations.</p>
       <p>
         <Link to="/support-us">Find out how you can support us</Link>
       </p>

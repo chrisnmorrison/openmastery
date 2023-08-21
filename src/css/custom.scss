@@ -94,7 +94,7 @@ html[data-theme="dark"] {
     filter: drop-shadow(0 0 19px rgba(245, 255, 109, 0.319)) invert(30%);
   }
 
-  .home-alpha-message {
+  .home-top-banner {
     background-color: #f7f7f7;
 
     p {
@@ -259,7 +259,7 @@ html[data-theme="dark"] .category-item {
   box-shadow: 0 3px 35px rgba(255, 255, 255, 0.18);
 }
 
-.home-alpha-message {
+.home-top-banner {
   background-color: #1b1b1d;
   color: whitesmoke;
   text-align: center;
@@ -287,10 +287,11 @@ html[data-theme="dark"] .category-item {
 .category-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 5rem 7rem;
+  gap: 5rem 4rem;
   grid-auto-rows: 13rem;
   margin: 2rem auto 0rem auto;
-  max-width: 80%;
+    margin-bottom: 0rem;
+  max-width: 88%;
   padding: 1rem 1rem 6rem 1rem;
 }
 

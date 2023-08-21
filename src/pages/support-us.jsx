@@ -18,7 +18,35 @@ const Support = () => {
               is only possible with the help of our supporters!
             </p>
             <p>There are a few ways you can support us:</p>
-
+{/* Item */}
+<div className="support-item">
+              <div>
+                <a
+                  className="support-link"
+                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Github} alt="github logo" className="support-img" />
+                </a>
+              </div>
+              <div>
+                <h2 class="support-title">Write for us</h2>
+                <p>
+                  Our mission is to create a huge catalog of free courses, and
+                  this is only possible with support from knowledgeable people!
+                  We're always looking for writers to create and edit courses.
+                </p>
+                <a
+                  className="support-link"
+                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Find out how to contribute
+                </a>
+              </div>
+            </div>
             {/* Item */}
             <div className="support-item">
               <div>
@@ -52,35 +80,7 @@ const Support = () => {
                 </a>
               </div>
             </div>
-            {/* Item */}
-            <div className="support-item">
-              <div>
-                <a
-                  className="support-link"
-                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={Github} alt="github logo" className="support-img" />
-                </a>
-              </div>
-              <div>
-                <h2 class="support-title">Write for us</h2>
-                <p>
-                  Our mission is to create a huge catalog of free courses, and
-                  this is only possible with support from knowledgeable people!
-                  We're always looking for writers to create and edit courses.
-                </p>
-                <a
-                  className="support-link"
-                  href="https://github.com/chrisnmorrison/openmastery/blob/main/CONTRIBUTING.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Find out how to contribute
-                </a>
-              </div>
-            </div>
+            
             {/* Item */}
             <div className="support-item">
               <div>

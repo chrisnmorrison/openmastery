@@ -26,22 +26,17 @@ export default function Home() {
          would be unfair for us to profit off of our contributors
           who volunteer their time to help us promote free education.</p>
           <p>Simply, we use our proceeds to keep us afloat (hosting, domain name, etc.), and the rest goes to charity.</p>
+        <h2>Donations</h2>
         <p>
-          We are currently in beta stage of development, where we're focusing
-          on adding content, creating pages, adding background information, and
-          sorting out our plan for the future.
-        </p>
-        <p>
-          Therefore, <strong>we are currently not focused on fundraising</strong>
-          . Once we are up-and-running and raising funds for charity, this page
-          will contain our financial information, proof of donations, and
-          everything related to our financial transparency.
-        </p>
-        <p>
-          For now, we are looking for awesome supporters who share our mission
-          and values. <Link to="/support-us">Learn how you can support us</Link>
-          .
-        </p>
+    As soon as our fundraising campaign kicks off, you'll find an updated list showcasing our ongoing charitable donations right here.
+</p>
+<p>
+    At this stage, our main focus is on connecting with enthusiastic supporters and contributors who resonate with our mission and principles.
+    
+    
+   
+</p>
+<p> <Link to="/support-us">Discover ways to join and support our cause</Link>.</p>
       </div>
     </Layout>
   );

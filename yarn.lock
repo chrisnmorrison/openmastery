@@ -3575,6 +3575,18 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
+docusaurus-plugin-dotenv@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-dotenv/-/docusaurus-plugin-dotenv-1.0.1.tgz#e0aff6f006fd438d1e981ae2afd7b7a6bd2aa76f"
+  integrity sha512-qKlWuBd6UoyB0d5ExH9waYGPoy1SnWgV8s8VLg12ydcfxquazXJngV0N5VAX/HuFiZmsPD3L4TYUKxdHWJTeEw==
+  dependencies:
+    dotenv-webpack "7.0.2"
+
+docusaurus-plugin-google-adsense@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-google-adsense/-/docusaurus-plugin-google-adsense-0.3.1.tgz#c6f38d748a6b1e441cc66391e00bf6ad079017f4"
+  integrity sha512-9bLBilWUJjtNouZnYdpLeG+KAvIUNNg00HAdfsTAQpbLNaF3wCt3fbRVmZqNni0OUnq6BzzYSv8HaJEfDX/IXA==
+
 docusaurus-plugin-sass@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.2.tgz#9b7f8c6fbe833677064ec05b09b98d90b50be324"
@@ -3667,10 +3679,29 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv-defaults@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/dotenv-defaults/-/dotenv-defaults-2.0.2.tgz#6b3ec2e4319aafb70940abda72d3856770ee77ac"
+  integrity sha512-iOIzovWfsUHU91L5i8bJce3NYK5JXeAwH50Jh6+ARUdLiiGlYWfGw6UkzsYqaXZH/hjE/eCd/PlfM/qqyK0AMg==
+  dependencies:
+    dotenv "^8.2.0"
+
+dotenv-webpack@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/dotenv-webpack/-/dotenv-webpack-7.0.2.tgz#1bf2e407e92c10fbb08d815b12c991028f10f81c"
+  integrity sha512-RY+/5uM/XY4bGtih9f9ic8hlrUDxVcZZBPWlnX/aHhaKxcVVX9SH/5VH7CSmvVo9GL6PKvQOA0X1bc552rnatQ==
+  dependencies:
+    dotenv-defaults "^2.0.1"
+
 dotenv@^16.0.3:
   version "16.0.3"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
+dotenv@^8.2.0:
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
+  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
 duplexer3@^0.1.4:
   version "0.1.5"
