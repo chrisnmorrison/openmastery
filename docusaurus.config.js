@@ -80,10 +80,6 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Facebook",
-              href: "https://www.facebook.com/openmasteryone/",
-            },
-            {
               label: "Instagram",
               href: "https://www.instagram.com/mesmerdesign/",
             },
