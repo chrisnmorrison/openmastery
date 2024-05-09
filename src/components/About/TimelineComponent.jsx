@@ -1,5 +1,6 @@
 import React from "react";
 import { Chrono } from "react-chrono";
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import styled from "styled-components";
 import { FcCalendar, FcMindMap, FcLike } from "react-icons/fc";
 
@@ -58,7 +59,7 @@ const TimelineComponent = () => {
 
   return (
     <Wrapper>
-      {" "}
+      <BrowserOnly>{() => (
       <div className="container timeline-component">
         <h2 className="text-center timeline-title">Our Plan</h2>
         <p className="text-center timeline-description">
@@ -86,7 +87,9 @@ const TimelineComponent = () => {
             </div>
           </Chrono>
         </div>
-      </div>{" "}
+      </div>)}
+      
+      </BrowserOnly>
     </Wrapper>
   );
 };
