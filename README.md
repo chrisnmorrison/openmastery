@@ -13,7 +13,7 @@ At Open Mastery, we're not just about learning. We're about making a positive im
 
 ## Why Contribute?
 
-Unlike most platforms, our driving force isn't profit. We're committed to donating 1o0% of our proceeds to charity! [Learn more about our mission](https://openmastery.one/about). By learning on our platform, you're not only enhancing your skills but also helping those in need. Our innovative fundraising approach doesn't require you to donate your own money.
+Unlike most platforms, our driving force isn't profit. We're committed to donating 100% of our proceeds to charity! [Learn more about our mission](https://openmastery.one/about). By learning on our platform, you're not only enhancing your skills but also helping those in need. Our innovative fundraising approach doesn't require you to donate your own money.
 
 Contributing is straightforward and impactful. Even if you're not a coder, you can contribute by sharing knowledge. Your contributions, no matter the size, can be added to your resume and portfolio.
 
