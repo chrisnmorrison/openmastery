@@ -24,6 +24,7 @@ Hint 3: `stringName.charAt(i)` returns the character at the specified index. For
 
 Try this out for yourself, and once you have, here's our solution:
 
+```
 public class Learn {
 public static void main(String[] args) {
 String myString = "Reverse me!";
@@ -37,6 +38,7 @@ String reverse = "";
     }
 
 }
+```
 
 ## For-each loop
 

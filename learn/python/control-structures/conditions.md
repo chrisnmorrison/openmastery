@@ -34,4 +34,4 @@ Logical operators serve as the building blocks of conditionals, allowing you to 
 
 Crafting Comprehensive Expressions
 
-The strength of conditionals lies in their ability to evaluate complex expressions. By combining logical operators, parentheses, and comparison operators (<, >, ==, !=, etc.), you can create nuanced conditions that cater to various scenarios.
+The strength of conditionals lies in their ability to evaluate complex expressions. By combining logical operators, parentheses, and comparison operators (`<`, `>`, `==`, `!=`, etc.), you can create nuanced conditions that cater to various scenarios.

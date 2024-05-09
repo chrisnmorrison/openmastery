@@ -36,7 +36,7 @@ Another advantage of Java Generics is that it allows for code reusability. By us
 
 ## Using Java Generics
 
-To use Generics in Java, you need to define a class or method with one or more type parameters. Type parameters are specified by enclosing them in angle brackets ("<" and ">"). For example, here is a simple class that uses Generics:
+To use Generics in Java, you need to define a class or method with one or more type parameters. Type parameters are specified by enclosing them in angle brackets (`<` and `>`). For example, here is a simple class that uses Generics:
 
 ```java
 public class MyClass<T> {

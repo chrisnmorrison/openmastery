@@ -1,5 +1,5 @@
-const lightCodeTheme = require("prism-react-renderer/themes/oceanicNext");
-const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
+const lightCodeTheme = require("prism-react-renderer").themes.oceanicNext;
+const darkCodeTheme = require("prism-react-renderer").themes.oceanicNext;
 require("dotenv").config();
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -141,7 +141,6 @@ module.exports = {
   ],
   plugins: [
     'docusaurus-plugin-dotenv',
-    "docusaurus-plugin-google-adsense",
     "docusaurus-plugin-sass",
     [
       "@docusaurus/plugin-content-docs",

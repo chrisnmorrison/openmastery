@@ -52,7 +52,7 @@ We'll elaborate in the next lesson.
 
 :::
 
-## > , >= , < , <=
+## `>` , `>=` , `<` , `<=`
 
 These symbols likely look familiar from math class. In the order above, these perform the following comparisons: **greater than**, **greater than or equal**, **less than**, **less than or equal**.
 
