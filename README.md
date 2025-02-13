@@ -25,7 +25,7 @@ We offer a collection of text-based courses for free. We encourage users to [con
 
 Explore our live site:
 
-[openmastery.one](https://openmastery.one/)
+[link](https://openmastery.pages.dev/)
 
 ## Technologies
 
